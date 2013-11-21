@@ -1,0 +1,1351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pacman Development Team <pacman-dev@archlinux.org>
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Hector Mtz-Seara <hseara@gmail.com>, 2011-2013
+# jpatufet <jpreales@gmail.com>, 2013
+# jpatufet <jpreales@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
+"POT-Creation-Date: 2013-06-18 13:52+1000\n"
+"PO-Revision-Date: 2013-06-06 04:38+0000\n"
+"Last-Translator: Hector Mtz-Seara <hseara@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/archlinux-pacman/"
+"language/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "WARNING:"
+msgstr "AVÍS:"
+
+msgid "ERROR:"
+msgstr "ERROR:"
+
+msgid "Cleaning up..."
+msgstr "S'està netejant..."
+
+msgid "Entering %s environment..."
+msgstr "Entrant a l'entorn %s ... "
+
+msgid "Unknown download protocol: %s"
+msgstr "Protocol de descarregar desconegut: %s"
+
+msgid "Aborting..."
+msgstr "S'està cancel·lant..."
+
+msgid "The download program %s is not installed."
+msgstr "El programa de baixades %s no està instal·lat."
+
+msgid "Found %s"
+msgstr "S'ha trobat %s"
+
+msgid "%s was not found in the build directory and is not a URL."
+msgstr "%s no s'ha trobat en el directori de construcció i no és un URL."
+
+msgid "Downloading %s..."
+msgstr "S'està baixant %s..."
+
+msgid "Failure while downloading %s"
+msgstr "Fallada mentre es baixava %s"
+
+msgid "Extracting %s with %s"
+msgstr "S'està extraient  %s amb %s"
+
+msgid "Failed to extract %s"
+msgstr "Ha fallat en extreure %s"
+
+msgid "Branching %s ..."
+msgstr "Ramificant %s ..."
+
+msgid "Failure while branching %s"
+msgstr "Error durant la ramificació %s"
+
+msgid "%s is not a branch of %s"
+msgstr "%s no és una branca de %s"
+
+msgid "The local URL is %s"
+msgstr "L'URL local és %s"
+
+msgid "Pulling %s ..."
+msgstr "Recaptant %s ..."
+
+msgid "Failure while pulling %s"
+msgstr "Error durant la captació %s"
+
+msgid "Unrecognized reference: %s"
+msgstr "Referència desconeguda: %s"
+
+msgid "Creating working copy of %s %s repo..."
+msgstr "Creant una còpia del repositori %s %s ..."
+
+msgid "Failure while creating working copy of %s %s repo"
+msgstr "Error al crear la còpia de treball del repositori %s %s"
+
+msgid "Cloning %s %s repo..."
+msgstr "Clonant repositori %s %s..."
+
+msgid "Failure while downloading %s %s repo"
+msgstr "Error mentre baixant repositori %s %s"
+
+msgid "%s is not a clone of %s"
+msgstr "%s és un clone de %s"
+
+msgid "Updating %s %s repo..."
+msgstr "Actualitzant repositori %s %s..."
+
+msgid "Failure while updating %s %s repo"
+msgstr "Error actualitzant el repositori %s %s"
+
+msgid "Retrieving sources..."
+msgstr "Recuperant codi font ..."
+
+msgid "Updated version: %s"
+msgstr "Versió actualitzada: %s"
+
+msgid "%s is not writeable -- pkgver will not be updated"
+msgstr "No es pot escriure en %s -- pkgver no serà actualitzat  "
+
+msgid "Unable to find source file %s."
+msgstr "No s'ha pogut trobar el fitxer de codi font %s."
+
+msgid "'%s' returned a fatal error (%i): %s"
+msgstr "«%s» ha retornat un error fatal (%i): %s"
+
+msgid "Installing missing dependencies..."
+msgstr "S'estan instal·lant les dependències que falten..."
+
+msgid "'%s' failed to install missing dependencies."
+msgstr "«%s» ha fallat en instal·lar les dependències que falten."
+
+msgid "Missing dependencies:"
+msgstr "Dependències que falten:"
+
+msgid "Failed to remove installed dependencies."
+msgstr "Ha fallat en eliminar les dependències instal·lades."
+
+msgid "Generating checksums for source files..."
+msgstr "S'estan generant les sumes de comprovació dels fitxer de codi font..."
+
+msgid "Cannot find the %s binary required for generating sourcefile checksums."
+msgstr ""
+"No es pot trobar el fitxer binari %s necessari per generar sumes de "
+"comprovació de l'arxiu codi font."
+
+msgid "Invalid integrity algorithm '%s' specified."
+msgstr "Algoritme d'integritat especificat '%s' invàlid."
+
+msgid "Validating source files with %s..."
+msgstr "S'està validant el fitxer de codi font amb %s..."
+
+msgid "Skipped"
+msgstr "Omès"
+
+msgid "NOT FOUND"
+msgstr "NO S'HA TROBAT"
+
+msgid "Passed"
+msgstr "Ha passat"
+
+msgid "FAILED"
+msgstr "HA FALLAT"
+
+msgid "One or more files did not pass the validity check!"
+msgstr "Un o més fitxer no han passat la comprovació de la validació!"
+
+msgid "Integrity checks (%s) differ in size from the source array."
+msgstr ""
+"Les comprovacions de la integritat (%s) difereixen en mida de la cadena de "
+"les fonts."
+
+msgid "Integrity checks are missing."
+msgstr "Falten les comprovacions de la integritat."
+
+msgid "Verifying source file signatures with %s..."
+msgstr "Verificant la signatura de l'arxiu codi font amb %s..."
+
+msgid "SIGNATURE NOT FOUND"
+msgstr "MANCA SIGNATURA "
+
+msgid "SOURCE FILE NOT FOUND"
+msgstr "ARXIU CODI FONT NO TROBAT"
+
+msgid "unknown public key"
+msgstr "clau pública desconeguda"
+
+msgid "the key has been revoked."
+msgstr "la clau ha estat revocada."
+
+msgid "the signature has expired."
+msgstr "la firma ha caducat."
+
+msgid "the key has expired."
+msgstr "la clau ha caducat."
+
+msgid "One or more PGP signatures could not be verified!"
+msgstr "Una o més signatures PGP no s'han pogut verificar!"
+
+msgid "Warnings have occurred while verifying the signatures."
+msgstr "S'han produït advertències mentre es verificaven les signatures."
+
+msgid "Please make sure you really trust them."
+msgstr "Assegureu-vos que realment hi podeu confiar."
+
+msgid "Skipping all source file integrity checks."
+msgstr "Saltant tots els controls d'integritat d'arxiu d'origen."
+
+msgid "Skipping verification of source file checksums."
+msgstr "Saltant la verificació de les sumes de comprovació d'arxius font."
+
+msgid "Skipping verification of source file PGP signatures."
+msgstr "Saltant la verificació de signatures PGP d'arxiu font."
+
+msgid "Extracting sources..."
+msgstr "Extracció de codi font ..."
+
+msgid "A failure occurred in %s()."
+msgstr "S'ha produït un error en %s()."
+
+msgid "Failed to change to directory %s"
+msgstr "No s'ha pogut canviar al directori %s"
+
+msgid "Failed to source %s"
+msgstr "Error en el codi %s"
+
+msgid "Starting %s()..."
+msgstr "Iniciant %s()..."
+
+msgid "Tidying install..."
+msgstr "S'està netejant la instal·lació..."
+
+msgid "Removing doc files..."
+msgstr "S'estan eliminant els fitxers doc..."
+
+msgid "Purging unwanted files..."
+msgstr "S'estan purgant fitxers no desitjats..."
+
+msgid "Removing %s files..."
+msgstr "S'estan eliminant fitxers %s..."
+
+msgid "Removing empty directories..."
+msgstr "S'estan eliminant els directoris buits..."
+
+msgid "%s entry file not in package : %s"
+msgstr "fitxer d'entrada %s no es troba en el paquet: %s"
+
+msgid "Package contains reference to %s"
+msgstr "El paquet conté referències a %s"
+
+msgid "Compressing man and info pages..."
+msgstr "S'està comprimint el manual i les pàgines d'informació..."
+
+msgid "Stripping unneeded symbols from binaries and libraries..."
+msgstr ""
+"S'estan retirant els símbols innecessaris de depuració dels binaris i les "
+"biblioteques..."
+
+msgid "Compressing binaries with %s..."
+msgstr "Comprimint binaris amb %s..."
+
+msgid "Could not compress binary : %s"
+msgstr "No s'ha pogut comprimir el binari: %s "
+
+msgid "Library listed in %s is not required by any files: %s"
+msgstr "La llibreria llistada a %s no és requerida per cap fitxer: %s"
+
+msgid "Library listed in %s is not versioned: %s"
+msgstr "La llibreria llistada a %s no té versions: %s"
+
+msgid "Library listed in %s is not a shared object: %s"
+msgstr "La llibreria llistada a %s no te objectes compartits: %s"
+
+msgid "Cannot find library listed in %s: %s"
+msgstr "No s'ha pogut trobar la llibreria inclosa en %s: %s"
+
+msgid "Please add a license line to your %s!"
+msgstr "Si us plau, afegiu una línia de llicència al vostre %s!"
+
+msgid "Example for GPL'ed software: %s."
+msgstr "Exemple de programari sota GPL: %s."
+
+msgid "Generating %s file..."
+msgstr "Generant arxiu %s..."
+
+msgid "Missing %s directory."
+msgstr "Manca el directori %s."
+
+msgid "Creating package \"%s\"..."
+msgstr "Creant paquet \"%s\"..."
+
+msgid "Adding %s file..."
+msgstr "Afegint fitxer %s..."
+
+msgid "Generating .MTREE file..."
+msgstr "S'està generant el fitxer .MTREE..."
+
+msgid "Compressing package..."
+msgstr "S'està comprimint el paquet..."
+
+msgid "'%s' is not a valid archive extension."
+msgstr "'%s' no és una extensió de fitxer vàlida."
+
+msgid "Failed to create package file."
+msgstr "Ha fallat en crear el fitxer de paquet."
+
+msgid "Failed to create symlink to package file."
+msgstr "Ha fallat en crear l'enllaç simbòlic al fitxer de paquet."
+
+msgid "Signing package..."
+msgstr "Signant el paquet ..."
+
+msgid "Created signature file %s."
+msgstr "Creant arxiu de signatures %s."
+
+msgid "Failed to sign package file."
+msgstr "No s'ha pogut signar el paquet."
+
+msgid "Creating source package..."
+msgstr "S'està creant el paquet de codi font..."
+
+msgid "Adding %s..."
+msgstr "S'està afegint %s..."
+
+msgid "Adding %s file (%s)..."
+msgstr "S'està afegint el fitxer %s (%s)..."
+
+msgid "Compressing source package..."
+msgstr "S'està comprimint el paquet de codi font..."
+
+msgid "Failed to create source package file."
+msgstr "Ha fallat en crear el fitxer de paquet de codi font."
+
+msgid "Failed to create symlink to source package file."
+msgstr "No s'ha pogut crear l'enllaç simbòlic a l'arxiu font del paquet."
+
+msgid "Installing package %s with %s..."
+msgstr "Instal·lant paquet %s amb %s... "
+
+msgid "Installing %s package group with %s..."
+msgstr "Instal·lant paquet grup %s amb %s... "
+
+msgid "Failed to install built package(s)."
+msgstr "Ha fallat en instal·lar els paquets construïts."
+
+msgid "%s is not allowed to be empty."
+msgstr "%s no pot estar buit."
+
+msgid "%s is not allowed to start with a hyphen."
+msgstr "%s no pot començar amb un guionet."
+
+msgid "%s is not allowed to start with a dot."
+msgstr "%s no pot començar amb un punt."
+
+msgid "%s contains invalid characters: '%s'"
+msgstr "%s té caràcters no valids:'%s'"
+
+msgid "%s must be a decimal."
+msgstr "%s ha de ser un decimal."
+
+msgid "%s must be an integer."
+msgstr "%s ha de ser un nombre enter."
+
+msgid "%s is not available for the '%s' architecture."
+msgstr "%s no és disponible per l'arquitectura '%s'."
+
+msgid "Note that many packages may need a line added to their %s"
+msgstr "Noteu que molts paquets poden necessitar una línia afegida als seus %s"
+
+msgid "such as %s."
+msgstr "com %s."
+
+msgid "%s array cannot contain comparison (< or >) operators."
+msgstr "%s no pot contenir operadors de comparació (< or >)."
+
+msgid "%s entry should not contain leading slash : %s"
+msgstr "l'entrada %s no pot començar amb guió: %s"
+
+msgid "Invalid syntax for %s : '%s'"
+msgstr "Sintaxi no vàlida per a %s: '%s'"
+
+msgid "%s file (%s) does not exist."
+msgstr "el fitxer %s (%s) no existeix."
+
+msgid "%s array contains unknown option '%s'"
+msgstr "el vector %s conté l'opció desconeguda '%s'"
+
+msgid "Missing %s function for split package '%s'"
+msgstr "Falta la funció %s per dividir el paquet '%s'"
+
+msgid "Requested package %s is not provided in %s"
+msgstr "El paquet demanat %s no es troba a %s"
+
+msgid "%s is not allowed to contain colons, hyphens or whitespace."
+msgstr "%s no pot contenir dos punts, guions o espais en blanc."
+
+msgid "Cannot find the %s binary required for dependency operations."
+msgstr ""
+"No es pot trobar el binari %s necessari per a les operacions de dependència."
+
+msgid "Cannot find the %s binary. Will use %s to acquire root privileges."
+msgstr ""
+"No es pot trobar el binari %s. Es farà servir %s per adquirir privilegis de "
+"root."
+
+msgid "Cannot find the %s binary required for building as non-root user."
+msgstr ""
+"No es pot trobar el binari %s necessari per a la construcció sense "
+"privilegis de \"root\"."
+
+msgid "Cannot find the %s binary required for signing packages."
+msgstr "No es pot trobar el binari %s necessari per a la signatura de paquets."
+
+msgid "Cannot find the %s binary required for verifying source files."
+msgstr "No es pot trobar el binari %s necessari per comprovar els arxius font."
+
+msgid "Cannot find the %s binary required for validating sourcefile checksums."
+msgstr ""
+"No es pot trobar el binari %s necessari per a la validació de les sumes de "
+"comprovació dels arxius font."
+
+msgid "Cannot find the %s binary required for compressing binaries."
+msgstr ""
+"No es pot trobar el binari %s necessari per a la compressió dels binaris."
+
+msgid "Cannot find the %s binary required for distributed compilation."
+msgstr ""
+"No es pot trobar el binari %s necessari per a la compilació distribuïda."
+
+msgid "Cannot find the %s binary required for compiler cache usage."
+msgstr ""
+"No es pot trobar el binari %s necessari per a ús de la memòria cau del "
+"compilador."
+
+msgid "Cannot find the %s binary required for object file stripping."
+msgstr ""
+"No es pot trobar el binari %s necessari per a la retirada de simbols en "
+"arxius objecte."
+
+msgid "Cannot find the %s binary required for compressing man and info pages."
+msgstr ""
+"No es pot trobar el binari %s necessari per a la compressió de pàgines man i "
+"info."
+
+msgid "A package has already been built, installing existing package..."
+msgstr "Un paquet ja s'ha construït, s'està instal·lant el paquet existent..."
+
+msgid "A package has already been built. (use %s to overwrite)"
+msgstr "Un paquet ja s'ha construït. (Utilitza %s per sobreescriure)"
+
+msgid ""
+"The package group has already been built, installing existing packages..."
+msgstr ""
+"El grup de paquets ja s'ha construït, s'estan instal·lant els paquets "
+"existents..."
+
+msgid "The package group has already been built. (use %s to overwrite)"
+msgstr "El paquet de grup ja s'ha construït. (Utilitza %s per sobreescriure)"
+
+msgid "Part of the package group has already been built. (use %s to overwrite)"
+msgstr ""
+"Part del paquet de grup ja s'ha construït. (Utilitza %s per sobreescriure)"
+
+msgid "Usage: %s [options]"
+msgstr "Sintaxi: %s (opcions)"
+
+msgid "Options:"
+msgstr "Opcions:"
+
+msgid "  -A, --ignorearch Ignore incomplete %s field in %s"
+msgstr "  -A, --ignorearch Ignora camp %s incomplert en %s"
+
+msgid "  -c, --clean      Clean up work files after build"
+msgstr "  -c, --clean      Neteja els fitxers de treball després de construir"
+
+msgid "  -d, --nodeps     Skip all dependency checks"
+msgstr "  -d, --nodeps     Salta totes les comprovacions de dependències"
+
+msgid "  -e, --noextract  Do not extract source files (use existing %s dir)"
+msgstr ""
+"  -e, --noextract   No extreure els arxius font (empra la carpeta existent "
+"%s)"
+
+msgid "  -f, --force      Overwrite existing package"
+msgstr "  -f, --force      Sobreescriu els paquets existents"
+
+msgid "  -g, --geninteg   Generate integrity checks for source files"
+msgstr ""
+"  -g, --geninteg   Genera comprovacions de la integritat pels fitxers font"
+
+msgid "  -h, --help       Show this help message and exit"
+msgstr "  -h, --help       Mostra aquest missatge d'ajuda i surt"
+
+msgid "  -i, --install    Install package after successful build"
+msgstr ""
+"  -i, --install    Instal·la el paquet després d'una construcció "
+"satisfactòria"
+
+msgid "  -L, --log        Log package build process"
+msgstr "  -L, --log        Crea registre del procés de construcció del paquet"
+
+msgid "  -m, --nocolor    Disable colorized output messages"
+msgstr "  -m, --nocolor    Deshabilita els missatges de sortida acolorits"
+
+msgid "  -o, --nobuild    Download and extract files only"
+msgstr "  -o, --nobuild    Només baixa i extreu els fitxers"
+
+msgid "  -p <file>        Use an alternate build script (instead of '%s')"
+msgstr ""
+"  -p <file>        Usa un script de construcció alternatiu (enlloc de '%s')"
+
+msgid ""
+"  -r, --rmdeps     Remove installed dependencies after a successful build"
+msgstr ""
+"  -r, --rmdeps     Elimina les dependències instal·lades després d'una "
+"construcció satisfactòria"
+
+msgid "  -R, --repackage  Repackage contents of the package without rebuilding"
+msgstr ""
+"  -R, --repackage  Reempaqueta el contingut del paquet sense tornar a "
+"construir"
+
+msgid "  -s, --syncdeps   Install missing dependencies with %s"
+msgstr "  -s, --syncdeps   Instal·lar les dependències necessaries amb %s"
+
+msgid ""
+"  -S, --source     Generate a source-only tarball without downloaded sources"
+msgstr ""
+"  -S, --source     Generate a source-only tarball without downloaded sources"
+
+msgid "  -V, --version    Show version information and exit"
+msgstr "  -V, --version Mostra la versió del programa"
+
+msgid ""
+"  --allsource      Generate a source-only tarball including downloaded "
+"sources"
+msgstr ""
+"  --allsource      Genera un tarball només amb codi font incloent el codi "
+"font baixat"
+
+msgid ""
+"  --verifysource   Download source files (if needed) and perform integrity "
+"checks"
+msgstr ""
+"--verifysource   Descarregar codi font (si cal) i realitzar comprovacions "
+"d'integritat"
+
+msgid "  --asroot         Allow %s to run as root user"
+msgstr "  --asroot         Permetre %s ser executat com a usuari root"
+
+msgid "  --check          Run the %s function in the %s"
+msgstr "  --check          Executar la funció %s a %s "
+
+msgid "  --config <file>  Use an alternate config file (instead of '%s')"
+msgstr ""
+"  --config <file>  Usa un fitxer de configuració alternatiu (enlloc de «%s»)"
+
+msgid "  --holdver        Do not update VCS sources"
+msgstr "  --holdver        No actualitzar codi font VCS"
+
+msgid ""
+"  --key <key>      Specify a key to use for %s signing instead of the default"
+msgstr ""
+"  --key <key>      Especificar una clau per a la signatura de %s en lloc de "
+"la per defecte"
+
+msgid "  --nocheck        Do not run the %s function in the %s"
+msgstr "  --nocheck        No executar la funció %s a %s"
+
+msgid "  --nosign         Do not create a signature for the package"
+msgstr "   --nosign        No crear signatura pel paquet"
+
+msgid "  --pkg <list>     Only build listed packages from a split package"
+msgstr ""
+"  --pkg <list>     Construeix només els paquets llistats d'un paquet dividit"
+
+msgid "  --sign           Sign the resulting package with %s"
+msgstr "   --sign           Signar el paquet resultant amb %s "
+
+msgid "  --skipchecksums  Do not verify checksums of the source files"
+msgstr ""
+"   --skipchecksums  No verificar les sumes de comprovació dels arxius font"
+
+msgid ""
+"  --skipinteg      Do not perform any verification checks on source files"
+msgstr "  --skipinteg      No realitzar comprovacions en els arxius font"
+
+msgid "  --skippgpcheck   Do not verify source files with PGP signatures"
+msgstr "  --skippgpcheck   No verficar els arxius font amb signatures PGP"
+
+msgid "These options can be passed to %s:"
+msgstr "Aquestes opcions es poden passar a %s:"
+
+msgid "  --asdeps         Install packages as non-explicitly installed"
+msgstr ""
+" --asdeps         Instal·lar els paquets com a instal·lat no-explícitament"
+
+msgid ""
+"  --noconfirm      Do not ask for confirmation when resolving dependencies"
+msgstr "  --noconfirm      No demanis confirmació en resoldre dependències"
+
+msgid ""
+"  --needed         Do not reinstall the targets that are already up to date"
+msgstr ""
+"--needed         No torni a instal·lar els paquets que ja estan actualitzats"
+
+msgid "  --noprogressbar  Do not show a progress bar when downloading files"
+msgstr "  --noprogressbar  No mostris un barra de progrés en baixar fitxers"
+
+msgid "If %s is not specified, %s will look for '%s'"
+msgstr "Si %s no s'ha especificat, %s buscarà '%s'"
+
+msgid ""
+"Copyright (c) 2006-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\nCopyright (C) 2002-2006 Judd Vinet <jvinet@zeroflux.org>.\\n\\nThis is "
+"free software; see the source for copying conditions.\\nThere is NO "
+"WARRANTY, to the extent permitted by law.\\n"
+msgstr ""
+"Drets d'autor (c) 2006-2013 Equip de Desenvolupament Pacman <pacman-"
+"dev@archlinux.org>.\\nDrets d'autor (C) 2002-2006 Judd Vinet "
+"<jvinet@zeroflux.org>.\\n\\nAixò és programari lliure, vegeu el codi font "
+"per les condicions de còpia.\\nNO hi ha GARANTIA, en la mesura permesa per "
+"la llei.\\n"
+
+msgid "%s signal caught. Exiting..."
+msgstr "Senyal %s atrapada. Sortint..."
+
+msgid "Aborted by user! Exiting..."
+msgstr "Interrumput per l'usuari! Sortint..."
+
+msgid "An unknown error has occurred. Exiting..."
+msgstr "Un error desconegut ha succeït. Sortint..."
+
+msgid "%s not found."
+msgstr "no s'ha trobat %s."
+
+msgid "You do not have write permission to create packages in %s."
+msgstr "No té permís d'escriptura per crear paquets a %s."
+
+msgid "You do not have write permission to store packages in %s."
+msgstr "No teniu permisos d'escriptura per emmagatzemar paquets a %s."
+
+msgid "You do not have write permission to store downloads in %s."
+msgstr "No teniu permisos d'escriptura per emmagatzemar les baixades en %s."
+
+msgid "You do not have write permission to store source tarballs in %s."
+msgstr "No tens permís d'escritura per guardar codic font tarballs a %s. "
+
+msgid "You do not have write permission to store logs in %s."
+msgstr "No té permís d'escriptura per emmagatzemar els registres en %s."
+
+msgid ""
+"Running %s as root is a BAD idea and can cause permanent,\\ncatastrophic "
+"damage to your system. If you wish to run as root, please\\nuse the %s "
+"option."
+msgstr ""
+"Executar %s com a root es una MALA idea que pot causar danys\\npermanents o "
+"catastrofics en el teu sistema. Si vols executar-la com a root, si us plau"
+"\\nfes ús de l'opció %s."
+
+msgid ""
+"The %s option is meant for the root user only. Please\\nrerun %s without the "
+"%s flag."
+msgstr ""
+"L'opció %s està pensada només per a l'usuari root. Si us plau\\nreexecuteu "
+"%s sense la opció %s."
+
+msgid ""
+"Running %s as an unprivileged user will result in non-root\\nownership of "
+"the packaged files. Try using the %s environment by\\nplacing %s in the %s "
+"array in %s."
+msgstr ""
+"Executant %s com a usuari sense privilegis resultarà en arxius\\nempaquetats "
+"no pertanyents a root. Intenta usar l'entorn %s posant\\n%s en el vector %s "
+"a %s."
+
+msgid "Do not use the %s option. This option is only for use by %s."
+msgstr "No utilitzeu l'opció %s. Aquesta opció només pot ser emprada per %s."
+
+msgid "%s does not exist."
+msgstr "%s no existeix."
+
+msgid "%s contains %s characters and cannot be sourced."
+msgstr "%s conté %s caràcters i no pot ser analitzats."
+
+msgid "The key %s does not exist in your keyring."
+msgstr "La clau %s no existeix en el seu clauer."
+
+msgid "There is no key in your keyring."
+msgstr "No hi ha cap clau en el seu clauer."
+
+msgid "Leaving %s environment."
+msgstr "Deixant d'entorn %s."
+
+msgid "Repackaging without the use of a %s function is deprecated."
+msgstr "Rempaquetant sense l'ús de la funció obsoleta %s."
+
+msgid "File permissions may not be preserved."
+msgstr "No es poden preservar els permisos del fitxer."
+
+msgid "Making package: %s"
+msgstr "S'està fent el paquet: %s"
+
+msgid "Using a %s without a %s function is deprecated."
+msgstr "Usant %s sense %s la funció és obsoleta."
+
+msgid "A source package has already been built. (use %s to overwrite)"
+msgstr "Un paquet font ja ha estat construït. (Utilitza %s per sobreescriure)"
+
+msgid "Source package created: %s"
+msgstr "Paquet de codi font creat: %s"
+
+msgid "Skipping dependency checks."
+msgstr "S'està ometent la comprovació de les dependències."
+
+msgid "Checking runtime dependencies..."
+msgstr "Comprovant les dependències en temps d'execució ..."
+
+msgid "Checking buildtime dependencies..."
+msgstr "Comprovant de dependències per l'assemblatge ..."
+
+msgid "Could not resolve all dependencies."
+msgstr "No es poden resoldre totes les dependències."
+
+msgid "Using existing %s tree"
+msgstr "Usant arbre existent %s."
+
+msgid "The package directory is empty, there is nothing to repackage!"
+msgstr "El directori del paquet és buit, no hi ha res a reempaquetar!"
+
+msgid "Sources are ready."
+msgstr "Les fonts estan preparades."
+
+msgid "Removing existing %s directory..."
+msgstr "Esborrant el directori %s existent..."
+
+msgid "Finished making: %s"
+msgstr "S'ha acabat de fer: %s"
+
+msgid "Usage: %s [--nocolor] [pacman_db_root]"
+msgstr "Ús: %s [--nocolor] [pacman_db_root]"
+
+msgid ""
+"Copyright (c) 2010-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\nThis is free software; see the source for copying conditions.\\nThere is "
+"NO WARRANTY, to the extent permitted by law.\\n"
+msgstr ""
+"Copyright (c) 2010-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\nThis is free software; see the source for copying conditions.\\nThere is "
+"NO WARRANTY, to the extent permitted by law.\\n"
+
+msgid "%s does not exist or is not a directory."
+msgstr "%s no existeix o no és un directori."
+
+msgid "%s is not a pacman database directory."
+msgstr "%s no és un directori de la base de dades de pacman."
+
+msgid "You must have correct permissions to upgrade the database."
+msgstr "Has de corregir els permisos per actualitzar la base de dades."
+
+msgid "Pacman lock file was found. Cannot run while pacman is running."
+msgstr ""
+"S'ha trobat el fitxer de bloqueig del Pacman. No es pot executar mentre "
+"pacman és en execució."
+
+msgid "Pre-3.5 database format detected - upgrading..."
+msgstr "Format base de dades Pre-3.5 detectat - actualitzant..."
+
+msgid "Done."
+msgstr "Fet."
+
+msgid "Usage: %s [options] operation [targets]"
+msgstr "Ús: %s [opcions] operació [objectius]"
+
+msgid "Manage pacman's list of trusted keys"
+msgstr "Administrar la llista de Pacman de claus de confiança"
+
+msgid "Operations:"
+msgstr "Operacions:"
+
+msgid "  -a, --add                 Add the specified keys (empty for stdin)"
+msgstr ""
+"  -a, --add                 Afegeix la clau especificada (buit per stdin)"
+
+msgid "  -d, --delete              Remove the specified keyids"
+msgstr ""
+"  -d, --delete              Esborra la clau especificada (buit per stdin)"
+
+msgid "  -e, --export              Export the specified or all keyids"
+msgstr ""
+"  -e, --export              Exporta tots els identificadors de claus o els "
+"especificades"
+
+msgid ""
+"  -f, --finger              List fingerprint for specified or all keyids"
+msgstr ""
+"  -f, --finger              Llista les empremtes per tots el identificadors "
+"de clau o els especificats"
+
+msgid "  -l, --list-keys           List the specified or all keys"
+msgstr "  -l, --list-keys           Llista les claus especificades o totes"
+
+msgid "  -r, --recv-keys           Fetch the specified keyids"
+msgstr ""
+"  -r, --recv-keys           Recupera els identificadors de clau especificats"
+
+msgid "  -u, --updatedb            Update the trustdb of pacman"
+msgstr ""
+"  -u, --updatedb            Actualitza la base de dades de confiança de "
+"pacman"
+
+msgid ""
+"  -v, --verify              Verify the file(s) specified by the signature(s)"
+msgstr ""
+"  -v, --verify              Verifica els fitxer(s) especificats per la "
+"signatura(es)"
+
+msgid ""
+"  --edit-key                Present a menu for key management task on keyids"
+msgstr ""
+"  --edit-key                Mostra menú per la tasca de gestió de claus en "
+"els identificadors de tecla"
+
+msgid "  --import                  Imports pubring.gpg from dir(s)"
+msgstr "  --import                  Importa pubring.gpg del(s) dirirectori(s)"
+
+msgid ""
+"  --import-trustdb          Imports ownertrust values from trustdb.gpg in "
+"dir(s)"
+msgstr ""
+"  --import-trustdb          Importa valors fideïcomís de trustdb.gpg al "
+"directori(s)"
+
+msgid "  --init                    Ensure the keyring is properly initialized"
+msgstr ""
+"  --init                    Assegura que el clauer ha estat correctament "
+"inicialitzat"
+
+msgid "  --list-sigs               List keys and their signatures"
+msgstr ""
+"  --list-sigs               Llista claus i les corresponents signatures"
+
+msgid "  --lsign-key               Locally sign the specified keyid"
+msgstr ""
+"  --lsign-key               Signar localment l'identificador de clau "
+"especificat"
+
+msgid ""
+"  --populate                Reload the default keys from the (given) keyrings"
+"\\n                            in '%s'"
+msgstr ""
+"  --populate                Recarrega les claus per defecte del clauer"
+"\\n                            a '%s'"
+
+msgid ""
+"  --refresh-keys            Update specified or all keys from a keyserver"
+msgstr ""
+"  --refresh-keys            Actualitza totes les claus o les especificades "
+"d'un servidor de claus"
+
+msgid ""
+"  --config <file>           Use an alternate config file (instead of"
+"\\n                            '%s')"
+msgstr ""
+"  --config <file>           Empra un arxiu de configuració alternatiu (en "
+"comtes de\\n                            '%s')"
+
+msgid ""
+"  --gpgdir <dir>            Set an alternate directory for GnuPG (instead"
+"\\n                            of '%s')"
+msgstr ""
+"  --gpgdir <dir>            Fixa un directori alternatiu per GnuPG (en "
+"comptes\\n                            de '%s')"
+
+msgid "  --keyserver <server-url>  Specify a keyserver to use if necessary"
+msgstr ""
+"  --keyserver <server-url>  Especifica un servidor de claus si és necessari"
+
+msgid "  -h, --help                Show this help message and exit"
+msgstr "  -h, --help                Mostra aquest missatge d'ajuda i sortir"
+
+msgid "  -V, --version             Show program version"
+msgstr "  -V, --version             Mostra la versió del programa"
+
+msgid "Failed to lookup key by name:"
+msgstr "Error en buscar la clau pel nom:"
+
+msgid "Key name is ambiguous:"
+msgstr "Nom de la clau és ambigu:"
+
+msgid "The key identified by %s could not be found locally."
+msgstr "No s'ha pogut trobar localment la clau identificada per %s ."
+
+msgid "You do not have sufficient permissions to read the %s keyring."
+msgstr "No tens suficients permisos per llegir %s del clauer."
+
+msgid "Use '%s' to correct the keyring permissions."
+msgstr "Utilitza '%s' per corregir els permisos del clauer."
+
+msgid "You do not have sufficient permissions to run this command."
+msgstr "No tens suficients permisos per executar aquesta comanda."
+
+msgid "There is no secret key available to sign with."
+msgstr "No hi ha clau secreta disponible per signar."
+
+msgid "Use '%s' to generate a default secret key."
+msgstr "Usant '%s' per generar una clau secreta per defecte."
+
+msgid "No keyring files exist in %s."
+msgstr "No hi ha arxius clauer a %s."
+
+msgid "The keyring file %s does not exist."
+msgstr "L'arxiu clauer %s no existeix."
+
+msgid "Appending keys from %s.gpg..."
+msgstr "Afegint claus desde %s.gpg..."
+
+msgid "Locally signing trusted keys in keyring..."
+msgstr "Signant localment claus de confiança en el clauer..."
+
+msgid "Importing owner trust values..."
+msgstr "Impotant valors de confiança del propietari..."
+
+msgid "Disabling revoked keys in keyring..."
+msgstr "Dashabilitant claus revocades del clauer..."
+
+msgid "Disabling key %s..."
+msgstr "Deshabilitant clau %s..."
+
+msgid "A specified keyfile could not be added to the keyring."
+msgstr "Un arxiu-clau especificat no s'ha pogut afegir a l'anell de claus."
+
+msgid "A specified key could not be removed from the keyring."
+msgstr "Una clau especificada no s'ha pogut esborrar de l'anell de claus."
+
+msgid "The key identified by %s could not be edited."
+msgstr "No s'ha pogut editar la clau identificada per %s ."
+
+msgid "A specified key could not be exported from the keyring."
+msgstr "Una clau especificada no s'ha pogut exportar a l'anell de claus."
+
+msgid "The fingerprint of a specified key could not be determined."
+msgstr "No s'ha pogut determinar l'empremta digital d'una clau especificada."
+
+msgid "%s could not be imported."
+msgstr "No s'ha pogut importar %s."
+
+msgid "File %s does not exist and could not be imported."
+msgstr "L'arxiu %s no existeix i no s'ha pogut importar."
+
+msgid "A specified key could not be listed."
+msgstr "No s'ha pogut mostrar una clau specificada."
+
+msgid "A specified signature could not be listed."
+msgstr "No s'ha pogut mostrar una signatura digital specificada."
+
+msgid "Locally signing key %s..."
+msgstr "Signant localment clau %s..."
+
+msgid "%s could not be locally signed."
+msgstr "%s no s'ha pogut signar localment."
+
+msgid "Remote key not fetched correctly from keyserver."
+msgstr "Clau remota no obtinguda correctament del servidor de claus."
+
+msgid "A specified local key could not be updated from a keyserver."
+msgstr ""
+"No s'ha pogut actualitzar en el servidor de claus una clau local "
+"espcificada ."
+
+msgid "The signature identified by %s could not be verified."
+msgstr "No s'ha pogut verificar la signatura identificada per %s."
+
+msgid "Updating trust database..."
+msgstr "Actualitzant la base de dades de confiaça... "
+
+msgid "Trust database could not be updated."
+msgstr "No s'ha pogut actualitzar la base de dades de confiança."
+
+msgid "Cannot find the %s binary required for all %s operations."
+msgstr "No es pot trobar el binari %s necessari per totels les operacions %s."
+
+msgid "%s needs to be run as root for this operation."
+msgstr "%s s'ha d'executar com a root per aquesta operació."
+
+msgid "%s configuration file '%s' not found."
+msgstr "%s configuration file '%s' not found."
+
+msgid "no operation specified (use -h for help)"
+msgstr "Cap operació especificada( useu -h per ajuda)"
+
+msgid "Multiple operations specified."
+msgstr "Multiples operacions especificades."
+
+msgid "Please run %s with each operation separately."
+msgstr "Si us plau executa %s amb cada operació per separat."
+
+msgid "No targets specified"
+msgstr "No s'han especificat objectius"
+
+msgid ""
+"pacman-optimize is a little hack that should improve the performance\\nof "
+"pacman when reading/writing to its filesystem-based database.\\n\\n"
+msgstr ""
+"pacman-optimize és un petit arranjament que hauria de millorar el rendiment"
+"\\nde pacman en llegir/escriure a la seva base de dades basada en un sistema "
+"de fitxers.\\n\\n"
+
+msgid ""
+"Because pacman uses many small files to keep track of packages,\\nthere is a "
+"tendency for these files to become fragmented over time.\\nThis script "
+"attempts to relocate these small files into one\\ncontinuous location on "
+"your hard drive. The result is that the hard\\ndrive should be able to read "
+"them faster, since the hard drive head\\ndoes not have to move around the "
+"disk as much.\\n"
+msgstr ""
+"Com que pacman usa molts fitxers petits per mantenir el seguiment dels "
+"paquets.\\nHi ha tendència a que aquests fitxers es fragmentin.\\nAquest "
+"script intenta reassignar aquests petits fitxers en una\\nubicació contínua "
+"en el vostre disc dur. Des resultes d'això el disc\\ndur hauria de poder "
+"llegir-los més fàcilment, ja que la capçalera del disc\\nno s'ha de moure "
+"massa per tot el disc.\\n"
+
+msgid "Cannot find the %s binary required for verifying integrity."
+msgstr "No es pot trobar el binari %s requerit per verificar la integritat."
+
+msgid "You must have correct permissions to optimize the database."
+msgstr "Heu de tenir els permisos correctes per optimitzar la base de dades."
+
+msgid "Can not create temp directory for database building."
+msgstr "No es pot crear el directory temporal per construir la base de dades."
+
+msgid "MD5sum'ing the old database..."
+msgstr "S'està MD5sumant la antiga base de dades..."
+
+msgid "Tar'ing up %s..."
+msgstr "Creant Tar de %s..."
+
+msgid "Tar'ing up %s failed."
+msgstr "Ha fallat la creació del Tar de %s."
+
+msgid "Making and MD5sum'ing the new database..."
+msgstr "Fent i MD5sumant la nova base de dades..."
+
+msgid "Untar'ing %s failed."
+msgstr "Ha fallat en fer Untar de %s"
+
+msgid "Syncing database to disk..."
+msgstr "S'està sincronitzant la base de dades al disc..."
+
+msgid "Checking integrity..."
+msgstr "S'està comprovant la integritat..."
+
+msgid "Integrity check FAILED, reverting to old database."
+msgstr ""
+"Ha FALLAT la comprovació de la integritat, s'està revertint a la antiga base "
+"de dades."
+
+msgid "Rotating database into place..."
+msgstr "S'està rotant la base de dades en l'emplaçament..."
+
+msgid "New database substitution failed. Check for %s, %s, and %s directories."
+msgstr ""
+"Falla en substituir nova base de dades. Comprovi %s, %s, i el directori %s."
+
+msgid "Finished. Your pacman database has been optimized."
+msgstr "Ha finalitzat. S'ha optimitzat la base de dades del pacman."
+
+msgid "Usage: pkgdelta [options] <package1> <package2>\\n"
+msgstr "Ús: pkgdelta [opcions] <paquet1> <paquet2>\\n"
+
+msgid ""
+"\tpkgdelta will create a delta file between two packages.\\nThis delta file "
+"can then be added to a database using repo-add.\\n\\n"
+msgstr ""
+"\tpkgdelta crearà un fitxer delta file entre dos paquets.\\nAquest fitxer "
+"delta pot ser afegit a la base de dades mitjançant repo-add.\\n\\n"
+
+msgid "Example:  pkgdelta pacman-3.0.0.pkg.tar.gz pacman-3.0.1.pkg.tar.gz"
+msgstr "Exemple:  pkgdelta pacman-3.0.0.pkg.tar.gz pacman-3.0.1.pkg.tar.gz"
+
+msgid "Options:\\n"
+msgstr "Opcions:\\n"
+
+msgid "  -q, --quiet       minimize output\\n"
+msgstr "  -q, --quiet       minimitza sortida\\n"
+
+msgid "  --nocolor         remove color from output\\n"
+msgstr "  --nocolor         eliminar el color de text sortida\\n"
+
+msgid "  --min-pkg-size    minimum package size before deltas are generated\\n"
+msgstr ""
+" --min-pkg-size    Mínima grandària paquet abans de generació de deltes\\n"
+
+msgid ""
+"  --max-delta-size  percent of new package above which the delta will be "
+"discarded\\n"
+msgstr ""
+"  --max-delta-size  percentatge del nou paquet per sobre del qual la delta "
+"es descartarà\\n"
+
+msgid ""
+"Copyright (c) 2009 Xavier Chantry <shiningxc@gmail.com>.\\n\\nThis is free "
+"software; see the source for copying conditions.\\nThere is NO WARRANTY, to "
+"the extent permitted by law.\\n"
+msgstr ""
+"Copyright (c) 2009 Xavier Chantry <shiningxc@gmail.com>.\\n\\nAquest es un "
+"programa lliure; consulteu el codi font per a les condicions de còpia.\\nNO "
+"hi ha cap GARANTIA, en la mesura permesa per la llei.\\n"
+
+msgid "Invalid package file '%s'."
+msgstr "Fitxer de paquet invàlid '%'."
+
+msgid "Skipping delta creation for small package: %s - size %s"
+msgstr "Saltant la creació de delta per un packet petit: %s - size %s"
+
+msgid "The package names don't match : '%s' and '%s'"
+msgstr "Els noms dels paquets no coincideixen: '%s' i '%s'"
+
+msgid "The package architectures don't match : '%s' and '%s'"
+msgstr "Les arquitectures del paquet no coincideixen: '%s' i '%s'"
+
+msgid "Both packages have the same version : '%s'"
+msgstr "Tots dos paquets tenen la mateixa versió: '%s'"
+
+msgid "Generating delta from version %s to version %s"
+msgstr "Generant delta de la versió %s a la versió %s"
+
+msgid "Delta could not be created."
+msgstr "No s'ha pogut generar delta."
+
+msgid "Delta package larger than maximum size. Removing."
+msgstr "Paquet delta més gran que el tamany màxim. Esborrant."
+
+msgid "Generated delta : '%s'"
+msgstr "Delta generada: '%s'"
+
+msgid "File '%s' does not exist"
+msgstr "L'arxiu '%s' no existeix"
+
+msgid "Cannot find the xdelta3 binary! Is xdelta3 installed?"
+msgstr "No es pot trobar el binari xdelta3! Està instal·lat xdelta3?"
+
+msgid "Usage: repo-add [options] <path-to-db> <package|delta> ...\\n"
+msgstr "Utilització: repo-add [opcions] <path-to-db> <package|delta> ...\\n"
+
+msgid ""
+"repo-add will update a package database by reading a package file."
+"\\nMultiple packages to add can be specified on the command line.\\n"
+msgstr ""
+"repo-add actualitzarà la base de dades de paquets mitjançant la lectura d'un "
+"arxiu paquet.\\nMultiples paquets poden ser afegits poden especificant-los "
+"en la línia de comandes.\\n"
+
+msgid "  -d, --delta       generate and add delta for package update\\n"
+msgstr ""
+"  -d, --delta       genera i afegeix delta per l'actualització del packet\\n"
+
+msgid ""
+"  -n, --new         only add packages that are not already in the database\\n"
+msgstr ""
+"  -n, --new         Afegeix tan sols els paquets que no estan ja en la base "
+"de dades\\n"
+
+msgid "  -f, --files       update database's file list\\n"
+msgstr "  -f, --files       actualització llista arxius en la base de dades\\n"
+
+msgid "Usage: repo-remove [options] <path-to-db> <packagename|delta> ...\\n"
+msgstr ""
+"Utilització:repo-remove [opcions] <ruta-a-baseDeDades> <nomPaquet|delta> ..."
+"\\n"
+
+msgid ""
+"repo-remove will update a package database by removing the package name"
+"\\nspecified on the command line from the given repo database. Multiple"
+"\\npackages to remove can be specified on the command line.\\n"
+msgstr ""
+"repo-remove actualitza una base de dades de paquets eliminant el nom del "
+"paquet\\nespecificat en la línia d'ordres de la base de dades del repositori "
+"donada.\\nEs poden especificar múltiples paquets a eliminar en la línia "
+"d'ordres.\\n"
+
+msgid "Please move along, there is nothing to see here.\\n"
+msgstr "No hi ha res a veure en aquest punt, si us plau continua.\\n"
+
+msgid "  --nocolor         turn off color in output\\n"
+msgstr "  --nocolor         eliminar el color de text sortida\\n"
+
+msgid "  -s, --sign        sign database with GnuPG after update\\n"
+msgstr ""
+"  -s, --sign        signa la base de dades amb GnuPG després de "
+"l'actualització\\n"
+
+msgid "  -k, --key <key>   use the specified key to sign the database\\n"
+msgstr ""
+"  -k, --key <key>   fes uś de la clau especificada per signar la base de "
+"dades\\n"
+
+msgid "  -v, --verify      verify database's signature before update\\n"
+msgstr ""
+"  -v, --verify      verifica la signatura de la base de dades abans de "
+"l'actualització\\n"
+
+msgid ""
+"\\nSee %s(8) for more details and descriptions of the available options.\\n"
+msgstr ""
+"\\nVegis %s(8) per més detalls i descripcions sobre les opcions disponibles."
+"\\n"
+
+msgid ""
+"Example:  repo-add /path/to/repo.db.tar.gz pacman-3.0.0-1-i686.pkg.tar.gz\\n"
+msgstr ""
+"Exemple:  repo-add /ruta/a/repositori.db.tar.gz pacman-3.0.0-1-i686.pkg.tar."
+"gz\\n"
+
+msgid "Example:  repo-remove /path/to/repo.db.tar.gz kernel26\\n"
+msgstr "Exemple:  repo-remove /ruta/a/repositoi.db.tar.gz kernel26\\n"
+
+msgid ""
+"Copyright (c) 2006-2013 Pacman Development Team <pacman-dev@archlinux.org>\\n"
+"\\nThis is free software; see the source for copying conditions.\\nThere is "
+"NO WARRANTY, to the extent permitted by law.\\n"
+msgstr ""
+"Drets d'autor (c) 2006-2013 Equip de Desenvolupament Pacman <pacman-"
+"dev@archlinux.org>.\\n\\nAixò és programari lliure, vegeu el codi font per "
+"les condicions de còpia.\\nNO hi ha GARANTIA, en la mesura permesa per la "
+"llei.\\n"
+
+msgid "No database entry for package '%s'."
+msgstr "No existeix cap base de dades amb entrades referents al paquet '%s'."
+
+msgid "Adding 'deltas' entry : %s -> %s"
+msgstr "Afegint entrada 'deltas':%s -> %s"
+
+msgid "Removing existing entry '%s'..."
+msgstr "S'està eliminant l'entrada existent '%s'..."
+
+msgid "Removing empty deltas file ..."
+msgstr "S'estan eliminant els fitxers delta buits..."
+
+msgid "Cannot find the gpg binary! Is GnuPG installed?"
+msgstr "No s'ha pogut trobar el binary gpg!! Està instal.lat GnuPG?"
+
+msgid "Signing database..."
+msgstr "Signant base de dades..."
+
+msgid "Created signature file '%s'"
+msgstr "S'ha creat el fitxer de signatures '%s'"
+
+msgid "Failed to sign package database."
+msgstr "No s'ha pogut signar el paquet base de dades."
+
+msgid "Verifying database signature..."
+msgstr "Verificant la signatura de bases de dades ..."
+
+msgid "No existing signature found, skipping verification."
+msgstr "No s'ha trobat signatura, saltant verificació."
+
+msgid "Database signature file verified."
+msgstr "Arxiu de signatura de la base de dades verificat."
+
+msgid "Database signature was NOT valid!"
+msgstr "La singantura de la base de dades NO és vàlida!"
+
+msgid "'%s' does not have a valid archive extension."
+msgstr "«%s» no té una extensió d'arxiu vàlida."
+
+msgid "An entry for '%s' already existed"
+msgstr "Ja existeix una entrada per '%s'"
+
+msgid "Invalid package signature file '%s'."
+msgstr "Signatura de l'arxiu %s invalida'."
+
+msgid "Adding package signature..."
+msgstr "Afegint signatura al paquet..."
+
+msgid "Computing checksums..."
+msgstr "Calculant sumes de comprovació"
+
+msgid "Creating '%s' db entry..."
+msgstr "Creant entrada base de dades '%s'..."
+
+msgid "Old package file not found: %s"
+msgstr "Antic arxiu del paquet no trobat: %s"
+
+msgid "Failed to acquire lockfile: %s."
+msgstr "Ha fallat en adquirir el fitxer de bloqueig: %s."
+
+msgid "Held by process %s"
+msgstr "Retingut pel procés %s"
+
+msgid "Repository file '%s' is not a proper pacman database."
+msgstr ""
+"El fitxer de repositori '%s' no és una base de dades de pacman adequada."
+
+msgid "Extracting database to a temporary location..."
+msgstr "S'està extraient la base de dades a una ubicació temporal...."
+
+msgid "Repository file '%s' was not found."
+msgstr "No s'ha trobat el fitxer de repositori '%s'."
+
+msgid "Repository file '%s' could not be created."
+msgstr "No s'ha pogut crear el fitxer de repositori '%s'."
+
+msgid "File '%s' not found."
+msgstr "No s'ha trobat el fitxer '%s'."
+
+msgid "Adding delta '%s'"
+msgstr "S'està afegint delta '%s'"
+
+msgid "'%s' is not a package file, skipping"
+msgstr "«%s» no és un fitxer de paquet. S'està ometent"
+
+msgid "Adding package '%s'"
+msgstr "S'està afegint el paquet '%s'"
+
+msgid "Searching for delta '%s'..."
+msgstr "S'està cercant delta '%s'..."
+
+msgid "Delta matching '%s' not found."
+msgstr "No s'ha trobat delta coincident per '%s'."
+
+msgid "Searching for package '%s'..."
+msgstr "S'està cercant el paquet '%s'..."
+
+msgid "Package matching '%s' not found."
+msgstr "No s'ha trobat coincidència pel paquet '%s'."
+
+msgid "Invalid command name '%s' specified."
+msgstr "S'ha especificat un nom d'ordre '%s' invàlid."
+
+msgid "Cannot create temp directory for database building."
+msgstr ""
+"No s'ha pogut crear el directori temporal per construir la base de dades."
+
+msgid "Creating updated database file '%s'"
+msgstr "S'està creant el fitxer de base de dades actualitzada '%s'"
+
+msgid "No packages remain, creating empty database."
+msgstr "No queda cap paquet, s'està creant una base de dades buida."
+
+msgid "No packages modified, nothing to do."
+msgstr "No s'ha modificat cap paquet, res a fer."
+
+msgid "option '%s' is ambiguous; possibilities:"
+msgstr "L'opció '%s' és ambigua; possibilitats:"
+
+msgid "invalid option"
+msgstr "opció invalida"
+
+msgid "option requires an argument"
+msgstr "l'opció requereix un argument"
+
+msgid "option '%s' does not allow an argument"
+msgstr "L'opció '%s' no accepta cap argument"
+
+msgid "option '%s' requires an argument"
+msgstr "l'opció '%s' requereix un argument"

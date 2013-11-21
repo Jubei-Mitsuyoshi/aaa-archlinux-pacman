@@ -1,0 +1,621 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pacman Development Team <pacman-dev@archlinux.org>
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# andjeng <teratower8@gmail.com>, 2013
+# andjeng <teratower8@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
+"POT-Creation-Date: 2013-06-18 13:52+1000\n"
+"PO-Revision-Date: 2013-06-06 03:14+0000\n"
+"Last-Translator: allanmcrae <allan@archlinux.org>\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/archlinux-"
+"pacman/language/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, c-format
+msgid "%s-%s is up to date -- skipping\n"
+msgstr "%s-%s sudah mutakhir -- melewati\n"
+
+#, c-format
+msgid "%s-%s is up to date -- reinstalling\n"
+msgstr "%s-%s sudah mutakhir -- memasang ulang\n"
+
+#, c-format
+msgid "downgrading package %s (%s => %s)\n"
+msgstr "menurunkan paket %s (%s => %s)\n"
+
+#, c-format
+msgid "warning given when extracting %s (%s)\n"
+msgstr "peringatan diberikan ketika mengekstrak %s (%s)\n"
+
+#, c-format
+msgid "could not extract %s (%s)\n"
+msgstr "tidak dapat mengekstrak %s (%s)\n"
+
+#, c-format
+msgid "could not rename %s to %s (%s)\n"
+msgstr "tidak dapat mengubah nama %s menjadi %s (%s)\n"
+
+#, c-format
+msgid ""
+"directory permissions differ on %s\n"
+"filesystem: %o  package: %o\n"
+msgstr ""
+"izin direktori berbeda pada %s\n"
+"filesystem: %o paket: %o\n"
+
+#, c-format
+msgid "extract: not overwriting dir with file %s\n"
+msgstr "ekstrak: tidak menimpa direktori dengan berkas %s\n"
+
+#, c-format
+msgid "extract: symlink %s does not point to dir\n"
+msgstr "ekstrak: symlink %s tidak menunjuk ke dir\n"
+
+#, c-format
+msgid "%s saved as %s\n"
+msgstr "%s disimpan sebagai %s\n"
+
+#, c-format
+msgid "%s installed as %s\n"
+msgstr "%s dipasang sebagai %s\n"
+
+#, c-format
+msgid "extracting %s as %s.pacnew\n"
+msgstr "mengekstrak %s sebagai %s.pacnew\n"
+
+#, c-format
+msgid "could not get current working directory\n"
+msgstr "tidak dapat mendapatkan direktori kerja saat ini\n"
+
+#, c-format
+msgid "could not change directory to %s (%s)\n"
+msgstr "tidak dapat mengganti direktori ke %s (%s)\n"
+
+#, c-format
+msgid "could not restore working directory (%s)\n"
+msgstr "tidak dapat mengembalikan direktori kerja (%s)\n"
+
+#, c-format
+msgid "problem occurred while upgrading %s\n"
+msgstr "mendapati masalah saat meningkatkan %s\n"
+
+#, c-format
+msgid "problem occurred while installing %s\n"
+msgstr "mendapati masalah ketika memasang %s\n"
+
+#, c-format
+msgid "could not update database entry %s-%s\n"
+msgstr "tidak dapat memutakhirkan entry database %s-%s\n"
+
+#, c-format
+msgid "could not add entry '%s' in cache\n"
+msgstr "tidak dapat menambah entry '%s' pada cache\n"
+
+#, c-format
+msgid "error while reading file %s: %s\n"
+msgstr "galat ketika membaca berkas %s: %s\n"
+
+#, c-format
+msgid "removing invalid database: %s\n"
+msgstr "menghapus semua database tak valid: %s\n"
+
+#, c-format
+msgid "invalid name for database entry '%s'\n"
+msgstr "nama entry '%s' database tidak valid\n"
+
+#, c-format
+msgid "duplicated database entry '%s'\n"
+msgstr "entry database diduplikasi '%s'\n"
+
+#, c-format
+msgid "corrupted database entry '%s'\n"
+msgstr "entry database korup '%s'\n"
+
+#, c-format
+msgid "could not open file %s: %s\n"
+msgstr "tidak dapat membuka berkas %s: %s\n"
+
+#, c-format
+msgid "%s database is inconsistent: name mismatch on package %s\n"
+msgstr "%s database tidak konsisten: nama tidak cocok pada paket %s\n"
+
+#, c-format
+msgid "%s database is inconsistent: version mismatch on package %s\n"
+msgstr "%s database tidak konsisten: versi tidak sama pada paket %s\n"
+
+#, c-format
+msgid "unknown validation type for package %s: %s\n"
+msgstr "tipe validasi tidak dikenal untuk paket %s: %s\n"
+
+#, c-format
+msgid "could not create directory %s: %s\n"
+msgstr "tidak dapat membuat direktori %s:%s\n"
+
+#, c-format
+msgid "could not parse package description file in %s\n"
+msgstr "tidak dapat menerjemahakan berkas deskripsi paket pada %s\n"
+
+#, c-format
+msgid "missing package name in %s\n"
+msgstr "nama paket pada %s hilang\n"
+
+#, c-format
+msgid "missing package version in %s\n"
+msgstr "versi paket pada %s hilang\n"
+
+#, c-format
+msgid "error while reading package %s: %s\n"
+msgstr "galat saat membaca paket %s: %s\n"
+
+#, c-format
+msgid "missing package metadata in %s\n"
+msgstr "paket %s kehilangan metadata\n"
+
+#, c-format
+msgid "failed to read signature file: %s\n"
+msgstr "gagal membaca berkas signatur: %s\n"
+
+#, c-format
+msgid "required key missing from keyring\n"
+msgstr "key yang dibutuhkan tidak ada pada keyring\n"
+
+#, c-format
+msgid "removing invalid file: %s\n"
+msgstr "menghapus berkas tidak valid: %s\n"
+
+#, c-format
+msgid "could not remove lock file %s\n"
+msgstr "tidak dapat menghapus berkas kunci %s\n"
+
+#, c-format
+msgid "could not parse package description file '%s' from db '%s'\n"
+msgstr "tidak dapat menerjemahkan deskripsi berkas '%s' dari db '%s'\n"
+
+#, c-format
+msgid "%s database is inconsistent: filename of package %s is illegal\n"
+msgstr ""
+
+#, c-format
+msgid "%s database is inconsistent: filename of package %s is too long\n"
+msgstr ""
+
+#, c-format
+msgid "database path is undefined\n"
+msgstr "path database tidak didefinisikan\n"
+
+#, c-format
+msgid "dependency cycle detected:\n"
+msgstr "dependensi berputar terdeteksi:\n"
+
+#, c-format
+msgid "%s will be removed after its %s dependency\n"
+msgstr "%s akan dihapus setelah %s dependensi\n"
+
+#, c-format
+msgid "%s will be installed before its %s dependency\n"
+msgstr "%s akan dipasang sebelum %s dependensinya\n"
+
+#, c-format
+msgid "ignoring package %s-%s\n"
+msgstr "mengabaikan paket %s-%s\n"
+
+#, c-format
+msgid "cannot resolve \"%s\", a dependency of \"%s\"\n"
+msgstr "tidak dapat menyelesaikan \"%s\", dependensi dari \"%s\"\n"
+
+#, c-format
+msgid "could not get filesystem information for %s: %s\n"
+msgstr "tidak dapat mendapatkan informasi sistem berkas untuk %s: %s\n"
+
+#, c-format
+msgid "could not open file: %s: %s\n"
+msgstr "tidak dapat membuka berkas: %s: %s\n"
+
+#, c-format
+msgid "could not get filesystem information\n"
+msgstr "tidak dapat mendapatkan informasi sistem berkas\n"
+
+#, c-format
+msgid "could not determine mount point for file %s\n"
+msgstr "tidak dapat menentukan titik kait untuk berkas %s\n"
+
+#, c-format
+msgid "Partition %s too full: %jd blocks needed, %jd blocks free\n"
+msgstr "Partisi %s terlalu penuh: %jd blok dibutuhkan, %jd blok bebas\n"
+
+#, c-format
+msgid "could not determine filesystem mount points\n"
+msgstr "tidak dapat menentukan titik kait sistem berkas\n"
+
+#, c-format
+msgid "could not determine cachedir mount point %s\n"
+msgstr "tidak dapat menentukan titik kait cachedir %s\n"
+
+#, c-format
+msgid "could not determine root mount point %s\n"
+msgstr "tidak dapat menentukan titik kait root %s\n"
+
+#, c-format
+msgid "Partition %s is mounted read only\n"
+msgstr "Partisi %s dikaitkan hanya baca\n"
+
+#, c-format
+msgid "disk"
+msgstr "diska"
+
+#, c-format
+msgid "failed to create temporary file for download\n"
+msgstr "gagal membuat berkas unduhan temporer\n"
+
+#, c-format
+msgid "url '%s' is invalid\n"
+msgstr "url '%s' tidak valid\n"
+
+#, c-format
+msgid "failed retrieving file '%s' from %s : %s\n"
+msgstr "gagal mendapatkan berkas '%s' dari %s: %s\n"
+
+#, c-format
+msgid "%s appears to be truncated: %jd/%jd bytes\n"
+msgstr "%s sepertinya tidak lengkap: %jd/%jd byte\n"
+
+#, c-format
+msgid "failed to download %s\n"
+msgstr "gagal mengunduh %s\n"
+
+#, c-format
+msgid "out of memory!"
+msgstr "kehabisan memori!"
+
+#, c-format
+msgid "unexpected system error"
+msgstr "galat sistem tak terduga"
+
+#, c-format
+msgid "permission denied"
+msgstr "izin ditolak"
+
+#, c-format
+msgid "could not find or read file"
+msgstr "tidak dapat mencari atau membaca berkas"
+
+#, c-format
+msgid "could not find or read directory"
+msgstr "tidak dapat mencari atau membaca direktori"
+
+#, c-format
+msgid "wrong or NULL argument passed"
+msgstr "argumen NULL atau salah diproses"
+
+#, c-format
+msgid "not enough free disk space"
+msgstr "ruang kosong tidak cukup"
+
+#, c-format
+msgid "library not initialized"
+msgstr "pustaka tidak diinisialisasi"
+
+#, c-format
+msgid "library already initialized"
+msgstr "pustaka sudah diinisialisasi"
+
+#, c-format
+msgid "unable to lock database"
+msgstr "tidak dapat mengunci database"
+
+#, c-format
+msgid "could not open database"
+msgstr "tidak dapat membuka database"
+
+#, c-format
+msgid "could not create database"
+msgstr "tidak dapat membuat database"
+
+#, c-format
+msgid "database not initialized"
+msgstr "database tidak diinisialisasi"
+
+#, c-format
+msgid "database already registered"
+msgstr "database sudah didaftarkan"
+
+#, c-format
+msgid "could not find database"
+msgstr "tidak dapat mencari dabatase"
+
+#, c-format
+msgid "invalid or corrupted database"
+msgstr "database tidak valid atau korup"
+
+#, c-format
+msgid "invalid or corrupted database (PGP signature)"
+msgstr "database tidak valid atau korup (signature PGP)"
+
+#, c-format
+msgid "database is incorrect version"
+msgstr "versi database tidak cocok"
+
+#, c-format
+msgid "could not update database"
+msgstr "tidak dapat memutakhirkan database"
+
+#, c-format
+msgid "could not remove database entry"
+msgstr "tidak dapat menghapus entry database"
+
+#, c-format
+msgid "invalid url for server"
+msgstr "url server tidak valid"
+
+#, c-format
+msgid "no servers configured for repository"
+msgstr "tidak ada server yang dikonfigurasi untuk repositori"
+
+#, c-format
+msgid "transaction already initialized"
+msgstr "transaksi sudah diinisialisasi"
+
+#, c-format
+msgid "transaction not initialized"
+msgstr "transaksi tidak diinisialisasi"
+
+#, c-format
+msgid "duplicate target"
+msgstr "target diduplikasi"
+
+#, c-format
+msgid "transaction not prepared"
+msgstr "transaksi tidak dipersiapkan"
+
+#, c-format
+msgid "transaction aborted"
+msgstr "transaksi dibatalkan"
+
+#, c-format
+msgid "operation not compatible with the transaction type"
+msgstr "operasi tidak cocok dengan tipe transaksi"
+
+#, c-format
+msgid "transaction commit attempt when database is not locked"
+msgstr "percobaan transaksi dilakukan ketika database tidak dikunci"
+
+#, c-format
+msgid "could not find or read package"
+msgstr "tidak dapat mencari atau membaca paket"
+
+#, c-format
+msgid "operation cancelled due to ignorepkg"
+msgstr "operasi dibatalkan karena ignorepkg"
+
+#, c-format
+msgid "invalid or corrupted package"
+msgstr "paket korup atau tidak valid"
+
+#, c-format
+msgid "invalid or corrupted package (checksum)"
+msgstr "paket tidak valid atau korup (checksum)"
+
+#, c-format
+msgid "invalid or corrupted package (PGP signature)"
+msgstr "paket tidak valid atau korup (signature PGP)"
+
+#, c-format
+msgid "cannot open package file"
+msgstr "tidak dapat membuka berkas paket"
+
+#, c-format
+msgid "cannot remove all files for package"
+msgstr "tidak dapat menghapus semua berkas untuk paket"
+
+#, c-format
+msgid "package filename is not valid"
+msgstr "nama berkas paket tidak valid"
+
+#, c-format
+msgid "package architecture is not valid"
+msgstr "arsitektur paket tidak valid"
+
+#, c-format
+msgid "could not find repository for target"
+msgstr "tidak dapat mencari repositori untuk target"
+
+#, c-format
+msgid "missing PGP signature"
+msgstr "signature PGP tidak ada"
+
+#, c-format
+msgid "invalid PGP signature"
+msgstr "signature PGP tidak valid"
+
+#, c-format
+msgid "invalid or corrupted delta"
+msgstr "delta korup atau tidak valid"
+
+#, c-format
+msgid "delta patch failed"
+msgstr "patch delta gagal"
+
+#, c-format
+msgid "could not satisfy dependencies"
+msgstr "tidak dapat memuaskan dependensi"
+
+#, c-format
+msgid "conflicting dependencies"
+msgstr "dependensi konflik"
+
+#, c-format
+msgid "conflicting files"
+msgstr "berkas yang konflik"
+
+#, c-format
+msgid "failed to retrieve some files"
+msgstr "gagal mendapatkan beberapa berkas"
+
+#, c-format
+msgid "invalid regular expression"
+msgstr "regular expression tidak valid"
+
+#, c-format
+msgid "libarchive error"
+msgstr "libarchive error"
+
+#, c-format
+msgid "download library error"
+msgstr "pustaka pengunduhan error"
+
+#, c-format
+msgid "gpgme error"
+msgstr "gpgme error"
+
+#, c-format
+msgid "error invoking external downloader"
+msgstr "galat melibatkan pengunduh eksternal"
+
+#, c-format
+msgid "unexpected error"
+msgstr "galat tak terduga"
+
+#, c-format
+msgid "could not fully load metadata for package %s-%s\n"
+msgstr "tidak dapat memuat metadata secara penuh untuk paket %s-%s\n"
+
+#, c-format
+msgid "could not find %s in database -- skipping\n"
+msgstr "tidak dapat mencari %s pada database -- melewati\n"
+
+#, c-format
+msgid "removing %s from target list\n"
+msgstr "menghapus %s dari daftar target\n"
+
+#, c-format
+msgid "cannot remove file '%s': %s\n"
+msgstr "tidak dapat menghapus berkas '%s': %s\n"
+
+#, c-format
+msgid "could not open directory: %s: %s\n"
+msgstr "tidak dapat membuka direktori: %s: %s\n"
+
+#, c-format
+msgid "cannot remove %s (%s)\n"
+msgstr "tidak dapat menghapus %s (%s)\n"
+
+#, c-format
+msgid "could not remove database entry %s-%s\n"
+msgstr "tidak dapat menghapus entry database %s-%s\n"
+
+#, c-format
+msgid "could not remove entry '%s' from cache\n"
+msgstr "tidak dapat menghapus entry '%s' dari cache\n"
+
+#, c-format
+msgid "%s: ignoring package upgrade (%s => %s)\n"
+msgstr "%s: mengabaikan peningkatan paket (%s => %s)\n"
+
+#, c-format
+msgid "%s: ignoring package downgrade (%s => %s)\n"
+msgstr "%s: mengabaikan penurunan paket (%s => %s)\n"
+
+#, c-format
+msgid "%s: downgrading from version %s to version %s\n"
+msgstr "%s: menurunkan dari versi %s ke versi %s\n"
+
+#, c-format
+msgid "%s: local (%s) is newer than %s (%s)\n"
+msgstr "%s: lokal (%s) lebih baru dari %s (%s)\n"
+
+#, c-format
+msgid "ignoring package replacement (%s-%s => %s-%s)\n"
+msgstr "mengabaikan penggantian paket (%s-%s => %s-%s)\n"
+
+#, c-format
+msgid "cannot replace %s by %s\n"
+msgstr "tidak dapat mengganti %s dengan %s\n"
+
+#, c-format
+msgid "unresolvable package conflicts detected\n"
+msgstr "konflik paket tak terselesaikan terdeteksi\n"
+
+#, c-format
+msgid "removing '%s' from target list because it conflicts with '%s'\n"
+msgstr "menghapus '%s' dari daftar target karena berkonflik dengan '%s'\n"
+
+#, c-format
+msgid "failed to retrieve some files\n"
+msgstr "gagal mendapatkan beberapa berkas\n"
+
+#, c-format
+msgid "not enough free disk space\n"
+msgstr "ruang kosong tidak cukup\n"
+
+#, c-format
+msgid "could not commit removal transaction\n"
+msgstr "tidak dapat melakukan transaksi penghapusan\n"
+
+#, c-format
+msgid "could not commit transaction\n"
+msgstr "tidak dapat melakukan transaksi\n"
+
+#, c-format
+msgid "could not create temp directory\n"
+msgstr "tidak dapat membuat direktori temporer\n"
+
+#, c-format
+msgid "could not copy tempfile to %s (%s)\n"
+msgstr "tidak dapat menyalin berkas temporer ke %s (%s)\n"
+
+#, c-format
+msgid "could not remove %s\n"
+msgstr "tidak dapat menghapus %s\n"
+
+#, c-format
+msgid "could not remove tmpdir %s\n"
+msgstr "tidak dapat menghapus direktori temporer %s\n"
+
+#, c-format
+msgid "could not stat file %s: %s\n"
+msgstr "tidak dapat mencatat stat berkas %s: %s\n"
+
+#, c-format
+msgid "could not create pipe (%s)\n"
+msgstr "tidak dapat membuat pipe (%s)\n"
+
+#, c-format
+msgid "could not fork a new process (%s)\n"
+msgstr "tidak dapat melakukan fork ke proses baru (%s)\n"
+
+#, c-format
+msgid "could not change the root directory (%s)\n"
+msgstr "tidak dapat mengubah direktori root (%s)\n"
+
+#, c-format
+msgid "call to execv failed (%s)\n"
+msgstr "panggilan ke execv gagal (%s)\n"
+
+#, c-format
+msgid "call to waitpid failed (%s)\n"
+msgstr "gagal memanggil waitpid (%s)\n"
+
+#, c-format
+msgid "could not open pipe (%s)\n"
+msgstr "tidak dapat membuka pipe (%s)\n"
+
+#, c-format
+msgid "command failed to execute correctly\n"
+msgstr "gagal menjalankan perintah dengan benar\n"
+
+#, c-format
+msgid "no %s cache exists, creating...\n"
+msgstr "tidak ada %s cache yang ada, membuat...\n"
+
+#, c-format
+msgid "couldn't find or create package cache, using %s instead\n"
+msgstr "tidak dapat membuat cache paket, gunakan %s saja\n"

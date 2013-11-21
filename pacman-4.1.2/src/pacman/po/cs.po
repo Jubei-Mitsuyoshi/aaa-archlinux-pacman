@@ -1,0 +1,1349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pacman Development Team <pacman-dev@archlinux.org>
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# allanmcrae <allan@archlinux.org>, 2013
+# allanmcrae <allan@archlinux.org>, 2013
+# David Kolibáč <david@kolibac.cz>, 2011
+# Marek Otahal <markotahalREMOVETHIS@gmail.com>, 2011
+# mmm <markotahal@gmail.com>, 2013
+# mmm <markotahal@gmail.com>, 2011
+# mmm <markotahal@gmail.com>, 2011
+# Vojtěch Gondžala <vojtech.gondzala@gmail.com>, 2011,2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
+"POT-Creation-Date: 2013-06-18 13:52+1000\n"
+"PO-Revision-Date: 2013-06-06 11:05+0000\n"
+"Last-Translator: mmm <markotahal@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/archlinux-pacman/"
+"language/cs/)\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, c-format
+msgid "checking dependencies...\n"
+msgstr "kontrolují se závislosti...\n"
+
+#, c-format
+msgid "checking for file conflicts...\n"
+msgstr "kontrolují se konflikty souborů...\n"
+
+#, c-format
+msgid "resolving dependencies...\n"
+msgstr "řeší se závislosti..\n"
+
+#, c-format
+msgid "looking for inter-conflicts...\n"
+msgstr "kontrolují se interní konflikty...\n"
+
+#, c-format
+msgid "installing %s...\n"
+msgstr "instaluje se %s...\n"
+
+#, c-format
+msgid "removing %s...\n"
+msgstr "odstraňuje se %s...\n"
+
+#, c-format
+msgid "upgrading %s...\n"
+msgstr "aktualizuje se %s...\n"
+
+#, c-format
+msgid "downgrading %s...\n"
+msgstr "stahuje se %s...\n"
+
+#, c-format
+msgid "reinstalling %s...\n"
+msgstr "instaluje se %s...\n"
+
+#, c-format
+msgid "checking package integrity...\n"
+msgstr "kontroluje se integrita balíčků...\n"
+
+#, c-format
+msgid "checking keyring...\n"
+msgstr "kontrola klíčenky...\n"
+
+#, c-format
+msgid "downloading required keys...\n"
+msgstr "stahuji požadované klíče...\n"
+
+#, c-format
+msgid "loading package files...\n"
+msgstr "načítání souborů balíčků...\n"
+
+#, c-format
+msgid "checking delta integrity...\n"
+msgstr "kontruje se integrita delta rozdílů...\n"
+
+#, c-format
+msgid "applying deltas...\n"
+msgstr "aplikují se delta rozdíly...\n"
+
+#, c-format
+msgid "generating %s with %s... "
+msgstr "vytváří se %s pomocí %s... "
+
+#, c-format
+msgid "success!\n"
+msgstr "úspěch!\n"
+
+#, c-format
+msgid "failed.\n"
+msgstr "selhalo.\n"
+
+#, c-format
+msgid "Retrieving packages ...\n"
+msgstr "Stahují se balíčky ...\n"
+
+#, c-format
+msgid "checking available disk space...\n"
+msgstr "kontroluje se volné místo na disku ...\n"
+
+#, c-format
+msgid "%s optionally requires %s\n"
+msgstr "%s má volitelnou závislost %s\n"
+
+#, c-format
+msgid "%s is in IgnorePkg/IgnoreGroup. Install anyway?"
+msgstr "%s je v IgnorePkg/IgnoreGroup. Přesto nainstalovat?"
+
+#, c-format
+msgid "Replace %s with %s/%s?"
+msgstr "Nahradit %s za %s/%s?"
+
+#, c-format
+msgid "%s and %s are in conflict. Remove %s?"
+msgstr "%s a %s jsou v konfliktu. Odstranit %s?"
+
+#, c-format
+msgid "%s and %s are in conflict (%s). Remove %s?"
+msgstr "%s a %s jsou v konfliktu (%s). Odstranit %s?"
+
+#, c-format
+msgid ""
+"The following package cannot be upgraded due to unresolvable dependencies:\n"
+msgid_plural ""
+"The following packages cannot be upgraded due to unresolvable dependencies:\n"
+msgstr[0] ""
+"Následující balíček nemůže být aktualizován, nepodařilo se vyřešit "
+"závislosti:\n"
+msgstr[1] ""
+"Následující balíčky nemohou být aktualizovány, nepodařilo se vyřešit "
+"závislosti:\n"
+msgstr[2] ""
+"Následující balíčky nemohou být aktualizovány, nepodařilo se vyřešit "
+"závislosti:\n"
+
+#, c-format
+msgid "Do you want to skip the above package for this upgrade?"
+msgid_plural "Do you want to skip the above packages for this upgrade?"
+msgstr[0] "Chcete přeskočit na výše uvedený balíček pro tuto aktualizaci?"
+msgstr[1] "Chcete přeskočit na výše uvedené balíčky pro tuto aktualizaci?"
+msgstr[2] "Chcete přeskočit na výše uvedené balíčky pro tuto aktualizaci?"
+
+#, c-format
+msgid "There are %zd providers available for %s:\n"
+msgstr "Existují %zd balíčky poskytující %s:\n"
+
+#, c-format
+msgid "%s-%s: local version is newer. Upgrade anyway?"
+msgstr "%s-%s: lokální verze je novější. Přesto aktualizovat?"
+
+#, c-format
+msgid ""
+"File %s is corrupted (%s).\n"
+"Do you want to delete it?"
+msgstr ""
+"Soubor %s je poškozen (%s).\n"
+"Odstranit ho? "
+
+#, c-format
+msgid "Import PGP key %d%c/%s, \"%s\", created: %s (revoked)?"
+msgstr "Importovat PGP klíč %d%c%s, \"%s\", vytvořený %s (revokovaný)?"
+
+#, c-format
+msgid "Import PGP key %d%c/%s, \"%s\", created: %s?"
+msgstr "Importovat PGP klíč %d%c%s, \"%s\", vytvořený %s?"
+
+#, c-format
+msgid "installing"
+msgstr "instalace"
+
+#, c-format
+msgid "upgrading"
+msgstr "aktualizace"
+
+#, c-format
+msgid "downgrading"
+msgstr "navrácení k původní verzi"
+
+#, c-format
+msgid "reinstalling"
+msgstr "přeinstalovávám"
+
+#, c-format
+msgid "removing"
+msgstr "odstranění"
+
+#, c-format
+msgid "checking for file conflicts"
+msgstr "kontrola konfliktů souborů"
+
+#, c-format
+msgid "checking available disk space"
+msgstr "kontrola volného místa na disku"
+
+#, c-format
+msgid "checking package integrity"
+msgstr "kontrola integrity balíčků"
+
+#, c-format
+msgid "checking keys in keyring"
+msgstr "kontrola klíčů v klíčence"
+
+#, c-format
+msgid "loading package files"
+msgstr "načítání balíčku"
+
+#, c-format
+msgid "downloading %s...\n"
+msgstr "stahuje se %s...\n"
+
+#, c-format
+msgid "%s: %s (File type mismatch)\n"
+msgstr "%s: %s (Nesouhlasí typ souborů)\n"
+
+#, c-format
+msgid "%s: %s (UID mismatch)\n"
+msgstr "%s: %s (nesouhlasí UID)\n"
+
+#, c-format
+msgid "%s: %s (GID mismatch)\n"
+msgstr "%s: %s (nesouhlasí GID)\n"
+
+#, c-format
+msgid "%s: %s (Permissions mismatch)\n"
+msgstr "%s: %s (nesouhlasí práva)\n"
+
+#, c-format
+msgid "%s: %s (Modification time mismatch)\n"
+msgstr "%s: %s (nesouhlasí čas změn)\n"
+
+#, c-format
+msgid "unable to read symlink contents: %s\n"
+msgstr "selhalo čtení ze symbulického linku: %s\n"
+
+#, c-format
+msgid "%s: %s (Symlink path mismatch)\n"
+msgstr "%s: %s (nesouhlasí cesty sym. linků)\n"
+
+#, c-format
+msgid "%s: %s (Size mismatch)\n"
+msgstr "%s: %s (nesouhlasí velikosti)\n"
+
+#, c-format
+msgid "path too long: %s%s\n"
+msgstr "cesta je příliš dlouhá: %s%s\n"
+
+#, c-format
+msgid "%s: %jd total file, "
+msgid_plural "%s: %jd total files, "
+msgstr[0] "%s: %jd soubor. "
+msgstr[1] "%s: %jd souborů celkem. "
+msgstr[2] "%s: %jd souborů celkem. "
+
+#, c-format
+msgid "%jd missing file\n"
+msgid_plural "%jd missing files\n"
+msgstr[0] "%jd chybějící soubor\n"
+msgstr[1] "%jd chybějící soubory\n"
+msgstr[2] "%jd chybějící soubory\n"
+
+#, c-format
+msgid "%s: no mtree file\n"
+msgstr "%s: není mtree soubor\n"
+
+#, c-format
+msgid "file type not recognized: %s%s\n"
+msgstr "nerozeznán typ souboru: %s%s\n"
+
+#, c-format
+msgid "%jd altered file\n"
+msgid_plural "%jd altered files\n"
+msgstr[0] "%jd pozměněný soubor\n"
+msgstr[1] "%jd pozměněné soubory\n"
+msgstr[2] "%jd pozměněné soubory\n"
+
+#, c-format
+msgid "malloc failure: could not allocate %zd bytes\n"
+msgstr "malloc selhal: nelze alokovat %zd bytů\n"
+
+#, c-format
+msgid "could not get current working directory\n"
+msgstr "nepodařilo získat aktuální pracovní adresář\n"
+
+#, c-format
+msgid "could not chdir to download directory %s\n"
+msgstr "nelze se přesunout do adresáře pro stahování (%s)\n"
+
+#, c-format
+msgid "running XferCommand: fork failed!\n"
+msgstr "spuštění XferCommand selhalo!\n"
+
+#, c-format
+msgid "could not rename %s to %s (%s)\n"
+msgstr "nelze přejmenovat %s na %s (%s)\n"
+
+#, c-format
+msgid "could not restore working directory (%s)\n"
+msgstr "nelze obnovit pracovní adresář (%s)\n"
+
+#, c-format
+msgid "config file %s, line %d: invalid value for '%s' : '%s'\n"
+msgstr "konfigurační soubor %s, řádka %d: neplatná hodnota pro '%s' : '%s'\n"
+
+#, c-format
+msgid "config file %s, line %d: '%s' option invalid, no signature support\n"
+msgstr ""
+"konfigurační soubor %s, řádka %d: volba '%s' není platná, chybí podpora pro "
+"podepisování\n"
+
+#, c-format
+msgid ""
+"config file %s, line %d: directive '%s' in section '%s' not recognized.\n"
+msgstr ""
+"konfigurační soubor %s, řádek %d: direktiva '%s' v sekci '%s' nebyla "
+"rozpoznána.\n"
+
+#, c-format
+msgid "mirror '%s' contains the '%s' variable, but no '%s' is defined.\n"
+msgstr "zrcadlo '%s' obsahuje proměnnou '%s', ale '%s' není definována.\n"
+
+#, c-format
+msgid "could not add server URL to database '%s': %s (%s)\n"
+msgstr "nelze přidat URL serveru k databázi '%s': %s (%s)\n"
+
+#, c-format
+msgid "failed to initialize alpm library (%s)\n"
+msgstr "selhala inicializace knihovny alpm (%s)\n"
+
+#, c-format
+msgid "  try running pacman-db-upgrade\n"
+msgstr "    zkuste spustit pacman-db-upgrade\n"
+
+#, c-format
+msgid "problem setting logfile '%s' (%s)\n"
+msgstr "problém s nastavením log souboru '%s' (%s)\n"
+
+#, c-format
+msgid "problem setting gpgdir '%s' (%s)\n"
+msgstr "chyba při nastavování gpgdir '%s' (%s)\n"
+
+#, c-format
+msgid "no '%s' configured"
+msgstr "'%s' není nastaveno"
+
+#, c-format
+msgid "could not register '%s' database (%s)\n"
+msgstr "nelze zaregistrovat databázi '%s' (%s)\n"
+
+#, c-format
+msgid "could not add mirror '%s' to database '%s' (%s)\n"
+msgstr "nelze přidat zrcadlo '%s' do databáze '%s' (%s)\n"
+
+#, c-format
+msgid "config parsing exceeded max recursion depth of %d.\n"
+msgstr "načítaní konfigurace přesáhlo maximální hloubku rekurze %d.\n"
+
+#, c-format
+msgid "config file %s could not be read: %s\n"
+msgstr "konfigurační soubor %s nelze přečíst: %s\n"
+
+#, c-format
+msgid "config file %s, line %d: bad section name.\n"
+msgstr "konfigurační soubor %s, řádek %d: chybné jméno sekce.\n"
+
+#, c-format
+msgid "config file %s, line %d: syntax error in config file- missing key.\n"
+msgstr ""
+"konfigurační soubor %s, řádek %d: chybná syntaxe konfiguračního souboru, "
+"chybí hodnota.\n"
+
+#, c-format
+msgid "config file %s, line %d: All directives must belong to a section.\n"
+msgstr ""
+"konfigurační soubor %s, řádek %d: Všechny direktivy musí náležet nějaké "
+"sekci.\n"
+
+#, c-format
+msgid "config file %s, line %d: directive '%s' needs a value\n"
+msgstr ""
+"konfigurační soubor %s, řádek %d: direktiva '%s' vyžaduje zadanou hodnotu\n"
+
+#, c-format
+msgid "no targets specified (use -h for help)\n"
+msgstr "nejsou specifikovány cíle (použijte -h pro nápovědu)\n"
+
+#, c-format
+msgid "no install reason specified (use -h for help)\n"
+msgstr "nebyl zadán důvod instalace (použijte -h pro nápovědu)\n"
+
+#, c-format
+msgid "could not set install reason for package %s (%s)\n"
+msgstr "nepodařilo se nastavit důvod instalace balíčku %s (%s)\n"
+
+#, c-format
+msgid "%s: install reason has been set to 'installed as dependency'\n"
+msgstr "%s: důvod instalace byl nastaven na 'nainstalován jako závislost'\n"
+
+#, c-format
+msgid "%s: install reason has been set to 'explicitly installed'\n"
+msgstr "%s: důvod instalace byl nastaven na 'výslovně nainstalován'\n"
+
+#, c-format
+msgid " [installed]"
+msgstr "[nainstalovaný]"
+
+#, c-format
+msgid "Optional Deps  :"
+msgstr "Volitelné záv. :"
+
+#, c-format
+msgid "Explicitly installed"
+msgstr "Výslovně nainstalován"
+
+#, c-format
+msgid "Installed as a dependency for another package"
+msgstr "Nainstalován jako závislost jiného balíčku"
+
+#, c-format
+msgid "Unknown"
+msgstr "Neznámý"
+
+#, c-format
+msgid "None"
+msgstr "Nic"
+
+#, c-format
+msgid "MD5 Sum"
+msgstr "MD5 součet"
+
+#, c-format
+msgid "SHA256 Sum"
+msgstr "SHA256 součet"
+
+#, c-format
+msgid "Signature"
+msgstr "Podpis"
+
+#, c-format
+msgid "Repository     :"
+msgstr "Repositář      :"
+
+#, c-format
+msgid "Name           :"
+msgstr "Jméno          :"
+
+#, c-format
+msgid "Version        :"
+msgstr "Verze          :"
+
+#, c-format
+msgid "Description    :"
+msgstr "Popis          :"
+
+#, c-format
+msgid "Architecture   :"
+msgstr "Architektura   :"
+
+#, c-format
+msgid "URL            :"
+msgstr "URL            :"
+
+#, c-format
+msgid "Licenses       :"
+msgstr "Licence        :"
+
+#, c-format
+msgid "Groups         :"
+msgstr "Skupiny        :"
+
+#, c-format
+msgid "Provides       :"
+msgstr "Poskytuje      :"
+
+#, c-format
+msgid "Depends On     :"
+msgstr "Závisí na      :"
+
+#, c-format
+msgid "Required By    :"
+msgstr "Požadovaný     :"
+
+#, c-format
+msgid "Optional For   :"
+msgstr "Volitelně pro :"
+
+#, c-format
+msgid "Conflicts With :"
+msgstr "Konfliktní s   :"
+
+#, c-format
+msgid "Replaces       :"
+msgstr "Nahrazuje      :"
+
+#, c-format
+msgid "Download Size  :"
+msgstr "Velikost ke stažení: "
+
+#, c-format
+msgid "Compressed Size:"
+msgstr "Velikost po kompresi: "
+
+#, c-format
+msgid "Installed Size :"
+msgstr "Velikost po instalaci : "
+
+#, c-format
+msgid "Packager       :"
+msgstr "Zabalil        :"
+
+#, c-format
+msgid "Build Date     :"
+msgstr "Datum sestavení:"
+
+#, c-format
+msgid "Install Date   :"
+msgstr "Datum instalace:"
+
+#, c-format
+msgid "Install Reason :"
+msgstr "Důvod instalace:"
+
+#, c-format
+msgid "Install Script :"
+msgstr "Instal. skript :"
+
+#, c-format
+msgid "Yes"
+msgstr "Ano"
+
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#, c-format
+msgid "MD5 Sum        :"
+msgstr "MD5 součet     :"
+
+#, c-format
+msgid "SHA256 Sum     :"
+msgstr "SHA256 součet  :"
+
+#, c-format
+msgid "Signatures     :"
+msgstr "Podpisy        :"
+
+#, c-format
+msgid "Validated By   :"
+msgstr "Ověřeno: "
+
+#, c-format
+msgid "could not calculate checksums for %s\n"
+msgstr "nelze spočítat kontrolní součet pro %s\n"
+
+#, c-format
+msgid "Backup Files:\n"
+msgstr "Zálohované soubory:\n"
+
+#, c-format
+msgid "(none)\n"
+msgstr "(žádný)\n"
+
+#, c-format
+msgid "no changelog available for '%s'.\n"
+msgstr "seznam změn pro '%s' není dostupný.\n"
+
+#, c-format
+msgid "Changelog for %s:\n"
+msgstr ""
+"seznam změn pro %s:\n"
+" \n"
+
+#, c-format
+msgid "installed"
+msgstr "nainstalovaný"
+
+#, c-format
+msgid "options"
+msgstr "volby"
+
+#, c-format
+msgid "file(s)"
+msgstr "soubor(y)"
+
+#, c-format
+msgid "package(s)"
+msgstr "balíček(y)"
+
+#, c-format
+msgid "usage"
+msgstr "použití"
+
+#, c-format
+msgid "operation"
+msgstr "operace"
+
+#, c-format
+msgid "operations:\n"
+msgstr "operace:\n"
+
+#, c-format
+msgid ""
+"\n"
+"use '%s {-h --help}' with an operation for available options\n"
+msgstr ""
+"\n"
+"použijte '%s {-h --help}' s přepínačem operace pro další nápovědu\n"
+
+#, c-format
+msgid ""
+"  -c, --cascade        remove packages and all packages that depend on them\n"
+msgstr ""
+"  -c, --cascade        odstranit balíčky včetně všech, které na nich závisí\n"
+
+#, c-format
+msgid "  -n, --nosave         remove configuration files\n"
+msgstr "  -n, --nosave         odstraní konfigurační soubory\n"
+
+#, c-format
+msgid ""
+"  -s, --recursive      remove unnecessary dependencies\n"
+"                       (-ss includes explicitly installed dependencies)\n"
+msgstr ""
+"  -s, --recursive      odstraní nepotřebné závislosti\n"
+"                       (-ss včetně výslovně nainstalovaných závislostí)\n"
+
+#, c-format
+msgid "  -u, --unneeded       remove unneeded packages\n"
+msgstr "  -u, --unneeded       odstraní nepotřebné závislosti\n"
+
+#, c-format
+msgid "      --needed         do not reinstall up to date packages\n"
+msgstr ""
+"      --needed         nepřeinstalovávát balíčky, které jsou stále aktuální\n"
+
+#, c-format
+msgid "  -c, --changelog      view the changelog of a package\n"
+msgstr "  -c, --changelog      vypsat seznam změn balíčku\n"
+
+#, c-format
+msgid ""
+"  -d, --deps           list packages installed as dependencies [filter]\n"
+msgstr ""
+"  -d, --deps           seznam všech balíčků instalovaných jako závislosti "
+"[filter]\n"
+
+#, c-format
+msgid "  -e, --explicit       list packages explicitly installed [filter]\n"
+msgstr ""
+"  -e, --explicit       seznam všech výslovně instalovaných balíčků [filter]\n"
+
+#, c-format
+msgid "  -g, --groups         view all members of a package group\n"
+msgstr "  -g, --groups         vypsat všechny balíčky ve skupině\n"
+
+#, c-format
+msgid ""
+"  -i, --info           view package information (-ii for backup files)\n"
+msgstr ""
+"  -i, --info           zobrazit informace o balíčku (-ii zálohované "
+"soubory)\n"
+
+#, c-format
+msgid ""
+"  -k, --check          check that package files exist (-kk for file "
+"properties)\n"
+msgstr ""
+"  -k, --check          kontrola, zda jsou přítomny všechny soubory z balíčku "
+"(-kk pro vlastnosti souborů)\n"
+
+#, c-format
+msgid "  -l, --list           list the contents of the queried package\n"
+msgstr "  -l, --list           seznam souborů v balíčku\n"
+
+#, c-format
+msgid ""
+"  -m, --foreign        list installed packages not found in sync db(s) "
+"[filter]\n"
+msgstr ""
+"  -m, --foreign        seznam nainstalovaných balíčků nalezených "
+"repozitářích  [filter]\n"
+
+#, c-format
+msgid ""
+"  -n, --native         list installed packages only found in sync db(s) "
+"[filter]\n"
+msgstr ""
+"  -n, --native        seznam nainstalovaných balíčků nalezených pouze v sync "
+"db [filter]\n"
+
+#, c-format
+msgid "  -o, --owns <file>    query the package that owns <file>\n"
+msgstr "  -o, --owns <file>    vyhledat balíček obsahující <file>\n"
+
+#, c-format
+msgid "  -p, --file <package> query a package file instead of the database\n"
+msgstr "  -p, --file <package> dotaz na soubor balíčku místo na databázi\n"
+
+#, c-format
+msgid "  -q, --quiet          show less information for query and search\n"
+msgstr "  -q, --quiet          zobrazit méně informací při dotazu a hledání\n"
+
+#, c-format
+msgid ""
+"  -s, --search <regex> search locally-installed packages for matching "
+"strings\n"
+msgstr ""
+"  -s, --search <regex> vyhledat nainstalované balíčky, odpovídající řetězci\n"
+
+#, c-format
+msgid ""
+"  -t, --unrequired     list packages not required by any package [filter]\n"
+msgstr ""
+"  -t, --unrequired     seznam všech balíčků nevyžadovaných jiným balíčkem  "
+"[filter]\n"
+
+#, c-format
+msgid "  -u, --upgrades       list outdated packages [filter]\n"
+msgstr ""
+"  -u, --upgrades       seznam všech aktualizovatelných balíčků [filter]\n"
+
+#, c-format
+msgid ""
+"  -c, --clean          remove old packages from cache directory (-cc for "
+"all)\n"
+msgstr ""
+"  -c, --clean          odstranit staré balíčky z mezipaměti (-cc pro "
+"všechny)\n"
+
+#, c-format
+msgid "  -i, --info           view package information\n"
+msgstr "  -i, --info           zobrazit informace o balíčku\n"
+
+#, c-format
+msgid "  -l, --list <repo>    view a list of packages in a repo\n"
+msgstr "  -l, --list <repo>    zobrazit seznam balíčků v repozitáři\n"
+
+#, c-format
+msgid ""
+"  -s, --search <regex> search remote repositories for matching strings\n"
+msgstr ""
+"  -s, --search <regex> vyhledat balíčky v repozitářích, odpovídající "
+"řetězci\n"
+
+#, c-format
+msgid ""
+"  -u, --sysupgrade     upgrade installed packages (-uu allows downgrade)\n"
+msgstr ""
+"  -u, --sysupgrade     aktualizovat nainstalované balíčky (--uu umožní "
+"snížení verze)\n"
+
+#, c-format
+msgid ""
+"  -w, --downloadonly   download packages but do not install/upgrade "
+"anything\n"
+msgstr ""
+"  -w, --downloadonly   pouze stáhnout balíčky, neinstalovat/neaktualizovat\n"
+
+#, c-format
+msgid ""
+"  -y, --refresh        download fresh package databases from the server\n"
+msgstr "  -y, --refresh        stáhnout aktuální databázi balíčků ze serveru\n"
+
+#, c-format
+msgid "      --asdeps         mark packages as non-explicitly installed\n"
+msgstr "      --asdeps         označit balíčky jako závislosti\n"
+
+#, c-format
+msgid "      --asexplicit     mark packages as explicitly installed\n"
+msgstr "      --asexplicit     označit balíčky jako výslovně instalované\n"
+
+#, c-format
+msgid "      --force          force install, overwrite conflicting files\n"
+msgstr ""
+"  -f, --force          vynucená instalace, přepíše konfliktní soubory\n"
+
+#, c-format
+msgid "      --asdeps         install packages as non-explicitly installed\n"
+msgstr "      --asdeps         nainstalovat balíčky jako závislosti\n"
+
+#, c-format
+msgid "      --asexplicit     install packages as explicitly installed\n"
+msgstr ""
+"      --asexplicit     nainstalovat balíčky jako výslovně instalované\n"
+
+#, c-format
+msgid ""
+"      --ignore <pkg>   ignore a package upgrade (can be used more than "
+"once)\n"
+msgstr ""
+"      --ignore <pkg>   ignorovat aktualizaci balíčku (lze použít vícekrát)\n"
+
+#, c-format
+msgid ""
+"      --ignoregroup <grp>\n"
+"                       ignore a group upgrade (can be used more than once)\n"
+msgstr ""
+"      --ignoregroup <grp>\n"
+"                       ignorovat aktualizaci skupiny (lze použít vícekrát)\n"
+
+#, c-format
+msgid ""
+"  -d, --nodeps         skip dependency version checks (-dd to skip all "
+"checks)\n"
+msgstr ""
+"  -d, --nodeps         přeskočí kontrolu verze závislostí\n"
+"                       (-dd přeskočí všechny kontroly)\n"
+
+#, c-format
+msgid ""
+"      --dbonly         only modify database entries, not package files\n"
+msgstr "      --dbonly         upraví pouze záznamy v databázi, ne balíčky\n"
+
+#, c-format
+msgid ""
+"      --noprogressbar  do not show a progress bar when downloading files\n"
+msgstr "      --noprogressbar  nezobrazovat průběh stahování souborů\n"
+
+#, c-format
+msgid ""
+"      --noscriptlet    do not execute the install scriptlet if one exists\n"
+msgstr "      --noscriptlet    nespouštět instalační skripty\n"
+
+#, c-format
+msgid ""
+"  -p, --print          print the targets instead of performing the "
+"operation\n"
+msgstr ""
+"  -p, --print          pouze vypíše cíle, neprovede skutečnou operaci\n"
+
+#, c-format
+msgid ""
+"      --print-format <string>\n"
+"                       specify how the targets should be printed\n"
+msgstr ""
+"      --print-format <string>\n"
+"                       určí, jak mají být cíle vypsány\n"
+
+#, c-format
+msgid "  -b, --dbpath <path>  set an alternate database location\n"
+msgstr "  -b, --dbpath <path>  nastavit umístění databáze\n"
+
+#, c-format
+msgid "  -r, --root <path>    set an alternate installation root\n"
+msgstr "  -r, --root <path>    nastavit kořen instalace\n"
+
+#, c-format
+msgid "  -v, --verbose        be verbose\n"
+msgstr "  -v, --verbose        zobrazit více informací\n"
+
+#, c-format
+msgid "      --arch <arch>    set an alternate architecture\n"
+msgstr "      --arch <arch>    nastavit alternativní architekturu\n"
+
+#, c-format
+msgid "      --cachedir <dir> set an alternate package cache location\n"
+msgstr "      --cachedir <dir> nastavit cestu k adresáři s cache\n"
+
+#, c-format
+msgid "      --color <when>   colorize the output\n"
+msgstr "--color <kdy> obarví výstup zpráv\n"
+
+#, c-format
+msgid "      --config <path>  set an alternate configuration file\n"
+msgstr "      --config <path>  nastavit cestu ke konfiguračnímu souboru\n"
+
+#, c-format
+msgid "      --debug          display debug messages\n"
+msgstr "      --debug          zobrazit ladící zprávy\n"
+
+#, c-format
+msgid "      --gpgdir <path>  set an alternate home directory for GnuPG\n"
+msgstr "      --gpgdir <cesta> nastaví vlastní výchozí složku pro GnuPG\n"
+
+#, c-format
+msgid "      --logfile <path> set an alternate log file\n"
+msgstr "      --logfile <path> nastavit cestu k log souboru\n"
+
+#, c-format
+msgid "      --noconfirm      do not ask for any confirmation\n"
+msgstr "      --noconfirm      neptat se na žádná potvrzení\n"
+
+#, c-format
+msgid ""
+"                       This program may be freely redistributed under\n"
+"                       the terms of the GNU General Public License.\n"
+msgstr ""
+"                       Tento program  může být svobodně šířen za\n"
+"                       podmínek stanovených GNU GPL (General Public "
+"License).\n"
+
+#, c-format
+msgid "invalid argument '%s' for %s\n"
+msgstr "neplatný argument '%s' pro %s\n"
+
+#, c-format
+msgid "'%s' is not a valid debug level\n"
+msgstr "'%s' není validní ladící úroveň\n"
+
+#, c-format
+msgid "only one operation may be used at a time\n"
+msgstr "současně lze spustit jen jednu operaci\n"
+
+#, c-format
+msgid "invalid option\n"
+msgstr "neplatný přepínač\n"
+
+#, c-format
+msgid "memory exhausted in argument parsing\n"
+msgstr "při načítání parametrů došlo k vyčerpání paměti\n"
+
+#, c-format
+msgid "failed to reopen stdin for reading: (%s)\n"
+msgstr "nepodařilo se znovu otevřít standardní vstup pro čtení: (%s)\n"
+
+#, c-format
+msgid "argument '-' specified without input on stdin\n"
+msgstr "byl zadán argument '-', ale bez výstupu na stdin\n"
+
+#, c-format
+msgid "you cannot perform this operation unless you are root.\n"
+msgstr "operaci nelze provést, pokud nejste root.\n"
+
+#, c-format
+msgid "no operation specified (use -h for help)\n"
+msgstr "nebyla specifikována operace (použijte -h pro nápovědu)\n"
+
+#, c-format
+msgid "%s is owned by %s %s\n"
+msgstr "%s vlastní %s %s\n"
+
+#, c-format
+msgid "no file was specified for --owns\n"
+msgstr "nebyl určen soubor pro --owns\n"
+
+#, c-format
+msgid "cannot determine real path for '%s': %s\n"
+msgstr "nelze určit skutečnou cestu pro '%s': %s\n"
+
+#, c-format
+msgid "failed to find '%s' in PATH: %s\n"
+msgstr "nepodařilo se nalézt '%s' v PATH: %s\n"
+
+#, c-format
+msgid "failed to read file '%s': %s\n"
+msgstr "selhalo čtení souboru '%s': %s\n"
+
+#, c-format
+msgid "No package owns %s\n"
+msgstr "Žádný balíček nevlastní %s\n"
+
+#, c-format
+msgid "group '%s' was not found\n"
+msgstr "skupina '%s' nebyla nalezena\n"
+
+#, c-format
+msgid "package '%s' was not found\n"
+msgstr "balíček '%s' nebyl nalezen\n"
+
+#, c-format
+msgid "'%s' is a file, you might want to use %s.\n"
+msgstr "'%s' je soubor, možná byste chtěli použít %s.\n"
+
+#, c-format
+msgid "could not load package '%s': %s\n"
+msgstr "Nelze načíst balíček '%s': %s\n"
+
+#, c-format
+msgid "target not found: %s\n"
+msgstr "cíl nebyl nalezen: %s\n"
+
+#, c-format
+msgid "failed to prepare transaction (%s)\n"
+msgstr "selhala příprava transakce (%s)\n"
+
+#, c-format
+msgid "%s: requires %s\n"
+msgstr "%s: vyžaduje %s\n"
+
+#, c-format
+msgid "%s is designated as a HoldPkg.\n"
+msgstr "%s je označen jako HoldPkg.\n"
+
+#, c-format
+msgid "HoldPkg was found in target list. Do you want to continue?"
+msgstr "Mezi cíly byl naleze balíček označený jako HoldPkg. Chcete pokračovat?"
+
+#, c-format
+msgid " there is nothing to do\n"
+msgstr " není co dělat\n"
+
+#, c-format
+msgid "Do you want to remove these packages?"
+msgstr "Chcete odstranit tyto balíčky?"
+
+#, c-format
+msgid "failed to commit transaction (%s)\n"
+msgstr "selhalo provádění transakce (%s)\n"
+
+#, c-format
+msgid "could not remove %s: %s\n"
+msgstr "nelze odstranit %s: %s\n"
+
+#, c-format
+msgid "could not access database directory\n"
+msgstr "nelze přistoupit k adresáři s databází\n"
+
+#, c-format
+msgid "Database directory: %s\n"
+msgstr "Adresář databáze: %s\n"
+
+#, c-format
+msgid "Do you want to remove unused repositories?"
+msgstr "Chcete odstranit nepoužívané repozitáře?"
+
+#, c-format
+msgid "removing unused sync repositories...\n"
+msgstr "odstraňují se nepoužívané repositáře...\n"
+
+#, c-format
+msgid "Packages to keep:\n"
+msgstr "Ponechané balíčky:\n"
+
+#, c-format
+msgid "  All locally installed packages\n"
+msgstr "    Všechny lokálně nainstalované balíčky\n"
+
+#, c-format
+msgid "  All current sync database packages\n"
+msgstr "    Všechnu balíčky v databázi\n"
+
+#, c-format
+msgid "Cache directory: %s\n"
+msgstr "Adresář mezipaměti: %s\n"
+
+#, c-format
+msgid "Do you want to remove all other packages from cache?"
+msgstr "Chcete odstranit všechny ostatní balíčky z cache?"
+
+#, c-format
+msgid "removing old packages from cache...\n"
+msgstr "odstraňují se staré balíčky z mezipaměti...\n"
+
+#, c-format
+msgid "Do you want to remove ALL files from cache?"
+msgstr "Chcete odstranit VŠECHNY soubory z mezipaměti?"
+
+#, c-format
+msgid "removing all files from cache...\n"
+msgstr "odstraňují se všechny soubory z mezipaměti...\n"
+
+#, c-format
+msgid "could not access cache directory %s\n"
+msgstr "nelze přistoupit k adresáři s mezipamětí %s\n"
+
+#, c-format
+msgid "failed to update %s (%s)\n"
+msgstr "selhala aktualizace %s (%s)\n"
+
+#, c-format
+msgid " %s is up to date\n"
+msgstr " %s je aktuální\n"
+
+#, c-format
+msgid "failed to synchronize any databases\n"
+msgstr "selhala synchronizace databáze\n"
+
+#, c-format
+msgid "repository '%s' does not exist\n"
+msgstr "repozitář '%s' neexistuje\n"
+
+#, c-format
+msgid "repository \"%s\" was not found.\n"
+msgstr "repozitář \"%s\" nebyl nalezen.\n"
+
+#, c-format
+msgid "skipping target: %s\n"
+msgstr "přeskakuje se cíl: %s\n"
+
+#, c-format
+msgid "There are %d members in group %s:\n"
+msgstr "%d členů ve skupině %s:\n"
+
+#, c-format
+msgid "database not found: %s\n"
+msgstr "databáze nebyla nalezen: %s\n"
+
+#, c-format
+msgid "'%s' is a file, did you mean %s instead of %s?\n"
+msgstr "'%s' je soubor, mysleli jste %s místo %s?\n"
+
+#, c-format
+msgid "Starting full system upgrade...\n"
+msgstr "Spouští se aktualizace systému...\n"
+
+#, c-format
+msgid "package %s does not have a valid architecture\n"
+msgstr "balíček %s nemá platnou architekturu\n"
+
+#, c-format
+msgid "%s and %s are in conflict\n"
+msgstr "%s a %s jsou v konfliktu\n"
+
+#, c-format
+msgid "%s and %s are in conflict (%s)\n"
+msgstr "%s a %s jsou v konfliktu (%s)\n"
+
+#, c-format
+msgid "Proceed with download?"
+msgstr "Pokračovat ve stahování?"
+
+#, c-format
+msgid "Proceed with installation?"
+msgstr "Pokračovat v instalaci?"
+
+#, c-format
+msgid "unable to %s directory-file conflicts\n"
+msgstr "nelze %s, konflikt mezi složkou a souborem\n"
+
+#, c-format
+msgid "%s exists in both '%s' and '%s'\n"
+msgstr "%s se nachází v '%s' a '%s'\n"
+
+#, c-format
+msgid "%s: %s exists in filesystem\n"
+msgstr "%s: %s již existuje v souborovém systému\n"
+
+#, c-format
+msgid "%s is invalid or corrupted\n"
+msgstr "%s je chybný nebo poškozený\n"
+
+#, c-format
+msgid "Errors occurred, no packages were upgraded.\n"
+msgstr "Vyskytly se chyby, žádné balíčky nebyly aktualizovány.\n"
+
+#, c-format
+msgid "Synchronizing package databases...\n"
+msgstr "Synchronizuje se databáze balíčků...\n"
+
+#, c-format
+msgid "loading packages...\n"
+msgstr "načítají se balíčky...\n"
+
+#, c-format
+msgid "failed to init transaction (%s)\n"
+msgstr "selhala příprava transakce (%s)\n"
+
+#, c-format
+msgid "could not lock database: %s\n"
+msgstr "nelze uzamknout databázi: %s\n"
+
+#, c-format
+msgid ""
+"  if you're sure a package manager is not already\n"
+"  running, you can remove %s\n"
+msgstr ""
+"  pokud jste si jisti, že právě neběží správce balíčků,\n"
+"  můžete odstranit %s\n"
+
+#, c-format
+msgid "failed to release transaction (%s)\n"
+msgstr "selhalo dokončení transakce (%s)\n"
+
+#, c-format
+msgid "no usable package repositories configured.\n"
+msgstr "nejsou nastaveny žádné použitelné repozitáře.\n"
+
+#, c-format
+msgid "database '%s' is not valid (%s)\n"
+msgstr "databáze '%s' je neplatná (%s)\n"
+
+#, c-format
+msgid "insufficient columns available for table display\n"
+msgstr "nedostatečný počet sloupců pro zobrazení tabulky\n"
+
+#, c-format
+msgid "Valid"
+msgstr "Platný"
+
+#, c-format
+msgid "Key expired"
+msgstr "Platnost klíče vypršela"
+
+#, c-format
+msgid "Expired"
+msgstr "Prošlý"
+
+#, c-format
+msgid "Invalid"
+msgstr "Neplatný"
+
+#, c-format
+msgid "Key unknown"
+msgstr "Neznámý klíč"
+
+#, c-format
+msgid "Key disabled"
+msgstr "Klíč zakázán"
+
+#, c-format
+msgid "Signature error"
+msgstr "Chyba v podpisu"
+
+#, c-format
+msgid "full trust"
+msgstr "plná důvěra"
+
+#, c-format
+msgid "marginal trust"
+msgstr "částečná důvěra"
+
+#, c-format
+msgid "never trust"
+msgstr "žádná důvěra"
+
+#, c-format
+msgid "unknown trust"
+msgstr "úroveň důvěry: neznámý"
+
+#, c-format
+msgid "%s, %s from \"%s\""
+msgstr "%s, %s od \"%s\""
+
+#, c-format
+msgid "Name"
+msgstr "Jméno"
+
+#, c-format
+msgid "Old Version"
+msgstr "Předchozí verze"
+
+#, c-format
+msgid "New Version"
+msgstr "Nová verze"
+
+#, c-format
+msgid "Net Change"
+msgstr "Změna (zhruba)"
+
+#, c-format
+msgid "Download Size"
+msgstr "Velikost ke stažení"
+
+#, c-format
+msgid "removal"
+msgstr "odstranění"
+
+#, c-format
+msgid "Packages"
+msgstr "Balíčky "
+
+#, c-format
+msgid "Total Download Size:"
+msgstr "Celková velikost ke stažení: "
+
+#, c-format
+msgid "Total Installed Size:"
+msgstr "Celková velikost po instalaci: "
+
+#, c-format
+msgid "Total Removed Size:"
+msgstr "Celkem odstraněno: "
+
+#, c-format
+msgid "Net Upgrade Size:"
+msgstr "Odhadovaná velikost aktualizace: "
+
+#, c-format
+msgid " [pending]"
+msgstr "[probíhá]"
+
+#, c-format
+msgid "New optional dependencies for %s\n"
+msgstr "Nové volitelné závislosti pro %s\n"
+
+#, c-format
+msgid "Optional dependencies for %s\n"
+msgstr "Volitelné závislosti pro %s\n"
+
+#, c-format
+msgid "Repository %s\n"
+msgstr "Repozitář %s\n"
+
+#, c-format
+msgid "invalid value: %d is not between %d and %d\n"
+msgstr "neplatná hodnota: %d není mezi %d a %d\n"
+
+#, c-format
+msgid "invalid number: %s\n"
+msgstr "neplatné číslo: %s\n"
+
+#, c-format
+msgid "Enter a selection (default=all)"
+msgstr "Zadejte výběr (výchozí = všechny)"
+
+#, c-format
+msgid "Enter a number (default=%d)"
+msgstr "Zadejte číslo (výchozí = %d)"
+
+#, c-format
+msgid "[Y/n]"
+msgstr "[A/n]"
+
+#, c-format
+msgid "[y/N]"
+msgstr "[a/N]"
+
+#, c-format
+msgid "Y"
+msgstr "A"
+
+#, c-format
+msgid "YES"
+msgstr "ANO"
+
+#, c-format
+msgid "N"
+msgstr "N"
+
+#, c-format
+msgid "NO"
+msgstr "NE"
+
+#, c-format
+msgid "failed to allocate string\n"
+msgstr "Nepodařilo se alokovat řetězec\n"
+
+#, c-format
+msgid "error: %s"
+msgstr "chyba: %s"
+
+#, c-format
+msgid "warning: %s"
+msgstr "varování: %s"
+
+#, c-format
+msgid "error: "
+msgstr "chyba: "
+
+#, c-format
+msgid "warning: "
+msgstr "varování: "

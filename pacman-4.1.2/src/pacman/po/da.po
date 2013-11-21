@@ -1,0 +1,1342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pacman Development Team <pacman-dev@archlinux.org>
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Frederik "Freso" S. Olesen <transifex.net@freso.dk>, 2011,2013
+# jakobw <jakob.wadsager@gmail.com>, 2012
+# jakobw <jakob.wadsager@gmail.com>, 2012
+# Joe Hansen <joedalton2@yahoo.dk>, 2011,2013
+# Frederik "Freso" S. Olesen <transifex.net@freso.dk>, 2013
+# Frederik "Freso" S. Olesen <transifex.net@freso.dk>, 2011
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
+"POT-Creation-Date: 2013-06-18 13:52+1000\n"
+"PO-Revision-Date: 2013-05-01 14:06+0000\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/archlinux-pacman/"
+"language/da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, c-format
+msgid "checking dependencies...\n"
+msgstr "tjekker afhængigheder...\n"
+
+#, c-format
+msgid "checking for file conflicts...\n"
+msgstr "tjekker for filkonflikter...\n"
+
+#, c-format
+msgid "resolving dependencies...\n"
+msgstr "løser afhængigheder...\n"
+
+#, c-format
+msgid "looking for inter-conflicts...\n"
+msgstr "kigger efter mellemkonflikter...\n"
+
+#, c-format
+msgid "installing %s...\n"
+msgstr "installerer %s...\n"
+
+#, c-format
+msgid "removing %s...\n"
+msgstr "fjerner %s...\n"
+
+#, c-format
+msgid "upgrading %s...\n"
+msgstr "opgraderer %s...\n"
+
+#, c-format
+msgid "downgrading %s...\n"
+msgstr "nedgraderer %s...\n"
+
+#, c-format
+msgid "reinstalling %s...\n"
+msgstr "geninstallerer %s...\n"
+
+#, c-format
+msgid "checking package integrity...\n"
+msgstr "tjekker pakkeintegritet...\n"
+
+#, c-format
+msgid "checking keyring...\n"
+msgstr "tjekker nøglering...\n"
+
+#, c-format
+msgid "downloading required keys...\n"
+msgstr "henter påkrævede nøgler...\n"
+
+#, c-format
+msgid "loading package files...\n"
+msgstr "indlæser pakkefiler...\n"
+
+#, c-format
+msgid "checking delta integrity...\n"
+msgstr "tjekker deltaintegritet...\n"
+
+#, c-format
+msgid "applying deltas...\n"
+msgstr "anvender deltaer...\n"
+
+#, c-format
+msgid "generating %s with %s... "
+msgstr "opretter %s med %s... "
+
+#, c-format
+msgid "success!\n"
+msgstr "lykkedes!\n"
+
+#, c-format
+msgid "failed.\n"
+msgstr "fejlede.\n"
+
+#, c-format
+msgid "Retrieving packages ...\n"
+msgstr "Indhenter pakker ...\n"
+
+#, c-format
+msgid "checking available disk space...\n"
+msgstr "tjekker tilgængelig diskplads...\n"
+
+#, c-format
+msgid "%s optionally requires %s\n"
+msgstr "%s har valgfri afhængighed %s\n"
+
+#, c-format
+msgid "%s is in IgnorePkg/IgnoreGroup. Install anyway?"
+msgstr "%s er i IgnorePkg/IgnoreGroup. Installer alligevel?"
+
+#, c-format
+msgid "Replace %s with %s/%s?"
+msgstr "Erstat %s med %s/%s?"
+
+#, c-format
+msgid "%s and %s are in conflict. Remove %s?"
+msgstr "%s og %s er i konflikt. Fjern %s?"
+
+#, c-format
+msgid "%s and %s are in conflict (%s). Remove %s?"
+msgstr "%s og %s er i konflikt (%s). Fjern %s?"
+
+#, c-format
+msgid ""
+"The following package cannot be upgraded due to unresolvable dependencies:\n"
+msgid_plural ""
+"The following packages cannot be upgraded due to unresolvable dependencies:\n"
+msgstr[0] ""
+"Følgende pakke kan ikke opgraderes på grund af uløselige afhængigheder:\n"
+msgstr[1] ""
+"Følgende pakker kan ikke opgraderes på grund af uløselige afhængigheder:\n"
+
+#, c-format
+msgid "Do you want to skip the above package for this upgrade?"
+msgid_plural "Do you want to skip the above packages for this upgrade?"
+msgstr[0] "Vil du springe over ovenstående pakke under denne opgradering?"
+msgstr[1] "Vil du springe over ovenstående pakker under denne opgradering?"
+
+#, c-format
+msgid "There are %zd providers available for %s:\n"
+msgstr "Der er %zd udbydere tilgængelig(e) for %s:\n"
+
+#, c-format
+msgid "%s-%s: local version is newer. Upgrade anyway?"
+msgstr "%s-%s: lokal version er nyere. Opgrader alligevel?"
+
+#, c-format
+msgid ""
+"File %s is corrupted (%s).\n"
+"Do you want to delete it?"
+msgstr ""
+"Filen %s er ødelagt (%s).\n"
+"Ønsker du at slette den?"
+
+#, c-format
+msgid "Import PGP key %d%c/%s, \"%s\", created: %s (revoked)?"
+msgstr "Importer PGP-nøgle %d%c/%s, »%s«, oprettet: %s (tilbagekaldt)?"
+
+#, c-format
+msgid "Import PGP key %d%c/%s, \"%s\", created: %s?"
+msgstr "Importer PGP-nøgle %d%c/%s, »%s«, oprettet: %s?"
+
+#, c-format
+msgid "installing"
+msgstr "installerer"
+
+#, c-format
+msgid "upgrading"
+msgstr "opgraderer"
+
+#, c-format
+msgid "downgrading"
+msgstr "nedgraderer"
+
+#, c-format
+msgid "reinstalling"
+msgstr "geninstallerer"
+
+#, c-format
+msgid "removing"
+msgstr "fjerner"
+
+#, c-format
+msgid "checking for file conflicts"
+msgstr "tjekker for filkonflikter"
+
+#, c-format
+msgid "checking available disk space"
+msgstr "tjekker tilgængelig diskplads"
+
+#, c-format
+msgid "checking package integrity"
+msgstr "tjekker pakkeintegritet"
+
+#, c-format
+msgid "checking keys in keyring"
+msgstr "tjekker nøgler i nøglering"
+
+#, c-format
+msgid "loading package files"
+msgstr "indlæser pakkefiler"
+
+#, c-format
+msgid "downloading %s...\n"
+msgstr "henter %s...\n"
+
+#, c-format
+msgid "%s: %s (File type mismatch)\n"
+msgstr "%s: %s (forskellige filtyper)\n"
+
+#, c-format
+msgid "%s: %s (UID mismatch)\n"
+msgstr "%s: %s (forskellige UID'er)\n"
+
+#, c-format
+msgid "%s: %s (GID mismatch)\n"
+msgstr "%s: %s (forskellige GID'er)\n"
+
+#, c-format
+msgid "%s: %s (Permissions mismatch)\n"
+msgstr "%s: %s (forskellige rettigheder)\n"
+
+#, c-format
+msgid "%s: %s (Modification time mismatch)\n"
+msgstr "%s: %s (forskellige ændringstidspunkter)\n"
+
+#, c-format
+msgid "unable to read symlink contents: %s\n"
+msgstr "kan ikke læse indhold for symbolske henvisninger: %s\n"
+
+#, c-format
+msgid "%s: %s (Symlink path mismatch)\n"
+msgstr "%s: %s (forskellige stier for symbolske henvisninger)\n"
+
+#, c-format
+msgid "%s: %s (Size mismatch)\n"
+msgstr "%s: %s (forskellige størrelser)\n"
+
+#, c-format
+msgid "path too long: %s%s\n"
+msgstr "sti for lang: %s%s\n"
+
+#, c-format
+msgid "%s: %jd total file, "
+msgid_plural "%s: %jd total files, "
+msgstr[0] "%s: %jd samlet fil, "
+msgstr[1] "%s: %jd samlede filer, "
+
+#, c-format
+msgid "%jd missing file\n"
+msgid_plural "%jd missing files\n"
+msgstr[0] "%jd manglende fil\n"
+msgstr[1] "%jd manglende filer\n"
+
+#, c-format
+msgid "%s: no mtree file\n"
+msgstr "%s: ingen mtree-fil\n"
+
+#, c-format
+msgid "file type not recognized: %s%s\n"
+msgstr "filtypen blev ikke genkendt: %s%s\n"
+
+#, c-format
+msgid "%jd altered file\n"
+msgid_plural "%jd altered files\n"
+msgstr[0] "%jd ændret fil\n"
+msgstr[1] "%jd ændrede filer\n"
+
+#, c-format
+msgid "malloc failure: could not allocate %zd bytes\n"
+msgstr "malloc-fejl: Kunne ikke allokere %zd byte\n"
+
+#, c-format
+msgid "could not get current working directory\n"
+msgstr "kunne ikke hente nuværende arbejdsmappe\n"
+
+#, c-format
+msgid "could not chdir to download directory %s\n"
+msgstr "kunne ikke ændre mappe (chdir) til overførelsesmappe %s\n"
+
+#, c-format
+msgid "running XferCommand: fork failed!\n"
+msgstr "udfører XferCommand: Forgrening mislykkedes!\n"
+
+#, c-format
+msgid "could not rename %s to %s (%s)\n"
+msgstr "kunne ikke omdøbe %s til %s (%s)\n"
+
+#, c-format
+msgid "could not restore working directory (%s)\n"
+msgstr "kunne ikke genskabe arbejdsmappe (%s)\n"
+
+#, c-format
+msgid "config file %s, line %d: invalid value for '%s' : '%s'\n"
+msgstr "konfigurationsfil %s, linie %d: ugyldig værdi for '%s': '%s'\n"
+
+#, c-format
+msgid "config file %s, line %d: '%s' option invalid, no signature support\n"
+msgstr ""
+"konfigurationsfil %s, linie %d: '%s' valgmulighed ugyldig, ingen "
+"signaturrapport\n"
+
+#, c-format
+msgid ""
+"config file %s, line %d: directive '%s' in section '%s' not recognized.\n"
+msgstr ""
+"konfigurationsfil: %s, linie %d: direktiv '%s' i sektion '%s' blev ikke "
+"genkendt.\n"
+
+#, c-format
+msgid "mirror '%s' contains the '%s' variable, but no '%s' is defined.\n"
+msgstr ""
+"filspejl '%s' indeholder variablen '%s', men ingen '%s' er defineret.\n"
+
+#, c-format
+msgid "could not add server URL to database '%s': %s (%s)\n"
+msgstr "kunne ikke tilføje serveradresse til database »%s«: %s (%s)\n"
+
+#, c-format
+msgid "failed to initialize alpm library (%s)\n"
+msgstr "kunne ikke initialisere alpm-bibliotek (%s)\n"
+
+#, c-format
+msgid "  try running pacman-db-upgrade\n"
+msgstr "  prøv at køre pacman-db-upgrade\n"
+
+#, c-format
+msgid "problem setting logfile '%s' (%s)\n"
+msgstr "problem med angivelse af logfil  »%s« (%s)\n"
+
+#, c-format
+msgid "problem setting gpgdir '%s' (%s)\n"
+msgstr "problem med angivelse af gpgdir '%s' (%s)\n"
+
+#, c-format
+msgid "no '%s' configured"
+msgstr "ingen '%s' er konfigureret"
+
+#, c-format
+msgid "could not register '%s' database (%s)\n"
+msgstr "kunne ikke registrere databsen »%s« (%s)\n"
+
+#, c-format
+msgid "could not add mirror '%s' to database '%s' (%s)\n"
+msgstr "kunne ikke tilføje filspejl '%s' til database '%s' (%s)\n"
+
+#, c-format
+msgid "config parsing exceeded max recursion depth of %d.\n"
+msgstr "analyse af konfigurationsfil oversteg maksimal rekursionsdybde %d.\n"
+
+#, c-format
+msgid "config file %s could not be read: %s\n"
+msgstr "konfigurationsfil %s kunne ikke læses: %s\n"
+
+#, c-format
+msgid "config file %s, line %d: bad section name.\n"
+msgstr "konfigurationsfil %s, linje %d: Ugyldigt afsnitsnavn.\n"
+
+#, c-format
+msgid "config file %s, line %d: syntax error in config file- missing key.\n"
+msgstr ""
+"konfigurationsfil %s, linje %d: Syntaksfejl i konfigurationsfil - manglende "
+"nøgle.\n"
+
+#, c-format
+msgid "config file %s, line %d: All directives must belong to a section.\n"
+msgstr ""
+"konfigurationsfil %s, linje %d: Alle direktiver skal tilhøre et afsnit.\n"
+
+#, c-format
+msgid "config file %s, line %d: directive '%s' needs a value\n"
+msgstr "konfigurationsfil %s, linie %d: direktiv '%s' kræver en værdi\n"
+
+#, c-format
+msgid "no targets specified (use -h for help)\n"
+msgstr "ingen mål angivet (brug -h for hjælp)\n"
+
+#, c-format
+msgid "no install reason specified (use -h for help)\n"
+msgstr "ingen installationsårsag angivet (brug -h for hjælp)\n"
+
+#, c-format
+msgid "could not set install reason for package %s (%s)\n"
+msgstr "kunne ikke angive installationsårsag for pakke %s (%s)\n"
+
+#, c-format
+msgid "%s: install reason has been set to 'installed as dependency'\n"
+msgstr ""
+"%s: installationsårsag er blevet angivet til 'installeret som afhængighed'\n"
+
+#, c-format
+msgid "%s: install reason has been set to 'explicitly installed'\n"
+msgstr "%s: installationsårsag er blevet angivet til 'installeret eksplicit'\n"
+
+#, c-format
+msgid " [installed]"
+msgstr "[installeret]"
+
+#, c-format
+msgid "Optional Deps  :"
+msgstr "Valgfrie arkiver :"
+
+#, c-format
+msgid "Explicitly installed"
+msgstr "Direkte installeret"
+
+#, c-format
+msgid "Installed as a dependency for another package"
+msgstr "Installeret som en afhængighed af en anden pakke"
+
+#, c-format
+msgid "Unknown"
+msgstr "Ukendt"
+
+#, c-format
+msgid "None"
+msgstr "Ingen"
+
+#, c-format
+msgid "MD5 Sum"
+msgstr "MD5-sum"
+
+#, c-format
+msgid "SHA256 Sum"
+msgstr "SHA256-sum"
+
+#, c-format
+msgid "Signature"
+msgstr "Signatur"
+
+#, c-format
+msgid "Repository     :"
+msgstr "Arkiv          :"
+
+#, c-format
+msgid "Name           :"
+msgstr "Navn           :"
+
+#, c-format
+msgid "Version        :"
+msgstr "Version        :"
+
+#, c-format
+msgid "Description    :"
+msgstr "Beskrivelse    :"
+
+#, c-format
+msgid "Architecture   :"
+msgstr "Arkitektur     :"
+
+#, c-format
+msgid "URL            :"
+msgstr "URL            :"
+
+#, c-format
+msgid "Licenses       :"
+msgstr "Licenser       :"
+
+#, c-format
+msgid "Groups         :"
+msgstr "Grupper        :"
+
+#, c-format
+msgid "Provides       :"
+msgstr "Tilbyder       :"
+
+#, c-format
+msgid "Depends On     :"
+msgstr "Afhænger af    :"
+
+#, c-format
+msgid "Required By    :"
+msgstr "Krævet af      :"
+
+#, c-format
+msgid "Optional For   :"
+msgstr "Valgfri for:"
+
+#, c-format
+msgid "Conflicts With :"
+msgstr "I konflikt med :"
+
+#, c-format
+msgid "Replaces       :"
+msgstr "Erstatter      :"
+
+#, c-format
+msgid "Download Size  :"
+msgstr "Overførselsstørrelse:"
+
+#, c-format
+msgid "Compressed Size:"
+msgstr "Komprimeret størrelse:"
+
+#, c-format
+msgid "Installed Size :"
+msgstr "Installeret størrelse:"
+
+#, c-format
+msgid "Packager       :"
+msgstr "Pakkevedligeh. :"
+
+#, c-format
+msgid "Build Date     :"
+msgstr "Kompiler.dato  :"
+
+#, c-format
+msgid "Install Date   :"
+msgstr "Instal.dato    :"
+
+#, c-format
+msgid "Install Reason :"
+msgstr "Installer årsag:"
+
+#, c-format
+msgid "Install Script :"
+msgstr "Installer skr. :"
+
+#, c-format
+msgid "Yes"
+msgstr "Ja"
+
+#, c-format
+msgid "No"
+msgstr "Nej"
+
+#, c-format
+msgid "MD5 Sum        :"
+msgstr "MD5-sum        :"
+
+#, c-format
+msgid "SHA256 Sum     :"
+msgstr "SHA256-sum     :"
+
+#, c-format
+msgid "Signatures     :"
+msgstr "Signaturer     :"
+
+#, c-format
+msgid "Validated By   :"
+msgstr "Valideret af:"
+
+#, c-format
+msgid "could not calculate checksums for %s\n"
+msgstr "kunne ikke beregne tjeksummer for %s\n"
+
+#, c-format
+msgid "Backup Files:\n"
+msgstr "Lav sikkerhedskopi:\n"
+
+#, c-format
+msgid "(none)\n"
+msgstr "(ingen)\n"
+
+#, c-format
+msgid "no changelog available for '%s'.\n"
+msgstr "ingen ændringslog tilgængelig for »%s«.\n"
+
+#, c-format
+msgid "Changelog for %s:\n"
+msgstr "Ændringslog for %s:\n"
+
+#, c-format
+msgid "installed"
+msgstr "installeret"
+
+#, c-format
+msgid "options"
+msgstr "indstillinger"
+
+#, c-format
+msgid "file(s)"
+msgstr "filer"
+
+#, c-format
+msgid "package(s)"
+msgstr "pakker"
+
+#, c-format
+msgid "usage"
+msgstr "brug"
+
+#, c-format
+msgid "operation"
+msgstr "handling"
+
+#, c-format
+msgid "operations:\n"
+msgstr "handlinger:\n"
+
+#, c-format
+msgid ""
+"\n"
+"use '%s {-h --help}' with an operation for available options\n"
+msgstr ""
+"\n"
+"Brug »%s {-h --help}« sammen med en handling for at se tilgængelige "
+"indstillinger\n"
+
+#, c-format
+msgid ""
+"  -c, --cascade        remove packages and all packages that depend on them\n"
+msgstr ""
+"  -c, --cascade        fjern pakker og alle pakker som afhænger af dem\n"
+
+#, c-format
+msgid "  -n, --nosave         remove configuration files\n"
+msgstr ""
+"  -n, --nosave         fjern konfigurationsfiler\n"
+"\n"
+
+#, c-format
+msgid ""
+"  -s, --recursive      remove unnecessary dependencies\n"
+"                       (-ss includes explicitly installed dependencies)\n"
+msgstr ""
+"  -s, --recursive      fjern unødvendige afhængigheder\n"
+"                       (-ss inkluderer eksplicit installerede "
+"afhængigheder)\n"
+
+#, c-format
+msgid "  -u, --unneeded       remove unneeded packages\n"
+msgstr "  -u, --unneeded       fjern unødvendige pakker\n"
+
+#, c-format
+msgid "      --needed         do not reinstall up to date packages\n"
+msgstr "      --needed         geninstaller ikke ajourførte pakker\n"
+
+#, c-format
+msgid "  -c, --changelog      view the changelog of a package\n"
+msgstr "  -c, --changelog      vis ændringsloggen for en pakke\n"
+
+#, c-format
+msgid ""
+"  -d, --deps           list packages installed as dependencies [filter]\n"
+msgstr ""
+"  -d, --deps           vis pakker installeret som afhængigheder [filter]\n"
+
+#, c-format
+msgid "  -e, --explicit       list packages explicitly installed [filter]\n"
+msgstr "  -e, --explicit       vis pakker som eksplicit installeret [filter]\n"
+
+#, c-format
+msgid "  -g, --groups         view all members of a package group\n"
+msgstr "  -g, --groups         vis alle medlemmer af en pakkegruppe\n"
+
+#, c-format
+msgid ""
+"  -i, --info           view package information (-ii for backup files)\n"
+msgstr ""
+"  -i, --info           vis pakkeinformation (-ii for sikkerhedskopier)\n"
+
+#, c-format
+msgid ""
+"  -k, --check          check that package files exist (-kk for file "
+"properties)\n"
+msgstr "-k, --check kontroller at pakkefiler findes (-kk for filegenskaber)\n"
+
+#, c-format
+msgid "  -l, --list           list the contents of the queried package\n"
+msgstr "  -l, --list           vis indholdet af pakken der er sat i kø\n"
+
+#, c-format
+msgid ""
+"  -m, --foreign        list installed packages not found in sync db(s) "
+"[filter]\n"
+msgstr ""
+"  -m, --foreign        vis installerede pakker der ikke blev fundet i sync "
+"db(s) [filter]\n"
+
+#, c-format
+msgid ""
+"  -n, --native         list installed packages only found in sync db(s) "
+"[filter]\n"
+msgstr ""
+"-n, --native vis installerede pakker som kun er fundet i sync db(s) "
+"[filter]\n"
+
+#, c-format
+msgid "  -o, --owns <file>    query the package that owns <file>\n"
+msgstr "  -o, --owns <fil>     forespørg pakken som ejer <fil>\n"
+
+#, c-format
+msgid "  -p, --file <package> query a package file instead of the database\n"
+msgstr "  -p, --file <pakke> forespørg en pakkefil i steden for databasen\n"
+
+#, c-format
+msgid "  -q, --quiet          show less information for query and search\n"
+msgstr ""
+"  -q, --quiet          vis mindre information for forespørgsel og søgning\n"
+
+#, c-format
+msgid ""
+"  -s, --search <regex> search locally-installed packages for matching "
+"strings\n"
+msgstr ""
+"  -s, --search <regulært udtryk> søg i lokalt installerede pakker for ens "
+"strenge\n"
+
+#, c-format
+msgid ""
+"  -t, --unrequired     list packages not required by any package [filter]\n"
+msgstr ""
+"  -t, --unrequired     vis pakker som ikke er krævet af andre pakker "
+"[filter]\n"
+
+#, c-format
+msgid "  -u, --upgrades       list outdated packages [filter]\n"
+msgstr "  -u, --upgrades       vis uddaterede pakker [filter]\n"
+
+#, c-format
+msgid ""
+"  -c, --clean          remove old packages from cache directory (-cc for "
+"all)\n"
+msgstr ""
+"  -c, --clean          fjern gamle pakker fra mellemlagermappe (-cc for "
+"alle)\n"
+
+#, c-format
+msgid "  -i, --info           view package information\n"
+msgstr "  -i, --info           vis pakkeinformation\n"
+
+#, c-format
+msgid "  -l, --list <repo>    view a list of packages in a repo\n"
+msgstr "  -l, --list <arkiv>    vis en liste over pakker i et arkiv\n"
+
+#, c-format
+msgid ""
+"  -s, --search <regex> search remote repositories for matching strings\n"
+msgstr ""
+"  -s, --search <regulært udtryk> søg i eksterne arkiver efter ens strenge\n"
+
+#, c-format
+msgid ""
+"  -u, --sysupgrade     upgrade installed packages (-uu allows downgrade)\n"
+msgstr ""
+"  -u, --sysupgrade     opgrader installerede pakker (-uu tillader "
+"nedgradering)\n"
+
+#, c-format
+msgid ""
+"  -w, --downloadonly   download packages but do not install/upgrade "
+"anything\n"
+msgstr ""
+"  -w, --downloadonly   hent pakker men installer ikke eller opgrader ikke "
+"noget\n"
+
+#, c-format
+msgid ""
+"  -y, --refresh        download fresh package databases from the server\n"
+msgstr "  -y, --refresh        hent friske pakkedatabaser fra serveren\n"
+
+#, c-format
+msgid "      --asdeps         mark packages as non-explicitly installed\n"
+msgstr "      --asdeps         marker pakker som ikkeeksplicit installeret\n"
+
+#, c-format
+msgid "      --asexplicit     mark packages as explicitly installed\n"
+msgstr "      --asexplicit     marker pakker som eksplicit installeret\n"
+
+#, c-format
+msgid "      --force          force install, overwrite conflicting files\n"
+msgstr ""
+"      --force          tving installation, overskriv filer i konflikt\n"
+
+#, c-format
+msgid "      --asdeps         install packages as non-explicitly installed\n"
+msgstr ""
+"      --asdeps         installer pakker så de fremstår som værende "
+"ikkeeksplicit installeret\n"
+
+#, c-format
+msgid "      --asexplicit     install packages as explicitly installed\n"
+msgstr ""
+"      --asexplicit     installer pakker som værende eksplicit installerede\n"
+
+#, c-format
+msgid ""
+"      --ignore <pkg>   ignore a package upgrade (can be used more than "
+"once)\n"
+msgstr ""
+"      --ignore <pakke>   ignorer en pakkeopgradering (kan bruges mere end en "
+"gang)\n"
+
+#, c-format
+msgid ""
+"      --ignoregroup <grp>\n"
+"                       ignore a group upgrade (can be used more than once)\n"
+msgstr ""
+"      --ignoregroup <gruppe>\n"
+"                       ignorer en gruppeopgradering (kan bruges mere end en "
+"gang)\n"
+
+#, c-format
+msgid ""
+"  -d, --nodeps         skip dependency version checks (-dd to skip all "
+"checks)\n"
+msgstr ""
+"  -d, --nodeps         spring over versionstjek af afhængigheder (-dd for at "
+"springe over alle tjek)\n"
+
+#, c-format
+msgid ""
+"      --dbonly         only modify database entries, not package files\n"
+msgstr ""
+"      --dbonly         modificer kun databasepunkter, ikke pakkefiler\n"
+
+#, c-format
+msgid ""
+"      --noprogressbar  do not show a progress bar when downloading files\n"
+msgstr "      --noprogressbar  vis ikke en statusbjælke når der hentes filer\n"
+
+#, c-format
+msgid ""
+"      --noscriptlet    do not execute the install scriptlet if one exists\n"
+msgstr ""
+"      --noscriptlet    kør ikke installationsskriplet hvis en sådan findes\n"
+
+#, c-format
+msgid ""
+"  -p, --print          print the targets instead of performing the "
+"operation\n"
+msgstr ""
+"  -p, --print          udskriv målene i stedet for at udføre operationen\n"
+
+#, c-format
+msgid ""
+"      --print-format <string>\n"
+"                       specify how the targets should be printed\n"
+msgstr ""
+"      --print-format <string>\n"
+"                       angiv hvordan målene skal vises\n"
+
+#, c-format
+msgid "  -b, --dbpath <path>  set an alternate database location\n"
+msgstr "  -b, --dbpath <sti>  angiv en altternativ databaseplacering\n"
+
+#, c-format
+msgid "  -r, --root <path>    set an alternate installation root\n"
+msgstr "  -r, --root <sti>    angiv en alternativ installationsrod\n"
+
+#, c-format
+msgid "  -v, --verbose        be verbose\n"
+msgstr "  -v, --verbose        vær uddybende\n"
+
+#, c-format
+msgid "      --arch <arch>    set an alternate architecture\n"
+msgstr "      --arch <arkit.>    angiv en alternativ arkitektur\n"
+
+#, c-format
+msgid "      --cachedir <dir> set an alternate package cache location\n"
+msgstr ""
+"      --cachedir <mappe> angiv en alternativ pakkemellemlagerplacering\n"
+
+#, c-format
+msgid "      --color <when>   colorize the output\n"
+msgstr "      --color <når>    farvelæg uddataen\n"
+
+#, c-format
+msgid "      --config <path>  set an alternate configuration file\n"
+msgstr "      --config <sti>  angiv en alternativ konfigurationsfil\n"
+
+#, c-format
+msgid "      --debug          display debug messages\n"
+msgstr "      --debug          vis fejlsøgningsbeskeder\n"
+
+#, c-format
+msgid "      --gpgdir <path>  set an alternate home directory for GnuPG\n"
+msgstr "      --gpgdir <sti>  angiv en alternativ hjemmemappe for GnuPG\n"
+
+#, c-format
+msgid "      --logfile <path> set an alternate log file\n"
+msgstr "      --logfile <sti> angiv en alternativ logfil\n"
+
+#, c-format
+msgid "      --noconfirm      do not ask for any confirmation\n"
+msgstr "      --noconfirm      spørg ikke om bekræftelser\n"
+
+#, c-format
+msgid ""
+"                       This program may be freely redistributed under\n"
+"                       the terms of the GNU General Public License.\n"
+msgstr ""
+"                       Dette program kan frit videredistribueres under\n"
+"                       betingelserne i GNU General Public License.\n"
+
+#, c-format
+msgid "invalid argument '%s' for %s\n"
+msgstr "Ugyldigt argument »%s« for %s\n"
+
+#, c-format
+msgid "'%s' is not a valid debug level\n"
+msgstr "»%s« er ikke et gyldigt fejlsøgningsniveau\n"
+
+#, c-format
+msgid "only one operation may be used at a time\n"
+msgstr "kun en handling kan udføres ad gangen\n"
+
+#, c-format
+msgid "invalid option\n"
+msgstr "ugyldig indstilling\n"
+
+#, c-format
+msgid "memory exhausted in argument parsing\n"
+msgstr "hukommelse opbrugt i argumentanalyse\n"
+
+#, c-format
+msgid "failed to reopen stdin for reading: (%s)\n"
+msgstr "kunne ikke genåbne stdin for læsning: (%s)\n"
+
+#, c-format
+msgid "argument '-' specified without input on stdin\n"
+msgstr "argumentet '-' angivet uden inddata til stdin\n"
+
+#, c-format
+msgid "you cannot perform this operation unless you are root.\n"
+msgstr ""
+"du kan ikke udføre denne handling med mindre du er administrator (root).\n"
+
+#, c-format
+msgid "no operation specified (use -h for help)\n"
+msgstr "ingen handling angivet (brug -h for hjælp)\n"
+
+#, c-format
+msgid "%s is owned by %s %s\n"
+msgstr "%s er ejet af %s %s\n"
+
+#, c-format
+msgid "no file was specified for --owns\n"
+msgstr "ingen fil var angivet for -owns\n"
+
+#, c-format
+msgid "cannot determine real path for '%s': %s\n"
+msgstr "kan ikke bestemme reel sti for »%s«: %s\n"
+
+#, c-format
+msgid "failed to find '%s' in PATH: %s\n"
+msgstr "kunne ikke finde »%s« i STI: %s\n"
+
+#, c-format
+msgid "failed to read file '%s': %s\n"
+msgstr "kunne ikke læse fil »%s«: %s\n"
+
+#, c-format
+msgid "No package owns %s\n"
+msgstr "Ingen pakke ejer %s\n"
+
+#, c-format
+msgid "group '%s' was not found\n"
+msgstr "gruppen »%s« blev ikke fundet\n"
+
+#, c-format
+msgid "package '%s' was not found\n"
+msgstr "pakke »%s« blev ikke fundet\n"
+
+#, c-format
+msgid "'%s' is a file, you might want to use %s.\n"
+msgstr "'%s' er en fil, du vil muligvis bruge %s\n"
+
+#, c-format
+msgid "could not load package '%s': %s\n"
+msgstr "kunne ikke indlæse pakke '%s': %s\n"
+
+#, c-format
+msgid "target not found: %s\n"
+msgstr "mål ikke fundet: %s\n"
+
+#, c-format
+msgid "failed to prepare transaction (%s)\n"
+msgstr "kunne ikke forberede transaktion (%s)\n"
+
+#, c-format
+msgid "%s: requires %s\n"
+msgstr "%s: kræver %s\n"
+
+#, c-format
+msgid "%s is designated as a HoldPkg.\n"
+msgstr "%s er designet som en HoldPkg.\n"
+
+#, c-format
+msgid "HoldPkg was found in target list. Do you want to continue?"
+msgstr "HoldPkg blev fundet i målliste. Ønsker du at fortsætte?"
+
+#, c-format
+msgid " there is nothing to do\n"
+msgstr " der er intet at udføre\n"
+
+#, c-format
+msgid "Do you want to remove these packages?"
+msgstr "Ønsker du at fjerne disse pakker?"
+
+#, c-format
+msgid "failed to commit transaction (%s)\n"
+msgstr "kunne ikke indsende (commit) transaktion (%s)\n"
+
+#, c-format
+msgid "could not remove %s: %s\n"
+msgstr "kunne ikke fjerne %s: %s\n"
+
+#, c-format
+msgid "could not access database directory\n"
+msgstr "kunne ikke tilgå databasemappe\n"
+
+#, c-format
+msgid "Database directory: %s\n"
+msgstr "Databasemappe: %s\n"
+
+#, c-format
+msgid "Do you want to remove unused repositories?"
+msgstr "Ønsker du at fjerne ubrugt arkiver?"
+
+#, c-format
+msgid "removing unused sync repositories...\n"
+msgstr "fjerner ubrugte synkroniseringsarkiver...\n"
+
+#, c-format
+msgid "Packages to keep:\n"
+msgstr "Pakker der skal beholdes:\n"
+
+#, c-format
+msgid "  All locally installed packages\n"
+msgstr "  Alle lokalt installerede pakker\n"
+
+#, c-format
+msgid "  All current sync database packages\n"
+msgstr "Alle nuværende pakker i synkroniseringsdatabasen\n"
+
+#, c-format
+msgid "Cache directory: %s\n"
+msgstr "Mappe for mellemlager: %s\n"
+
+#, c-format
+msgid "Do you want to remove all other packages from cache?"
+msgstr "Ønsker du at fjerne alle andre pakker fra mellemlager?"
+
+#, c-format
+msgid "removing old packages from cache...\n"
+msgstr "fjerner gamle pakker fra mellemlager...\n"
+
+#, c-format
+msgid "Do you want to remove ALL files from cache?"
+msgstr "Ønsker du at fjerne ALLE filer fra mellemlager?"
+
+#, c-format
+msgid "removing all files from cache...\n"
+msgstr "fjerner alle filer fra mellemlager...\n"
+
+#, c-format
+msgid "could not access cache directory %s\n"
+msgstr "kunne ikke tilgå mellemlagermappe %s\n"
+
+#, c-format
+msgid "failed to update %s (%s)\n"
+msgstr "Kunne ikke opdatere %s(%s)\n"
+
+#, c-format
+msgid " %s is up to date\n"
+msgstr " %s er opdateret\n"
+
+#, c-format
+msgid "failed to synchronize any databases\n"
+msgstr "kunne ikke synkronisere databaser\n"
+
+#, c-format
+msgid "repository '%s' does not exist\n"
+msgstr "arkiv »%s« findes ikke\n"
+
+#, c-format
+msgid "repository \"%s\" was not found.\n"
+msgstr "arkiv »%s« blev ikke fundet.\n"
+
+#, c-format
+msgid "skipping target: %s\n"
+msgstr "springer mål over: %s\n"
+
+#, c-format
+msgid "There are %d members in group %s:\n"
+msgstr "Der er %d medlemmer i gruppen %s:\n"
+
+#, c-format
+msgid "database not found: %s\n"
+msgstr "databasen blev ikke fundet: %s\n"
+
+#, c-format
+msgid "'%s' is a file, did you mean %s instead of %s?\n"
+msgstr "'%s' er en fil, mente du %s i stedet for %s?\n"
+
+#, c-format
+msgid "Starting full system upgrade...\n"
+msgstr "Starter fuld systemopgradering...\n"
+
+#, c-format
+msgid "package %s does not have a valid architecture\n"
+msgstr "pakke %s har ikke en gyldig arkitektur\n"
+
+#, c-format
+msgid "%s and %s are in conflict\n"
+msgstr "%s og %s er i konflikt\n"
+
+#, c-format
+msgid "%s and %s are in conflict (%s)\n"
+msgstr "%s og %s er i konflikt (%s)\n"
+
+#, c-format
+msgid "Proceed with download?"
+msgstr "Fortsæt med hentning?"
+
+#, c-format
+msgid "Proceed with installation?"
+msgstr "Fortsæt med installation?"
+
+#, c-format
+msgid "unable to %s directory-file conflicts\n"
+msgstr "kan ikke %s mappe-fil konflikter\n"
+
+#, c-format
+msgid "%s exists in both '%s' and '%s'\n"
+msgstr "%s findes i både »%s« og »%s«\n"
+
+#, c-format
+msgid "%s: %s exists in filesystem\n"
+msgstr "%s: %s findes i filsystem\n"
+
+#, c-format
+msgid "%s is invalid or corrupted\n"
+msgstr "%s er ugyldig eller ødelagt\n"
+
+#, c-format
+msgid "Errors occurred, no packages were upgraded.\n"
+msgstr "Der opstod fejl, ingen pakker blev opgraderet.\n"
+
+#, c-format
+msgid "Synchronizing package databases...\n"
+msgstr "Synkroniserer pakkedatabaser...\n"
+
+#, c-format
+msgid "loading packages...\n"
+msgstr "indlæser pakker...\n"
+
+#, c-format
+msgid "failed to init transaction (%s)\n"
+msgstr "kunne ikke initialisere transaktion (%s)\n"
+
+#, c-format
+msgid "could not lock database: %s\n"
+msgstr "kunne ikke låse database: %s\n"
+
+#, c-format
+msgid ""
+"  if you're sure a package manager is not already\n"
+"  running, you can remove %s\n"
+msgstr ""
+"  hvis du er sikker på at en pakkehåndtering ikke \n"
+"  allerede kører, kan du fjerne %s\n"
+
+#, c-format
+msgid "failed to release transaction (%s)\n"
+msgstr "kunne ikke frigive transaktion (%s)\n"
+
+#, c-format
+msgid "no usable package repositories configured.\n"
+msgstr "ingen brugbare pakkearkiver er konfigureret.\n"
+
+#, c-format
+msgid "database '%s' is not valid (%s)\n"
+msgstr "database '%s' er ugyldig (%s)\n"
+
+#, c-format
+msgid "insufficient columns available for table display\n"
+msgstr "utilstrækkeligt antal kolonner tilgængeligt til visning af tabel\n"
+
+#, c-format
+msgid "Valid"
+msgstr "Gyldig"
+
+#, c-format
+msgid "Key expired"
+msgstr "Nøgle udløbet"
+
+#, c-format
+msgid "Expired"
+msgstr "Udløbet"
+
+#, c-format
+msgid "Invalid"
+msgstr "Ugyldig"
+
+#, c-format
+msgid "Key unknown"
+msgstr "Nøgle ukendt"
+
+#, c-format
+msgid "Key disabled"
+msgstr "Nøgle deaktiveret"
+
+#, c-format
+msgid "Signature error"
+msgstr "Signaturfejl"
+
+#, c-format
+msgid "full trust"
+msgstr "fuld tillid"
+
+#, c-format
+msgid "marginal trust"
+msgstr "marginal tillid"
+
+#, c-format
+msgid "never trust"
+msgstr "stol aldrig på"
+
+#, c-format
+msgid "unknown trust"
+msgstr "ukendt tillid"
+
+#, c-format
+msgid "%s, %s from \"%s\""
+msgstr "%s, %s fra »%s«"
+
+#, c-format
+msgid "Name"
+msgstr "Navn"
+
+#, c-format
+msgid "Old Version"
+msgstr "Gammel version"
+
+#, c-format
+msgid "New Version"
+msgstr "Ny version"
+
+#, c-format
+msgid "Net Change"
+msgstr "Nettoændring"
+
+#, c-format
+msgid "Download Size"
+msgstr "Overførselsstørrelse"
+
+#, c-format
+msgid "removal"
+msgstr "fjernelse"
+
+#, c-format
+msgid "Packages"
+msgstr "Pakker"
+
+#, c-format
+msgid "Total Download Size:"
+msgstr "Samlet overførselsstørrelse:"
+
+#, c-format
+msgid "Total Installed Size:"
+msgstr "Samlet installationsstørrelse:"
+
+#, c-format
+msgid "Total Removed Size:"
+msgstr "Samlet fjernet størrelse:"
+
+#, c-format
+msgid "Net Upgrade Size:"
+msgstr "Netto opgraderingsstørrelse:"
+
+#, c-format
+msgid " [pending]"
+msgstr "[venter]"
+
+#, c-format
+msgid "New optional dependencies for %s\n"
+msgstr "Nye valgfrie afhængigheder for %s\n"
+
+#, c-format
+msgid "Optional dependencies for %s\n"
+msgstr "Valgfrie afhængigheder for %s\n"
+
+#, c-format
+msgid "Repository %s\n"
+msgstr "Arkiv %s\n"
+
+#, c-format
+msgid "invalid value: %d is not between %d and %d\n"
+msgstr "ugyldig værdi: %d er ikke mellem %d og %d\n"
+
+#, c-format
+msgid "invalid number: %s\n"
+msgstr "ugyldigt tal: %s\n"
+
+#, c-format
+msgid "Enter a selection (default=all)"
+msgstr "Indtast et valg (standard=alle)"
+
+#, c-format
+msgid "Enter a number (default=%d)"
+msgstr "Indtast et tal (standard=%d)"
+
+#, c-format
+msgid "[Y/n]"
+msgstr "[J/n]"
+
+#, c-format
+msgid "[y/N]"
+msgstr "[j/N]"
+
+#, c-format
+msgid "Y"
+msgstr "J"
+
+#, c-format
+msgid "YES"
+msgstr "JA"
+
+#, c-format
+msgid "N"
+msgstr "N"
+
+#, c-format
+msgid "NO"
+msgstr "NEJ"
+
+#, c-format
+msgid "failed to allocate string\n"
+msgstr "kunne ikke allokere streng\n"
+
+#, c-format
+msgid "error: %s"
+msgstr "fejl: %s"
+
+#, c-format
+msgid "warning: %s"
+msgstr "advarsel: %s"
+
+#, c-format
+msgid "error: "
+msgstr "fejl: "
+
+#, c-format
+msgid "warning: "
+msgstr "advarsel: "
