@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 21 Nov 2013 21:51:37 +0100
+Source: archlinux-pacman
+Binary: archlinux-pacman
+Architecture: source amd64
+Version: 4.1.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Changed-By: Jubei Mitsuyoshi <Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>>
+Description: 
+ archlinux-pacman - archlinux package manager
+Changes: 
+ archlinux-pacman (4.1.2-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ 3bc84cffd45ffe91a9fd6eeff399183793d08373 1178 archlinux-pacman_4.1.2-1.dsc
+ e4375d188a627f363f41d9f025b53dab817ca0f0 2373237 archlinux-pacman_4.1.2.orig.tar.gz
+ 8af0b0720c11ed6adb0549198942eca5f75625c8 4237 archlinux-pacman_4.1.2-1.debian.tar.gz
+ 8327acabc6155b3a7cb51a725e642b81aa15ab51 636142 archlinux-pacman_4.1.2-1_amd64.deb
+Checksums-Sha256: 
+ 5559e34f5c2af9471f5a5c1fa08fba12d937a64b7ed9d3d6dc02809a4cddecfc 1178 archlinux-pacman_4.1.2-1.dsc
+ 7ab6e2d5513e3a4b848110e958d0107f36cf99c52e04c378d8088ccb3962f3e4 2373237 archlinux-pacman_4.1.2.orig.tar.gz
+ ffaf2937d9ac94071de8c1cf5be098d13a31fac9c3b72e80e89be36321352603 4237 archlinux-pacman_4.1.2-1.debian.tar.gz
+ 262b09b5fd4f9a147fb5891e75f2b1b834d57e881783b43d3ebbc3da35d0ca7a 636142 archlinux-pacman_4.1.2-1_amd64.deb
+Files: 
+ f34a5228cdeb6722619102d13ec7ec54 1178 devel optional archlinux-pacman_4.1.2-1.dsc
+ b93d1d0177330e13283fc7e4b58415ed 2373237 devel optional archlinux-pacman_4.1.2.orig.tar.gz
+ 45a819221d225ce03e435bef5de7aa41 4237 devel optional archlinux-pacman_4.1.2-1.debian.tar.gz
+ 85c7b624ba49f04d33ae33eb8f9d73b7 636142 devel optional archlinux-pacman_4.1.2-1_amd64.deb
