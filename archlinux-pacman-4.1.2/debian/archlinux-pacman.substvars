@@ -1,3 +1,0 @@
-misc:Pre-Depends=multiarch-support
-shlibs:Depends=archlinux-pacman, libarchive13, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libssl1.0.0 (>= 1.0.0)
-misc:Depends=
