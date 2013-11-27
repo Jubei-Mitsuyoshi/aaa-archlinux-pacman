@@ -1,0 +1,1375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pacman Development Team <pacman-dev@archlinux.org>
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# roentgen <arthur.titeica@gmail.com>, 2013
+# Arthur Titeica <arthur@psw.ro>, 2013
+# cantabile <cantabile.desu@gmail.com>, 2011
+# Ionut Biru <ibiru@archlinux.org>, 2011-2013
+# Mihai Coman <mihai@m1x.ro>, 2011,2013
+# roentgen <arthur.titeica@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
+"POT-Creation-Date: 2013-06-18 13:52+1000\n"
+"PO-Revision-Date: 2013-06-01 17:50+0000\n"
+"Last-Translator: roentgen <arthur.titeica@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/projects/p/archlinux-"
+"pacman/language/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#, c-format
+msgid "checking dependencies...\n"
+msgstr "se verifică dependențele...\n"
+
+#, c-format
+msgid "checking for file conflicts...\n"
+msgstr "se verifică dacă sunt conflicte între fișiere...\n"
+
+#, c-format
+msgid "resolving dependencies...\n"
+msgstr "se rezolvă dependențele...\n"
+
+#, c-format
+msgid "looking for inter-conflicts...\n"
+msgstr "căutare conflicte încrucișate...\n"
+
+#, c-format
+msgid "installing %s...\n"
+msgstr "se instalează %s...\n"
+
+#, c-format
+msgid "removing %s...\n"
+msgstr "se elimină %s...\n"
+
+#, c-format
+msgid "upgrading %s...\n"
+msgstr "se actualizează %s...\n"
+
+#, c-format
+msgid "downgrading %s...\n"
+msgstr "se retrogradează %s...\n"
+
+#, c-format
+msgid "reinstalling %s...\n"
+msgstr "se reinstaleză %s...\n"
+
+#, c-format
+msgid "checking package integrity...\n"
+msgstr "se verifică integritatea pachetului...\n"
+
+#, c-format
+msgid "checking keyring...\n"
+msgstr "se verifică inelul de chei...\n"
+
+#, c-format
+msgid "downloading required keys...\n"
+msgstr "se descarcă cheile necesare...\n"
+
+#, c-format
+msgid "loading package files...\n"
+msgstr "se încarcă fișierele pachet...\n"
+
+#, c-format
+msgid "checking delta integrity...\n"
+msgstr "se verifică integritatea delta...\n"
+
+#, c-format
+msgid "applying deltas...\n"
+msgstr "se aplică delta-uri...\n"
+
+#, c-format
+msgid "generating %s with %s... "
+msgstr "se generează %s cu %s..."
+
+#, c-format
+msgid "success!\n"
+msgstr "succes!\n"
+
+#, c-format
+msgid "failed.\n"
+msgstr "eșuat.\n"
+
+#, c-format
+msgid "Retrieving packages ...\n"
+msgstr "Se preiau pachetele ...\n"
+
+#, c-format
+msgid "checking available disk space...\n"
+msgstr "se verifică spațiul disponibil pe disc...\n"
+
+#, c-format
+msgid "%s optionally requires %s\n"
+msgstr "%s cere opțional %s\n"
+
+#, c-format
+msgid "%s is in IgnorePkg/IgnoreGroup. Install anyway?"
+msgstr "%s este în IgnorePkg/IgnoreGroup. Instalează oricum?"
+
+#, c-format
+msgid "Replace %s with %s/%s?"
+msgstr "Înlocuiește %s cu %s/%s?"
+
+#, c-format
+msgid "%s and %s are in conflict. Remove %s?"
+msgstr "%s e în conflict cu %s. Elimină %s?"
+
+#, c-format
+msgid "%s and %s are in conflict (%s). Remove %s?"
+msgstr "%s și %s sunt în conflict (%s). Elimină %s?"
+
+#, c-format
+msgid ""
+"The following package cannot be upgraded due to unresolvable dependencies:\n"
+msgid_plural ""
+"The following packages cannot be upgraded due to unresolvable dependencies:\n"
+msgstr[0] ""
+"Următorul pachet nu poate fi actualizat datorită unor dependențe "
+"nerezolvabile:\n"
+msgstr[1] ""
+"Următoarele pachete nu pot fi actualizate datorită unor dependențe "
+"nerezolvabile:\n"
+msgstr[2] ""
+"Următoarele pachete nu pot fi actualizate datorită unor dependențe "
+"nerezolvabile:\n"
+
+#, c-format
+msgid "Do you want to skip the above package for this upgrade?"
+msgid_plural "Do you want to skip the above packages for this upgrade?"
+msgstr[0] "Dorești omiterea pachetului de mai sus pentru această actualizare?"
+msgstr[1] "Dorești omiterea pachetelor de mai sus pentru această actualizare?"
+msgstr[2] "Dorești omiterea pachetelor de mai sus pentru această actualizare?"
+
+#, c-format
+msgid "There are %zd providers available for %s:\n"
+msgstr "Există %zd furnizori disponibili pentru %s:\n"
+
+#, c-format
+msgid "%s-%s: local version is newer. Upgrade anyway?"
+msgstr "%s-%s: versiunea locală este mai nouă. Actualizează oricum?"
+
+#, c-format
+msgid ""
+"File %s is corrupted (%s).\n"
+"Do you want to delete it?"
+msgstr ""
+"Fișierul %s este corupt (%s).\n"
+"Doriți să îl ștergeți?"
+
+#, c-format
+msgid "Import PGP key %d%c/%s, \"%s\", created: %s (revoked)?"
+msgstr "Importă cheia PGP %d%c/%s, \"%s\", creată: %s (revocată)?"
+
+#, c-format
+msgid "Import PGP key %d%c/%s, \"%s\", created: %s?"
+msgstr "Importă cheia PGP %d%c/%s, \"%s\", creată: %s?"
+
+#, c-format
+msgid "installing"
+msgstr "se instalează"
+
+#, c-format
+msgid "upgrading"
+msgstr "se actualizează"
+
+#, c-format
+msgid "downgrading"
+msgstr "retrogradare"
+
+#, c-format
+msgid "reinstalling"
+msgstr "se reinstalează"
+
+#, c-format
+msgid "removing"
+msgstr "se elimină"
+
+#, c-format
+msgid "checking for file conflicts"
+msgstr "se caută conflicte între fișiere"
+
+#, c-format
+msgid "checking available disk space"
+msgstr "se verifică spațiul disponibil pe disc"
+
+#, c-format
+msgid "checking package integrity"
+msgstr "se verifică integritatea pachetelor"
+
+#, c-format
+msgid "checking keys in keyring"
+msgstr "se verifică cheile din inelul de chei"
+
+#, c-format
+msgid "loading package files"
+msgstr "se încarcă fișierele pachet"
+
+#, c-format
+msgid "downloading %s...\n"
+msgstr "se descarcă %s...\n"
+
+#, c-format
+msgid "%s: %s (File type mismatch)\n"
+msgstr "%s: %s (Nepotrivire la nivel de tip de fișier)\n"
+
+#, c-format
+msgid "%s: %s (UID mismatch)\n"
+msgstr "%s: %s (Nepotrivire la nivel de UID)\n"
+
+#, c-format
+msgid "%s: %s (GID mismatch)\n"
+msgstr "%s: %s (Nepotrivire la nivel de GID)\n"
+
+#, c-format
+msgid "%s: %s (Permissions mismatch)\n"
+msgstr "%s: %s (Nepotrivire la nivel de permisiuni)\n"
+
+#, c-format
+msgid "%s: %s (Modification time mismatch)\n"
+msgstr "%s: %s (Nepotrivire la nivel de data modificării)\n"
+
+#, c-format
+msgid "unable to read symlink contents: %s\n"
+msgstr "nu se poate citi conținutul legăturii simbolice : %s\n"
+
+#, c-format
+msgid "%s: %s (Symlink path mismatch)\n"
+msgstr "%s: %s (Nepotrivire la calea legăturii simbolice)\n"
+
+#, c-format
+msgid "%s: %s (Size mismatch)\n"
+msgstr "%s: %s (Nepotrivire la nivel de mărime)\n"
+
+#, c-format
+msgid "path too long: %s%s\n"
+msgstr "cale prea lungă: %s%s\n"
+
+#, c-format
+msgid "%s: %jd total file, "
+msgid_plural "%s: %jd total files, "
+msgstr[0] "%s: %jd fișier în total, "
+msgstr[1] "%s: %jd fișiere în total, "
+msgstr[2] "%s: %jd fișiere în total, "
+
+#, c-format
+msgid "%jd missing file\n"
+msgid_plural "%jd missing files\n"
+msgstr[0] "%jd fișier lipsă\n"
+msgstr[1] "%jd fișiere lipsă\n"
+msgstr[2] "%jd fișiere lipsă\n"
+
+#, c-format
+msgid "%s: no mtree file\n"
+msgstr "%s: nu există fișier mtree\n"
+
+#, c-format
+msgid "file type not recognized: %s%s\n"
+msgstr "tipul fișierului nu este recunoscut: %s%s\n"
+
+#, c-format
+msgid "%jd altered file\n"
+msgid_plural "%jd altered files\n"
+msgstr[0] "%jd fișier modificat\n"
+msgstr[1] "%jd fișiere modificate\n"
+msgstr[2] ""
+"%jd fișiere modificate\n"
+"\n"
+
+#, c-format
+msgid "malloc failure: could not allocate %zd bytes\n"
+msgstr "eșec malloc: nu se pot aloca %zd octeți\n"
+
+#, c-format
+msgid "could not get current working directory\n"
+msgstr "nu s-a putut determina directorul de lucru curent\n"
+
+#, c-format
+msgid "could not chdir to download directory %s\n"
+msgstr "nu se poate schimba directorul la directorul de descărcare %s\n"
+
+#, c-format
+msgid "running XferCommand: fork failed!\n"
+msgstr "se rulează XferCommand: bifurcare eșuată!\n"
+
+#, c-format
+msgid "could not rename %s to %s (%s)\n"
+msgstr "nu se poate redenumi %s în %s (%s)\n"
+
+#, c-format
+msgid "could not restore working directory (%s)\n"
+msgstr "nu s-a putut restabili directorul de lucru curent (%s)\n"
+
+#, c-format
+msgid "config file %s, line %d: invalid value for '%s' : '%s'\n"
+msgstr ""
+"fișierul de configurare %s, linia %d: valoare nevalidă pentru '%s' : '%s'\n"
+
+#, c-format
+msgid "config file %s, line %d: '%s' option invalid, no signature support\n"
+msgstr ""
+"fișierul de configurare %s, linia %d: opțiunea '%s' nevalidă, fără suport "
+"pentru semnătură\n"
+
+#, c-format
+msgid ""
+"config file %s, line %d: directive '%s' in section '%s' not recognized.\n"
+msgstr ""
+"fișierul de configurare %s, linia %d: directiva '%s' din secțiunea '%s' "
+"nerecunoscută.\n"
+
+#, c-format
+msgid "mirror '%s' contains the '%s' variable, but no '%s' is defined.\n"
+msgstr "mirror '%s' contains the '%s' variable, but no '%s' is defined.\n"
+
+#, c-format
+msgid "could not add server URL to database '%s': %s (%s)\n"
+msgstr "nu poate fi adăugat URL-ul serverului la baza de date '%s': %s (%s)\n"
+
+#, c-format
+msgid "failed to initialize alpm library (%s)\n"
+msgstr "eșec la inițializarea bibliotecii alpm (%s)\n"
+
+#, c-format
+msgid "  try running pacman-db-upgrade\n"
+msgstr "  încercați să rulați pacman-db-upgrade\n"
+
+#, c-format
+msgid "problem setting logfile '%s' (%s)\n"
+msgstr "problemă la setarea logfile '%s' (%s)\n"
+
+#, c-format
+msgid "problem setting gpgdir '%s' (%s)\n"
+msgstr "problemă la setarea gpgdir ca '%s' (%s)\n"
+
+#, c-format
+msgid "no '%s' configured"
+msgstr "niciun '%s' configurat"
+
+#, c-format
+msgid "could not register '%s' database (%s)\n"
+msgstr "nu se poate înregistra '%s' database (%s)\n"
+
+#, c-format
+msgid "could not add mirror '%s' to database '%s' (%s)\n"
+msgstr "nu se poate adăuga oglinda '%s' la baza de date '%s' (%s)\n"
+
+#, c-format
+msgid "config parsing exceeded max recursion depth of %d.\n"
+msgstr ""
+"parcurgerea configurării a depășit adâncimea max de recursivitate %d.\n"
+
+#, c-format
+msgid "config file %s could not be read: %s\n"
+msgstr "fișierul de configurare %s nu a putut fi citit: %s\n"
+
+#, c-format
+msgid "config file %s, line %d: bad section name.\n"
+msgstr "fișierul de configurare %s, linia %d: nume de secțiune greșit.\n"
+
+#, c-format
+msgid "config file %s, line %d: syntax error in config file- missing key.\n"
+msgstr ""
+"fișierul de configurare %s, linia %d: eroare de sintaxă în fișierul de "
+"configurare - cheie lipsă.\n"
+
+#, c-format
+msgid "config file %s, line %d: All directives must belong to a section.\n"
+msgstr ""
+"fișierul de configurare %s, linia %d: Toate directivele trebuie să aparțină "
+"unei secțiuni.\n"
+
+#, c-format
+msgid "config file %s, line %d: directive '%s' needs a value\n"
+msgstr ""
+"fișierul de configurare %s, linia %d: directiva '%s' necesită o valoare\n"
+
+#, c-format
+msgid "no targets specified (use -h for help)\n"
+msgstr "nu sunt specificate ținte (folosiți -h pentru ajutor)\n"
+
+#, c-format
+msgid "no install reason specified (use -h for help)\n"
+msgstr ""
+"nu a fost specificat un motiv pentru instalare (folosește -h pentru ajutor)\n"
+
+#, c-format
+msgid "could not set install reason for package %s (%s)\n"
+msgstr ""
+"nu s-a putut seta motivul pentru care a fost instalat pachetul %s (%s)\n"
+
+#, c-format
+msgid "%s: install reason has been set to 'installed as dependency'\n"
+msgstr ""
+"%s: motivul pentru instalare a fost schimbat în 'instalat ca dependență'\n"
+
+#, c-format
+msgid "%s: install reason has been set to 'explicitly installed'\n"
+msgstr "%s: motivul pentru instalare a fost schimbat în: 'instalat explicit'\n"
+
+#, c-format
+msgid " [installed]"
+msgstr "[instalat]"
+
+#, c-format
+msgid "Optional Deps  :"
+msgstr "Dep. opționale     :"
+
+#, c-format
+msgid "Explicitly installed"
+msgstr "Instalat în mod explicit"
+
+#, c-format
+msgid "Installed as a dependency for another package"
+msgstr "Instalat ca o dependență pentru un alt pachet"
+
+#, c-format
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#, c-format
+msgid "None"
+msgstr "Niciunul"
+
+#, c-format
+msgid "MD5 Sum"
+msgstr "Suma MD5"
+
+#, c-format
+msgid "SHA256 Sum"
+msgstr "Sumă SHA256"
+
+#, c-format
+msgid "Signature"
+msgstr "Semnătură"
+
+#, c-format
+msgid "Repository     :"
+msgstr "Depozit            :"
+
+#, c-format
+msgid "Name           :"
+msgstr "Nume               :"
+
+#, c-format
+msgid "Version        :"
+msgstr "Versiune           :"
+
+#, c-format
+msgid "Description    :"
+msgstr "Descriere          :"
+
+#, c-format
+msgid "Architecture   :"
+msgstr "Arhitectură        :"
+
+#, c-format
+msgid "URL            :"
+msgstr "URL                :"
+
+#, c-format
+msgid "Licenses       :"
+msgstr "Licențe            :"
+
+#, c-format
+msgid "Groups         :"
+msgstr "Grupuri            :"
+
+#, c-format
+msgid "Provides       :"
+msgstr "Furnizează         :"
+
+#, c-format
+msgid "Depends On     :"
+msgstr "Depinde de         :"
+
+#, c-format
+msgid "Required By    :"
+msgstr "Cerut de           :"
+
+#, c-format
+msgid "Optional For   :"
+msgstr "Opțional pentru :"
+
+#, c-format
+msgid "Conflicts With :"
+msgstr "În conflict cu     :"
+
+#, c-format
+msgid "Replaces       :"
+msgstr "Înlocuiește        :"
+
+#, c-format
+msgid "Download Size  :"
+msgstr "Mărimea Descărcării :"
+
+#, c-format
+msgid "Compressed Size:"
+msgstr "Mărime Comprimată:"
+
+#, c-format
+msgid "Installed Size :"
+msgstr "Mărime instalat:"
+
+#, c-format
+msgid "Packager       :"
+msgstr "Autor pachet       :"
+
+#, c-format
+msgid "Build Date     :"
+msgstr "Data construirii   :"
+
+#, c-format
+msgid "Install Date   :"
+msgstr "Data instalării    :"
+
+#, c-format
+msgid "Install Reason :"
+msgstr "Motivul instalării :"
+
+#, c-format
+msgid "Install Script :"
+msgstr "Script de instalare:"
+
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#, c-format
+msgid "No"
+msgstr "Nu"
+
+#, c-format
+msgid "MD5 Sum        :"
+msgstr "Suma MD5            :"
+
+#, c-format
+msgid "SHA256 Sum     :"
+msgstr "Sumă SHA256    :"
+
+#, c-format
+msgid "Signatures     :"
+msgstr "Semnături           :"
+
+#, c-format
+msgid "Validated By   :"
+msgstr "Validat De :"
+
+#, c-format
+msgid "could not calculate checksums for %s\n"
+msgstr "nu se pot calcula sumele de control pentru %s\n"
+
+#, c-format
+msgid "Backup Files:\n"
+msgstr "Fișiere backup:\n"
+
+#, c-format
+msgid "(none)\n"
+msgstr "(niciunul)\n"
+
+#, c-format
+msgid "no changelog available for '%s'.\n"
+msgstr "nu exista istoric modificări pentru '%s'.\n"
+
+#, c-format
+msgid "Changelog for %s:\n"
+msgstr "Istoric de modificări pentru %s:\n"
+
+#, c-format
+msgid "installed"
+msgstr "instalat"
+
+#, c-format
+msgid "options"
+msgstr "opțiuni"
+
+#, c-format
+msgid "file(s)"
+msgstr "fișier(e)"
+
+#, c-format
+msgid "package(s)"
+msgstr "pachet(e)"
+
+#, c-format
+msgid "usage"
+msgstr "utilizare"
+
+#, c-format
+msgid "operation"
+msgstr "operațiune"
+
+#, c-format
+msgid "operations:\n"
+msgstr "operațiuni:\n"
+
+#, c-format
+msgid ""
+"\n"
+"use '%s {-h --help}' with an operation for available options\n"
+msgstr ""
+"\n"
+"folosește '%s {-h --help}' cu o operațiune pentru opțiunile disponibile\n"
+
+#, c-format
+msgid ""
+"  -c, --cascade        remove packages and all packages that depend on them\n"
+msgstr ""
+"  -c, --cascade        elimină pachete precum și toate pachetele care depind "
+"de ele\n"
+
+#, c-format
+msgid "  -n, --nosave         remove configuration files\n"
+msgstr "  -n, --nosave         elimină fișierele de configurare\n"
+
+#, c-format
+msgid ""
+"  -s, --recursive      remove unnecessary dependencies\n"
+"                       (-ss includes explicitly installed dependencies)\n"
+msgstr ""
+"  -s, --recursive      elimina dependențele inutile\n"
+"                       (-ss include dependețele instalate explicit\n"
+
+#, c-format
+msgid "  -u, --unneeded       remove unneeded packages\n"
+msgstr "  -u, --unneeded       eliminină pachetele care nu sunt necesare\n"
+
+#, c-format
+msgid "      --needed         do not reinstall up to date packages\n"
+msgstr "      --needed         nu reinstala pachetele deja actualizate\n"
+
+#, c-format
+msgid "  -c, --changelog      view the changelog of a package\n"
+msgstr "  -c, --changelog      vezi istoricul de modificări al pachetului\n"
+
+#, c-format
+msgid ""
+"  -d, --deps           list packages installed as dependencies [filter]\n"
+msgstr ""
+"  -d, --deps           listează pachetele instalate ca dependențe [filtru]\n"
+
+#, c-format
+msgid "  -e, --explicit       list packages explicitly installed [filter]\n"
+msgstr ""
+"  -e, --explicit       listează pachetele instalate în mod explicit "
+"[filtru]\n"
+
+#, c-format
+msgid "  -g, --groups         view all members of a package group\n"
+msgstr "  -g, --groups         vezi toți membrii unui grup de pachete\n"
+
+#, c-format
+msgid ""
+"  -i, --info           view package information (-ii for backup files)\n"
+msgstr ""
+"  -i, --info           vezi informațiile despre pachet (-ii pentru fișierele "
+"backup)\n"
+
+#, c-format
+msgid ""
+"  -k, --check          check that package files exist (-kk for file "
+"properties)\n"
+msgstr ""
+"  -k, --check          verifică dacă fișierele pachetului există (-kk pentru "
+"proprietățile fișierului)\n"
+
+#, c-format
+msgid "  -l, --list           list the contents of the queried package\n"
+msgstr "  -l, --list           listează conținutul pachetelor interogate\n"
+
+#, c-format
+msgid ""
+"  -m, --foreign        list installed packages not found in sync db(s) "
+"[filter]\n"
+msgstr ""
+"  -m, --foreign        listează pachetele instalate ce nu se găsesc în "
+"bazele de date ale depozitelor [filtru]\n"
+
+#, c-format
+msgid ""
+"  -n, --native         list installed packages only found in sync db(s) "
+"[filter]\n"
+msgstr ""
+"  -n, --native listează doar pachetele instalate care se regăsesc în bazele "
+"de date ale depozitelor [filtru]\n"
+
+#, c-format
+msgid "  -o, --owns <file>    query the package that owns <file>\n"
+msgstr "  -o, --owns <fișier>    interoghează pachetul care deține <fișier>\n"
+
+#, c-format
+msgid "  -p, --file <package> query a package file instead of the database\n"
+msgstr ""
+"  -p, --file <pachet> interoghează un fișier pachet în locul bazei de date\n"
+
+#, c-format
+msgid "  -q, --quiet          show less information for query and search\n"
+msgstr ""
+"  -q, --quiet          arată mai puține informații pentru interogare și "
+"căutare\n"
+
+#, c-format
+msgid ""
+"  -s, --search <regex> search locally-installed packages for matching "
+"strings\n"
+msgstr ""
+"  -s, --search <regex> caută pachete instalate local care se potrivesc "
+"șirurilor de caractere\n"
+
+#, c-format
+msgid ""
+"  -t, --unrequired     list packages not required by any package [filter]\n"
+msgstr ""
+"  -t, --unrequired     listează pachetele care nu sunt necesare niciunui "
+"pachet [filtru]\n"
+
+#, c-format
+msgid "  -u, --upgrades       list outdated packages [filter]\n"
+msgstr "  -u, --upgrades       listează pachetele învechite [filtru]\n"
+
+#, c-format
+msgid ""
+"  -c, --clean          remove old packages from cache directory (-cc for "
+"all)\n"
+msgstr ""
+"  -c, --clean          elimină pachetele vechi din directorul cache (-cc "
+"pentru toate)\n"
+
+#, c-format
+msgid "  -i, --info           view package information\n"
+msgstr "  -i, --info           vezi informații despre pachet\n"
+
+#, c-format
+msgid "  -l, --list <repo>    view a list of packages in a repo\n"
+msgstr "  -l, --list <repo>    vezi o listă a pachetelor dintr-un depozit\n"
+
+#, c-format
+msgid ""
+"  -s, --search <regex> search remote repositories for matching strings\n"
+msgstr ""
+"  -s, --search <regex> caută în depozitele la distanță potriviri cu șirurile "
+"de caractere\n"
+
+#, c-format
+msgid ""
+"  -u, --sysupgrade     upgrade installed packages (-uu allows downgrade)\n"
+msgstr ""
+"  -u, --sysupgrade     actualizează pachetele instalate (-uu permite "
+"retrogradarea)\n"
+
+#, c-format
+msgid ""
+"  -w, --downloadonly   download packages but do not install/upgrade "
+"anything\n"
+msgstr ""
+"  -w, --downloadonly   descarcă pachete dar nu instalează/actualizează "
+"nimic\n"
+
+#, c-format
+msgid ""
+"  -y, --refresh        download fresh package databases from the server\n"
+msgstr ""
+"  -y, --refresh        descarcă baze de date cu pachete proaspete de pe "
+"server\n"
+
+#, c-format
+msgid "      --asdeps         mark packages as non-explicitly installed\n"
+msgstr "      --asdeps         marchează pachete ca instalate ne-explicit\n"
+
+#, c-format
+msgid "      --asexplicit     mark packages as explicitly installed\n"
+msgstr ""
+"      --asexplicit     marchează pachete ca instalate în mod explicit\n"
+
+#, c-format
+msgid "      --force          force install, overwrite conflicting files\n"
+msgstr ""
+"     --force          instalare forțată, suprascrie fișierele aflate în "
+"conflict\n"
+
+#, c-format
+msgid "      --asdeps         install packages as non-explicitly installed\n"
+msgstr "      --asdeps instalează pachete ca instalate ne-explicit\n"
+
+#, c-format
+msgid "      --asexplicit     install packages as explicitly installed\n"
+msgstr ""
+"      --asexplicit     instalează pachete ca instalate în mod explicit\n"
+
+#, c-format
+msgid ""
+"      --ignore <pkg>   ignore a package upgrade (can be used more than "
+"once)\n"
+msgstr ""
+"      --ignore <pachet>   ignoră actualizările unui pachet (se poate folosi "
+"mai mult de o dată)\n"
+
+#, c-format
+msgid ""
+"      --ignoregroup <grp>\n"
+"                       ignore a group upgrade (can be used more than once)\n"
+msgstr ""
+"      --ignoregroup <grp>\n"
+"                       ignoră o actualizările unui grup (se poate folosi mai "
+"mult de o dată)\n"
+
+#, c-format
+msgid ""
+"  -d, --nodeps         skip dependency version checks (-dd to skip all "
+"checks)\n"
+msgstr ""
+"  -d, --nodeps         se omite verificare versiunii dependențelor (-dd "
+"pentru a omite toate verificările\n"
+
+#, c-format
+msgid ""
+"      --dbonly         only modify database entries, not package files\n"
+msgstr ""
+"      --dbonly         modifică doar intrările în baza de date, nu și "
+"fișierele pachet\n"
+
+#, c-format
+msgid ""
+"      --noprogressbar  do not show a progress bar when downloading files\n"
+msgstr ""
+"      --noprogressbar  nu afișa bara de progres la descărcarea fișierelor\n"
+
+#, c-format
+msgid ""
+"      --noscriptlet    do not execute the install scriptlet if one exists\n"
+msgstr ""
+"      --noscriptlet    nu executa scriptlet-ul de instalare dacă există deja "
+"unul\n"
+
+#, c-format
+msgid ""
+"  -p, --print          print the targets instead of performing the "
+"operation\n"
+msgstr ""
+"  -p, --print          afișează țintele în loc de a efectua operațiunea\n"
+
+#, c-format
+msgid ""
+"      --print-format <string>\n"
+"                       specify how the targets should be printed\n"
+msgstr ""
+"      --print-format <șir>\n"
+"                       specifică cum vor fi afișate țintele\n"
+
+#, c-format
+msgid "  -b, --dbpath <path>  set an alternate database location\n"
+msgstr "  -b, --dbpath <cale>  seteaza o locație alternativă a bazei de date\n"
+
+#, c-format
+msgid "  -r, --root <path>    set an alternate installation root\n"
+msgstr "  -r, --root <cale>    setează o cale de instalare alternativă\n"
+
+#, c-format
+msgid "  -v, --verbose        be verbose\n"
+msgstr "  -v, --verbose        mai detaliat\n"
+
+#, c-format
+msgid "      --arch <arch>    set an alternate architecture\n"
+msgstr "      --arch <arhit>    setează o arhitectură alternativă\n"
+
+#, c-format
+msgid "      --cachedir <dir> set an alternate package cache location\n"
+msgstr ""
+"      --cachedir <dir> setează o locație alternativă pentru cache-ul "
+"pachetului\n"
+
+#, c-format
+msgid "      --color <when>   colorize the output\n"
+msgstr "      --color <when>   colorează mesajele returnate\n"
+
+#, c-format
+msgid "      --config <path>  set an alternate configuration file\n"
+msgstr "      --config <cale>  setează un fișier de configurare alternativ\n"
+
+#, c-format
+msgid "      --debug          display debug messages\n"
+msgstr "      --debug          afișează mesaje de depanare\n"
+
+#, c-format
+msgid "      --gpgdir <path>  set an alternate home directory for GnuPG\n"
+msgstr "      --gpgdir <cale>  setează un director alternativ pentru GnuPG\n"
+
+#, c-format
+msgid "      --logfile <path> set an alternate log file\n"
+msgstr "      --logfile <cale> setează un fișier log alternativ\n"
+
+#, c-format
+msgid "      --noconfirm      do not ask for any confirmation\n"
+msgstr "      --noconfirm      nu cere nicio confirmare\n"
+
+#, c-format
+msgid ""
+"                       This program may be freely redistributed under\n"
+"                       the terms of the GNU General Public License.\n"
+msgstr ""
+"                       Acest program poate fi redistribuit liber sub\n"
+"                       termenii licenței GNU - General Public License.\n"
+
+#, c-format
+msgid "invalid argument '%s' for %s\n"
+msgstr "argumentul '%s' nu este valid pentru %s\n"
+
+#, c-format
+msgid "'%s' is not a valid debug level\n"
+msgstr "'%s' nu este un nivel valid pentru depanare\n"
+
+#, c-format
+msgid "only one operation may be used at a time\n"
+msgstr "doar o operațiune poate fi utilizată în același timp\n"
+
+#, c-format
+msgid "invalid option\n"
+msgstr "opțiune nevalidă\n"
+
+#, c-format
+msgid "memory exhausted in argument parsing\n"
+msgstr "memorie epuizată în parsarea argumentelor\n"
+
+#, c-format
+msgid "failed to reopen stdin for reading: (%s)\n"
+msgstr "nu s-a putut redeschide stdin pentru citire: (%s)\n"
+
+#, c-format
+msgid "argument '-' specified without input on stdin\n"
+msgstr "s-a specificat argumentul '-' fără o intrare din stdin\n"
+
+#, c-format
+msgid "you cannot perform this operation unless you are root.\n"
+msgstr "nu puteți efectua această operațiune decât dacă sunteți root.\n"
+
+#, c-format
+msgid "no operation specified (use -h for help)\n"
+msgstr "nu este specificată nicio operațiune (folosiți -h pentru ajutor)\n"
+
+#, c-format
+msgid "%s is owned by %s %s\n"
+msgstr "%s este deținut de către %s %s\n"
+
+#, c-format
+msgid "no file was specified for --owns\n"
+msgstr "nu este specificat niciun fișier pentru --owns\n"
+
+#, c-format
+msgid "cannot determine real path for '%s': %s\n"
+msgstr "nu poate fi determinată calea reală pentru '%s': %s\n"
+
+#, c-format
+msgid "failed to find '%s' in PATH: %s\n"
+msgstr "eșec la căutarea '%s' în PATH: %s\n"
+
+#, c-format
+msgid "failed to read file '%s': %s\n"
+msgstr "eșec la citirea fișierului '%s': %s\n"
+
+#, c-format
+msgid "No package owns %s\n"
+msgstr "Niciun pachet nu deține %s\n"
+
+#, c-format
+msgid "group '%s' was not found\n"
+msgstr ""
+"grupul '%s' nu a fost găsit\n"
+"\n"
+
+#, c-format
+msgid "package '%s' was not found\n"
+msgstr "pachetul '%s' nu a fost găsit\n"
+
+#, c-format
+msgid "'%s' is a file, you might want to use %s.\n"
+msgstr "'%s' e un fișier, probabil vrei să folosești %s.\n"
+
+#, c-format
+msgid "could not load package '%s': %s\n"
+msgstr "nu s-a putut încărca pachetul '%s': %s\n"
+
+#, c-format
+msgid "target not found: %s\n"
+msgstr "nu s-a găsit ținta: %s\n"
+
+#, c-format
+msgid "failed to prepare transaction (%s)\n"
+msgstr "eșec la pregătirea tranzacției (%s)\n"
+
+#, c-format
+msgid "%s: requires %s\n"
+msgstr "%s: cere %s\n"
+
+#, c-format
+msgid "%s is designated as a HoldPkg.\n"
+msgstr "%s este desemnat ca un HoldPkg.\n"
+
+#, c-format
+msgid "HoldPkg was found in target list. Do you want to continue?"
+msgstr "HoldPkg a fost găsit în lista țintă. Continuăm?"
+
+#, c-format
+msgid " there is nothing to do\n"
+msgstr " nu e nimic de făcut\n"
+
+#, c-format
+msgid "Do you want to remove these packages?"
+msgstr "Vreți să eliminați aceste pachete?"
+
+#, c-format
+msgid "failed to commit transaction (%s)\n"
+msgstr "eșec la efectuarea tranzacției (%s)\n"
+
+#, c-format
+msgid "could not remove %s: %s\n"
+msgstr "nu s-a putut elimina %s: %s\n"
+
+#, c-format
+msgid "could not access database directory\n"
+msgstr "nu poate fi accesat directorul bazei de date\n"
+
+#, c-format
+msgid "Database directory: %s\n"
+msgstr "Directorul bazei de date: %s\n"
+
+#, c-format
+msgid "Do you want to remove unused repositories?"
+msgstr "Vreți să eliminați depozitele nefolosite?"
+
+#, c-format
+msgid "removing unused sync repositories...\n"
+msgstr "se elimină depozitele nefolosite...\n"
+
+#, c-format
+msgid "Packages to keep:\n"
+msgstr "Pachete de păstrat:\n"
+
+#, c-format
+msgid "  All locally installed packages\n"
+msgstr "  Toate pachetele instalate\n"
+
+#, c-format
+msgid "  All current sync database packages\n"
+msgstr "  Toate pachetele din baza de date\n"
+
+#, c-format
+msgid "Cache directory: %s\n"
+msgstr "Directorul cache: %s\n"
+
+#, c-format
+msgid "Do you want to remove all other packages from cache?"
+msgstr "Doriți să eliminați toate celelalte pachete din cache?"
+
+#, c-format
+msgid "removing old packages from cache...\n"
+msgstr "se elimină pachetele vechi din cache... \n"
+
+#, c-format
+msgid "Do you want to remove ALL files from cache?"
+msgstr "Vreți să eliminați TOATE fișierele din cache?"
+
+#, c-format
+msgid "removing all files from cache...\n"
+msgstr "se elimină toate fișierele din cache... \n"
+
+#, c-format
+msgid "could not access cache directory %s\n"
+msgstr "nu poate fi accesat directorul cache %s\n"
+
+#, c-format
+msgid "failed to update %s (%s)\n"
+msgstr "eșec la actualizarea %s (%s)\n"
+
+#, c-format
+msgid " %s is up to date\n"
+msgstr " %s este actualizat\n"
+
+#, c-format
+msgid "failed to synchronize any databases\n"
+msgstr "eșec la sincronizarea tuturor bazelor de date\n"
+
+#, c-format
+msgid "repository '%s' does not exist\n"
+msgstr "depozitul '%s' nu există\n"
+
+#, c-format
+msgid "repository \"%s\" was not found.\n"
+msgstr "depozitul \"%s\" nu a fost găsit.\n"
+
+#, c-format
+msgid "skipping target: %s\n"
+msgstr "se omite ținta: %s\n"
+
+#, c-format
+msgid "There are %d members in group %s:\n"
+msgstr "Există %d membri în grupul %s:\n"
+
+#, c-format
+msgid "database not found: %s\n"
+msgstr "nu s-a găsit baza de date: %s\n"
+
+#, c-format
+msgid "'%s' is a file, did you mean %s instead of %s?\n"
+msgstr "'%s' e un fișier, ai vrut %s în loc de %s?\n"
+
+#, c-format
+msgid "Starting full system upgrade...\n"
+msgstr "Se pornește actualizarea completă a sistemului...\n"
+
+#, c-format
+msgid "package %s does not have a valid architecture\n"
+msgstr ""
+"pachetul %s nu are o arhitectură validă\n"
+"\n"
+
+#, c-format
+msgid "%s and %s are in conflict\n"
+msgstr "%s și %s sunt în conflict\n"
+
+#, c-format
+msgid "%s and %s are in conflict (%s)\n"
+msgstr "%s și %s sunt în conflict (%s)\n"
+
+#, c-format
+msgid "Proceed with download?"
+msgstr "Începe descărcarea?"
+
+#, c-format
+msgid "Proceed with installation?"
+msgstr "Începe instalarea?"
+
+#, c-format
+msgid "unable to %s directory-file conflicts\n"
+msgstr "imposibil de %s conflictele director-fișier\n"
+
+#, c-format
+msgid "%s exists in both '%s' and '%s'\n"
+msgstr "%s există şi în '%s' şi în '%s'\n"
+
+#, c-format
+msgid "%s: %s exists in filesystem\n"
+msgstr ""
+"%s: %s există în sistemul de fișiere\n"
+"\n"
+
+#, c-format
+msgid "%s is invalid or corrupted\n"
+msgstr "%s este nevalid sau corupt\n"
+
+#, c-format
+msgid "Errors occurred, no packages were upgraded.\n"
+msgstr "Au apărut erori, niciun pachet nu a fost actualizat.\n"
+
+#, c-format
+msgid "Synchronizing package databases...\n"
+msgstr "Se sincronizează bazele de date cu pachete...\n"
+
+#, c-format
+msgid "loading packages...\n"
+msgstr "se încarcă pachetele...\n"
+
+#, c-format
+msgid "failed to init transaction (%s)\n"
+msgstr "eșec la inițializarea tranzacției (%s)\n"
+
+#, c-format
+msgid "could not lock database: %s\n"
+msgstr "imposibilitatea de a bloca baza de data:%s\n"
+
+#, c-format
+msgid ""
+"  if you're sure a package manager is not already\n"
+"  running, you can remove %s\n"
+msgstr ""
+"  dacă sunteți sigur că niciun manager de pachete\n"
+"  nu este activ, atunci eliminați %s\n"
+
+#, c-format
+msgid "failed to release transaction (%s)\n"
+msgstr "eșec la realizarea tranzacției (%s)\n"
+
+#, c-format
+msgid "no usable package repositories configured.\n"
+msgstr "nu sunt configurate depozite de pachete utilizabile.\n"
+
+#, c-format
+msgid "database '%s' is not valid (%s)\n"
+msgstr "baza de date '%s' este nevalidă (%s)\n"
+
+#, c-format
+msgid "insufficient columns available for table display\n"
+msgstr "coloane insuficiente pentru afișarea tabelului\n"
+
+#, c-format
+msgid "Valid"
+msgstr "Valid"
+
+#, c-format
+msgid "Key expired"
+msgstr "Cheie expirată"
+
+#, c-format
+msgid "Expired"
+msgstr "Expirat"
+
+#, c-format
+msgid "Invalid"
+msgstr "Nevalid"
+
+#, c-format
+msgid "Key unknown"
+msgstr "Cheie necunoscută"
+
+#, c-format
+msgid "Key disabled"
+msgstr "Cheie dezactivată"
+
+#, c-format
+msgid "Signature error"
+msgstr "Eroare de semnătură"
+
+#, c-format
+msgid "full trust"
+msgstr "încredere deplină"
+
+#, c-format
+msgid "marginal trust"
+msgstr "încredere marginală"
+
+#, c-format
+msgid "never trust"
+msgstr "fără încredere"
+
+#, c-format
+msgid "unknown trust"
+msgstr "încredere necunoscută"
+
+#, c-format
+msgid "%s, %s from \"%s\""
+msgstr "%s, %s din \"%s\""
+
+#, c-format
+msgid "Name"
+msgstr "Nume"
+
+#, c-format
+msgid "Old Version"
+msgstr "Versiune precedentă"
+
+#, c-format
+msgid "New Version"
+msgstr "Versiune nouă"
+
+#, c-format
+msgid "Net Change"
+msgstr "Schimbare Netă"
+
+#, c-format
+msgid "Download Size"
+msgstr "Mărimea Descărcării"
+
+#, c-format
+msgid "removal"
+msgstr "eliminare"
+
+#, c-format
+msgid "Packages"
+msgstr "Pachete"
+
+#, c-format
+msgid "Total Download Size:"
+msgstr "Mărimea totală a descărcării:"
+
+#, c-format
+msgid "Total Installed Size:"
+msgstr "Mărimea totală a instalării:"
+
+#, c-format
+msgid "Total Removed Size:"
+msgstr "Mărimea totală a eliminării:"
+
+#, c-format
+msgid "Net Upgrade Size:"
+msgstr "Mărimea netă a actualizării:"
+
+#, c-format
+msgid " [pending]"
+msgstr " [în așteptarea]"
+
+#, c-format
+msgid "New optional dependencies for %s\n"
+msgstr "Noi dependențe opționale pentru %s\n"
+
+#, c-format
+msgid "Optional dependencies for %s\n"
+msgstr "Dependențe opționale pentru %s\n"
+
+#, c-format
+msgid "Repository %s\n"
+msgstr "Depozitul %s\n"
+
+#, c-format
+msgid "invalid value: %d is not between %d and %d\n"
+msgstr "valoare nevalidă: %d nu este între %d și %d\n"
+
+#, c-format
+msgid "invalid number: %s\n"
+msgstr "număr nevalid: %s\n"
+
+#, c-format
+msgid "Enter a selection (default=all)"
+msgstr "Introduceți o selecție (implicit = toate)"
+
+#, c-format
+msgid "Enter a number (default=%d)"
+msgstr "Introduceți un număr (implicit = %d)"
+
+#, c-format
+msgid "[Y/n]"
+msgstr "[D/n]"
+
+#, c-format
+msgid "[y/N]"
+msgstr "[d/N]"
+
+#, c-format
+msgid "Y"
+msgstr "D"
+
+#, c-format
+msgid "YES"
+msgstr "DA"
+
+#, c-format
+msgid "N"
+msgstr "N"
+
+#, c-format
+msgid "NO"
+msgstr "NU"
+
+#, c-format
+msgid "failed to allocate string\n"
+msgstr "Eșuare la alocarea șirului\n"
+
+#, c-format
+msgid "error: %s"
+msgstr "eroare: %s"
+
+#, c-format
+msgid "warning: %s"
+msgstr "avertisment: %s"
+
+#, c-format
+msgid "error: "
+msgstr "eroare: "
+
+#, c-format
+msgid "warning: "
+msgstr "avertisment: "

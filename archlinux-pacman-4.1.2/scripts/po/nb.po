@@ -1,0 +1,1299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pacman Development Team <pacman-dev@archlinux.org>
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Alexander Rødseth <rodseth@gmail.com>, 2011-2013
+# Jon Gjengset <jon@thesquareplanet.com>, 2011,2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
+"POT-Creation-Date: 2013-06-18 13:52+1000\n"
+"PO-Revision-Date: 2013-06-06 09:20+0000\n"
+"Last-Translator: Alexander Rødseth <rodseth@gmail.com>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/"
+"archlinux-pacman/language/nb/)\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "WARNING:"
+msgstr "ADVARSEL:"
+
+msgid "ERROR:"
+msgstr "FEIL:"
+
+msgid "Cleaning up..."
+msgstr "Rydder opp..."
+
+msgid "Entering %s environment..."
+msgstr "Går inn i %s miljøet..."
+
+msgid "Unknown download protocol: %s"
+msgstr "Ukjent dataprotokoll: %s"
+
+msgid "Aborting..."
+msgstr "Avbryter..."
+
+msgid "The download program %s is not installed."
+msgstr "Nedlastingsprogrammet %s er ikke installert."
+
+msgid "Found %s"
+msgstr "Fant %s"
+
+msgid "%s was not found in the build directory and is not a URL."
+msgstr "%s ble ikke funnet i build-mappen, og den er heller ikke en URL."
+
+msgid "Downloading %s..."
+msgstr "Laster ned %s..."
+
+msgid "Failure while downloading %s"
+msgstr "Feil oppstod ved nedlasting av %s"
+
+msgid "Extracting %s with %s"
+msgstr "Pakker ut %s med %s"
+
+msgid "Failed to extract %s"
+msgstr "Klarte ikke å pakke ut %s"
+
+msgid "Branching %s ..."
+msgstr "Henter kopi av %s ..."
+
+msgid "Failure while branching %s"
+msgstr "Kunne ikke hente kopi av %s"
+
+msgid "%s is not a branch of %s"
+msgstr "%s er ikke en kopi av %s"
+
+msgid "The local URL is %s"
+msgstr "Den lokale URLen er %s"
+
+msgid "Pulling %s ..."
+msgstr "Henter %s ..."
+
+msgid "Failure while pulling %s"
+msgstr "Kunne ikke hente %s"
+
+msgid "Unrecognized reference: %s"
+msgstr "Ukjent referanse: %s"
+
+msgid "Creating working copy of %s %s repo..."
+msgstr "Oppretter arbeidskopi av %s %s arkiv..."
+
+msgid "Failure while creating working copy of %s %s repo"
+msgstr "Kunne ikke opprette arbeidskopi for %s %s arkiv..."
+
+msgid "Cloning %s %s repo..."
+msgstr "Kopierer %s %s arkiv..."
+
+msgid "Failure while downloading %s %s repo"
+msgstr "Kunne ikke laste ned %s %s arkiv"
+
+msgid "%s is not a clone of %s"
+msgstr "%s er ikke en kopi av %s"
+
+msgid "Updating %s %s repo..."
+msgstr "Oppdaterer %s %s arkiv..."
+
+msgid "Failure while updating %s %s repo"
+msgstr "Kunne ikke oppdatere %s %s arkiv"
+
+msgid "Retrieving sources..."
+msgstr "Henter kilder..."
+
+msgid "Updated version: %s"
+msgstr "Oppdatert versjon: %s"
+
+msgid "%s is not writeable -- pkgver will not be updated"
+msgstr "%s er ikke skrivbar -- pkgver vil ikke bli oppdatert"
+
+msgid "Unable to find source file %s."
+msgstr "Kunne ikke finne kildefilen %s."
+
+msgid "'%s' returned a fatal error (%i): %s"
+msgstr "'%s' avsluttet med en fatal feil (%i): %s"
+
+msgid "Installing missing dependencies..."
+msgstr "Installerer manglende avhengigheter..."
+
+msgid "'%s' failed to install missing dependencies."
+msgstr "'%s' kunne ikke installere manglende avhengigheter."
+
+msgid "Missing dependencies:"
+msgstr "Manglende avhengigheter:"
+
+msgid "Failed to remove installed dependencies."
+msgstr "Kunne ikke fjerne installerte avhengigheter."
+
+msgid "Generating checksums for source files..."
+msgstr "Genererer sjekksummer for kildefiler..."
+
+msgid "Cannot find the %s binary required for generating sourcefile checksums."
+msgstr ""
+"Kunne ikke finne %s programmet som kreves for å generere sjekksummer for "
+"kildefiler."
+
+msgid "Invalid integrity algorithm '%s' specified."
+msgstr "Ugyldig integritetsalgoritme '%s' spesifisert."
+
+msgid "Validating source files with %s..."
+msgstr "Validerer kildefiler med %s..."
+
+msgid "Skipped"
+msgstr "Hoppet over"
+
+msgid "NOT FOUND"
+msgstr "IKKE FUNNET"
+
+msgid "Passed"
+msgstr "Godkjent"
+
+msgid "FAILED"
+msgstr "FEILET"
+
+msgid "One or more files did not pass the validity check!"
+msgstr "En eller flere filer passerte ikke valideringstesten!"
+
+msgid "Integrity checks (%s) differ in size from the source array."
+msgstr "Integritetstester (%s) har forskjellig lengde fra de i kildelisten."
+
+msgid "Integrity checks are missing."
+msgstr "Integritetssjekker mangler."
+
+msgid "Verifying source file signatures with %s..."
+msgstr "Verifiserer kildefilsignaturer med %s..."
+
+msgid "SIGNATURE NOT FOUND"
+msgstr "SIGNATUR IKKE FUNNET"
+
+msgid "SOURCE FILE NOT FOUND"
+msgstr "KILDEFIL IKKE FUNNET"
+
+msgid "unknown public key"
+msgstr "ukjent offentlig nøkkel"
+
+msgid "the key has been revoked."
+msgstr "nøkkelen har blitt trukket tilbake."
+
+msgid "the signature has expired."
+msgstr "signaturen har utløpt."
+
+msgid "the key has expired."
+msgstr "nøkkelen har utløpt."
+
+msgid "One or more PGP signatures could not be verified!"
+msgstr "En eller flere PGP signaturer kunne ikke verifiseres!"
+
+msgid "Warnings have occurred while verifying the signatures."
+msgstr "Feil har oppstått ved verifisering av signaturene."
+
+msgid "Please make sure you really trust them."
+msgstr "Vennligst bekreft at du virkelig stoler på dem."
+
+msgid "Skipping all source file integrity checks."
+msgstr "Hopper over integritetstester for kildefiler."
+
+msgid "Skipping verification of source file checksums."
+msgstr "Hopper over verifisering av sjekksummer for kildefiler."
+
+msgid "Skipping verification of source file PGP signatures."
+msgstr "Hopper over verifiseringen av PGP signaturer på kildefiler."
+
+msgid "Extracting sources..."
+msgstr "Pakker ut kilder..."
+
+msgid "A failure occurred in %s()."
+msgstr "En feil oppsto i %s()."
+
+msgid "Failed to change to directory %s"
+msgstr "Kunne ikke åpne mappen %s"
+
+msgid "Failed to source %s"
+msgstr "Kunne ikke source %s"
+
+msgid "Starting %s()..."
+msgstr "Starter %s()..."
+
+msgid "Tidying install..."
+msgstr "Rydder opp installasjon..."
+
+msgid "Removing doc files..."
+msgstr "Fjerner dokument-filer..."
+
+msgid "Purging unwanted files..."
+msgstr "Fjerner uønskede filer..."
+
+msgid "Removing %s files..."
+msgstr "Fjerner %s filer..."
+
+msgid "Removing empty directories..."
+msgstr "Fjerner tomme mapper..."
+
+msgid "%s entry file not in package : %s"
+msgstr "%s oppføring ikke funnet i pakke: %s"
+
+msgid "Package contains reference to %s"
+msgstr "Pakken inneholder referanser til %s"
+
+msgid "Compressing man and info pages..."
+msgstr "Komprimener bruksanvisninger (man og info)..."
+
+msgid "Stripping unneeded symbols from binaries and libraries..."
+msgstr "Fjerner unødvendige symboler fra binær- og biblioteksfiler..."
+
+msgid "Compressing binaries with %s..."
+msgstr "Komprimerer binærfiler med %s..."
+
+msgid "Could not compress binary : %s"
+msgstr "Kunne ikke komprimere binærfil : %s"
+
+msgid "Library listed in %s is not required by any files: %s"
+msgstr "Ingen filer trenger biblioteket listet i %s: %s"
+
+msgid "Library listed in %s is not versioned: %s"
+msgstr "Biblioteket listet i %s har ingen versjon: %s"
+
+msgid "Library listed in %s is not a shared object: %s"
+msgstr "Biblioteket i %s er ikke et delt objekt: %s"
+
+msgid "Cannot find library listed in %s: %s"
+msgstr "Kunne ikke finne biblioteket listet i %s: %s"
+
+msgid "Please add a license line to your %s!"
+msgstr "Vennligst legg til en lisens til din %s!"
+
+msgid "Example for GPL'ed software: %s."
+msgstr "Eksempel for GPL lisensiert programvare: %s."
+
+msgid "Generating %s file..."
+msgstr "Genererer %s fil..."
+
+msgid "Missing %s directory."
+msgstr "Mangler %s mappen."
+
+msgid "Creating package \"%s\"..."
+msgstr "Oppretter pakke \"%s\"..."
+
+msgid "Adding %s file..."
+msgstr "Legger til fil %s..."
+
+msgid "Generating .MTREE file..."
+msgstr "Oppretter .MTREE fil..."
+
+msgid "Compressing package..."
+msgstr "Komprimerer pakke..."
+
+msgid "'%s' is not a valid archive extension."
+msgstr "'%s' er ikke en gyldig filendelse på et arkiv."
+
+msgid "Failed to create package file."
+msgstr "Kunne ikke lage pakkefil."
+
+msgid "Failed to create symlink to package file."
+msgstr "Kunne ikke lage symbolsk lenke til pakkefilen."
+
+msgid "Signing package..."
+msgstr "Signerer pakke..."
+
+msgid "Created signature file %s."
+msgstr "Opprettet signaturfil %s."
+
+msgid "Failed to sign package file."
+msgstr "Kunne ikke signere pakkefil."
+
+msgid "Creating source package..."
+msgstr "Lager kildepakke..."
+
+msgid "Adding %s..."
+msgstr "Legger til %s..."
+
+msgid "Adding %s file (%s)..."
+msgstr "Legger til %s fil (%s)..."
+
+msgid "Compressing source package..."
+msgstr "Komprimerer kildepakke..."
+
+msgid "Failed to create source package file."
+msgstr "Kunne ikke lage kildepakkefil."
+
+msgid "Failed to create symlink to source package file."
+msgstr "Kunne ikke opprette symbolsk lenke til kildepakkefil."
+
+msgid "Installing package %s with %s..."
+msgstr "Installerer pakke %s med %s..."
+
+msgid "Installing %s package group with %s..."
+msgstr "Installerer pakkegruppen %s med %s..."
+
+msgid "Failed to install built package(s)."
+msgstr "Kunne ikke installere ferdigbygde pakke(r)."
+
+msgid "%s is not allowed to be empty."
+msgstr "%s kan ikke være tom."
+
+msgid "%s is not allowed to start with a hyphen."
+msgstr "%s kan ikke starte med en bindestrek."
+
+msgid "%s is not allowed to start with a dot."
+msgstr "%s kan ikke starte med et punktum."
+
+msgid "%s contains invalid characters: '%s'"
+msgstr "%s inneholder ugyldige tegn: '%s'"
+
+msgid "%s must be a decimal."
+msgstr "%s må være et kommatall."
+
+msgid "%s must be an integer."
+msgstr "%s må være et heltall."
+
+msgid "%s is not available for the '%s' architecture."
+msgstr "%s er ikke tilgjengelig for '%s'-arkitekturen."
+
+msgid "Note that many packages may need a line added to their %s"
+msgstr "Merk at mange pakker kan behøve en linje lagt til sin %s"
+
+msgid "such as %s."
+msgstr "slik som %s."
+
+msgid "%s array cannot contain comparison (< or >) operators."
+msgstr "%s listen kan ikke inneholde sammenligningsoperatorer (< eller >)"
+
+msgid "%s entry should not contain leading slash : %s"
+msgstr "%s oppføringen bør ikke inneholde en skråstrek: %s"
+
+msgid "Invalid syntax for %s : '%s'"
+msgstr "Ugyldig syntaks for %s: '%s'"
+
+msgid "%s file (%s) does not exist."
+msgstr "%s fil (%s) finnes ikke."
+
+msgid "%s array contains unknown option '%s'"
+msgstr "%s listen inneholder et ukjent valg '%s'"
+
+msgid "Missing %s function for split package '%s'"
+msgstr "Mangler %s funksjon for splitting av pakken '%s'"
+
+msgid "Requested package %s is not provided in %s"
+msgstr "Den forespurte pakken %s er ikke tilgjengelig %s"
+
+msgid "%s is not allowed to contain colons, hyphens or whitespace."
+msgstr "%s kan ikke inneholde kolon, bindestreker eller mellomrom."
+
+msgid "Cannot find the %s binary required for dependency operations."
+msgstr "Kunne ikke finne programmet %s som trengs for å håndtere avhengigheter"
+
+msgid "Cannot find the %s binary. Will use %s to acquire root privileges."
+msgstr ""
+"Kunne ikke finne programmet %s. Bruker %s for å få "
+"administrasjonsrettigheter."
+
+msgid "Cannot find the %s binary required for building as non-root user."
+msgstr ""
+"Kunne ikke finne %s programmet, som trengs for å bygge pakker som en "
+"vanligbruker."
+
+msgid "Cannot find the %s binary required for signing packages."
+msgstr "Kunne ikke finne %s programmet, som trengs for å signere pakker."
+
+msgid "Cannot find the %s binary required for verifying source files."
+msgstr ""
+"Kunne ikke finne %s programmet, som trengs for å verifisere kildefiler."
+
+msgid "Cannot find the %s binary required for validating sourcefile checksums."
+msgstr ""
+"Kunne ikke finne %s programmet, som trengs for å verifisere sjekksummer på "
+"kildefiler."
+
+msgid "Cannot find the %s binary required for compressing binaries."
+msgstr ""
+"Kunne ikke finne %s programmet, som trengs for å komprimere binærfiler."
+
+msgid "Cannot find the %s binary required for distributed compilation."
+msgstr ""
+"Kunne ikke finne %s programmet, som trengs for distribuert kompilering."
+
+msgid "Cannot find the %s binary required for compiler cache usage."
+msgstr ""
+"Kunne ikke finne %s programmet, som trengs for mellomlagring ved kompilering."
+
+msgid "Cannot find the %s binary required for object file stripping."
+msgstr "Kunne ikke finne %s programmet, som trengs for å strippe objektfiler."
+
+msgid "Cannot find the %s binary required for compressing man and info pages."
+msgstr ""
+"Kunne ikke finne %s programmet, som trengs for å komprimere bruksanvisninger "
+"(man og info)."
+
+msgid "A package has already been built, installing existing package..."
+msgstr "En pakke har allerede blitt bygd, installerer eksisterende pakke ..."
+
+msgid "A package has already been built. (use %s to overwrite)"
+msgstr "En pakke har alt blitt bygget. (bruk %s for å erstatte)"
+
+msgid ""
+"The package group has already been built, installing existing packages..."
+msgstr ""
+"Pakkegruppen har allerede blitt bygget, installerer eksisterende pakker..."
+
+msgid "The package group has already been built. (use %s to overwrite)"
+msgstr "Pakkegruppen har alt blitt bygget. (bruk %s for å erstatte)"
+
+msgid "Part of the package group has already been built. (use %s to overwrite)"
+msgstr ""
+"Deler av pakkegruppen har allerede blitt bygget. (bruk %s for å erstatte)"
+
+msgid "Usage: %s [options]"
+msgstr "Bruk: %s [valg]"
+
+msgid "Options:"
+msgstr "Alternativer:"
+
+msgid "  -A, --ignorearch Ignore incomplete %s field in %s"
+msgstr "  -A, --ignorearch Overse ufullstendige %s felt i %s"
+
+msgid "  -c, --clean      Clean up work files after build"
+msgstr "  -c, --clean      Rydd opp arbeidsfiler etter bygging"
+
+msgid "  -d, --nodeps     Skip all dependency checks"
+msgstr "  -d, --nodeps     Hopp over alle avhengighetstester"
+
+msgid "  -e, --noextract  Do not extract source files (use existing %s dir)"
+msgstr "  -e, --noextract  Ikke pakk ut kildefiler (bruk eksiterende %s mappe)"
+
+msgid "  -f, --force      Overwrite existing package"
+msgstr "  -f, --force      Erstatt eksisterende pakke"
+
+msgid "  -g, --geninteg   Generate integrity checks for source files"
+msgstr "  -g, --geninteg   Generer integritetstester for kildefiler"
+
+msgid "  -h, --help       Show this help message and exit"
+msgstr "  -h, --help       Vis disse instruksene og avslutt"
+
+msgid "  -i, --install    Install package after successful build"
+msgstr "  -i, --install    Installerer pakke etter vellykket bygging"
+
+msgid "  -L, --log        Log package build process"
+msgstr "  -L, --log        Loggfør pakkens byggeprosess"
+
+msgid "  -m, --nocolor    Disable colorized output messages"
+msgstr "  -m, --nocolor    Skru av fargelagte beskjeder"
+
+msgid "  -o, --nobuild    Download and extract files only"
+msgstr "  -o, --nobuild    Bare last ned og pakk ut filene"
+
+msgid "  -p <file>        Use an alternate build script (instead of '%s')"
+msgstr "  -p <fil>         Bruk alternative byggeinstrukser (istedenfor '%s')"
+
+msgid ""
+"  -r, --rmdeps     Remove installed dependencies after a successful build"
+msgstr ""
+"  -r, --rmdeps     Fjern installerte avhengigheter etter vellykket bygging"
+
+msgid "  -R, --repackage  Repackage contents of the package without rebuilding"
+msgstr ""
+"  -R, --repackage  Pakk inn pakken på nytt, men uten å bygge denprosessen "
+"fra begynnelsen"
+
+msgid "  -s, --syncdeps   Install missing dependencies with %s"
+msgstr "  -s, --syncdeps   Installer manglende avhengigheter med %s"
+
+msgid ""
+"  -S, --source     Generate a source-only tarball without downloaded sources"
+msgstr ""
+"  -S, --source     Opprett en .tar fil med kildekode, men uten nedlastede "
+"kilder"
+
+msgid "  -V, --version    Show version information and exit"
+msgstr "  -V, --version    Vis versjonsinformasjon og avslutt"
+
+msgid ""
+"  --allsource      Generate a source-only tarball including downloaded "
+"sources"
+msgstr ""
+"  --allsource      Opprett en .tar fil med kildekode og nedlastede kilder"
+
+msgid ""
+"  --verifysource   Download source files (if needed) and perform integrity "
+"checks"
+msgstr ""
+"  --verifysource   Last ned kildefiler (om nødvendig) og utfør "
+"integritetstester"
+
+msgid "  --asroot         Allow %s to run as root user"
+msgstr "  --asroot         Tillat %s å kjøre som root"
+
+msgid "  --check          Run the %s function in the %s"
+msgstr "  --check          Kjør %s funksjonen i %s"
+
+msgid "  --config <file>  Use an alternate config file (instead of '%s')"
+msgstr "  --config <fil>   Bruk en annen konfigurasjonsfil (istedenfor '%s')"
+
+msgid "  --holdver        Do not update VCS sources"
+msgstr "  --holdver        Ikke oppdater VCS kilder"
+
+msgid ""
+"  --key <key>      Specify a key to use for %s signing instead of the default"
+msgstr ""
+"  --key <key>      Oppgi nøkkelen som skal brukes for %s signering i stedet "
+"for standardnøkkelen"
+
+msgid "  --nocheck        Do not run the %s function in the %s"
+msgstr "  --nocheck        Ikke kjør %s funksjonen i %s"
+
+msgid "  --nosign         Do not create a signature for the package"
+msgstr "  --nosign         Ikke lag en signatur for pakken"
+
+msgid "  --pkg <list>     Only build listed packages from a split package"
+msgstr "  --pkg <liste>    Bygg kun oppgitte pakker fra en oppdelt pakke"
+
+msgid "  --sign           Sign the resulting package with %s"
+msgstr "  --sign           Signer den ferdige pakken med %s"
+
+msgid "  --skipchecksums  Do not verify checksums of the source files"
+msgstr "  --skipchecksums  Ikke verifiser sjekksummer for kildefiler"
+
+msgid ""
+"  --skipinteg      Do not perform any verification checks on source files"
+msgstr "  --skipinteg      Ikke utfør noen verifisering av kildefiler"
+
+msgid "  --skippgpcheck   Do not verify source files with PGP signatures"
+msgstr "  --skippgpcheck   Ikke verifiser kildefiler med PGP signaturer"
+
+msgid "These options can be passed to %s:"
+msgstr "Disse valgene kan gis videre til %s:"
+
+msgid "  --asdeps         Install packages as non-explicitly installed"
+msgstr "  --asdeps         Installér pakker som avhengigheter"
+
+msgid ""
+"  --noconfirm      Do not ask for confirmation when resolving dependencies"
+msgstr ""
+"  --noconfirm      Ikke spør om bekreftelse ved oppnøsting av avhengigheter"
+
+msgid ""
+"  --needed         Do not reinstall the targets that are already up to date"
+msgstr ""
+"  --needed         Ikke reinstallér pakker som allerede er i nyeste versjon"
+
+msgid "  --noprogressbar  Do not show a progress bar when downloading files"
+msgstr "  --noprogressbar  Ikke vis framdrift ved nedlasting av filer "
+
+msgid "If %s is not specified, %s will look for '%s'"
+msgstr "Dersom %s ikke er spesifisert vil %s se etter '%s'."
+
+msgid ""
+"Copyright (c) 2006-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\nCopyright (C) 2002-2006 Judd Vinet <jvinet@zeroflux.org>.\\n\\nThis is "
+"free software; see the source for copying conditions.\\nThere is NO "
+"WARRANTY, to the extent permitted by law.\\n"
+msgstr ""
+"Opphavsrett (c) 2006-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\nOpphavsrett (C) 2002-2006 Judd Vinet <jvinet@zeroflux.org>.\\n\\nDette er "
+"fri programvare; se kildekoden for kopibetingelser.\\nDet gis INGEN GARANTI "
+"så langt det er tillatt innenfor loven.\\n"
+
+msgid "%s signal caught. Exiting..."
+msgstr "fanget %s signalet. Avslutter..."
+
+msgid "Aborted by user! Exiting..."
+msgstr "Avbrutt av bruker! Avslutter..."
+
+msgid "An unknown error has occurred. Exiting..."
+msgstr "En ukjent feil har oppstått. Avslutter..."
+
+msgid "%s not found."
+msgstr "fant ikke %s."
+
+msgid "You do not have write permission to create packages in %s."
+msgstr "Du har ikke skrivetilgang til å opprette en pakke i %s."
+
+msgid "You do not have write permission to store packages in %s."
+msgstr "Du har ikke skrivetilgang til å lagre pakker i %s."
+
+msgid "You do not have write permission to store downloads in %s."
+msgstr "Du har ikke skrivetilgang til å lagre nedlastinger i %s."
+
+msgid "You do not have write permission to store source tarballs in %s."
+msgstr "Du har ikke skrivetilgang til å lagre arkivfiler med kildekode i %s."
+
+msgid "You do not have write permission to store logs in %s."
+msgstr "Du har ikke skriverettigheter til å lage loggfiler i %s."
+
+msgid ""
+"Running %s as root is a BAD idea and can cause permanent,\\ncatastrophic "
+"damage to your system. If you wish to run as root, please\\nuse the %s "
+"option."
+msgstr ""
+"Å kjøre %s som root er en DÅRLIG idé og kan forårsake permanent,"
+"\\nkatastrofal skade på systemet. Dersom du allikevel ønsker å gjøre dette, "
+"vennligst\\nbruk %s valget."
+
+msgid ""
+"The %s option is meant for the root user only. Please\\nrerun %s without the "
+"%s flag."
+msgstr ""
+"%s alternativet er kun men for rotbrukeren.\\nVennligst kjør %s igjen uten "
+"%s."
+
+msgid ""
+"Running %s as an unprivileged user will result in non-root\\nownership of "
+"the packaged files. Try using the %s environment by\\nplacing %s in the %s "
+"array in %s."
+msgstr ""
+"Kjøring av %s som en upriviligert bruker vil føre til at root\\nikke eier de "
+"innpakkede filene. Prøv å bruke miljøvariablen %s ved\\nå erstatte %s i %s "
+"listen fra %s."
+
+msgid "Do not use the %s option. This option is only for use by %s."
+msgstr "Ikke bruk %s alternativet. Dette valget er kun for bruk av %s."
+
+msgid "%s does not exist."
+msgstr "%s finnes ikke."
+
+msgid "%s contains %s characters and cannot be sourced."
+msgstr "%s inneholder %s tegn og kan ikke leses inn."
+
+msgid "The key %s does not exist in your keyring."
+msgstr "Nøkkelen %s finnes ikke på ditt nøkkelknippe."
+
+msgid "There is no key in your keyring."
+msgstr "Du har ingen nøkler på ditt nøkkelknippe."
+
+msgid "Leaving %s environment."
+msgstr "Forlater %s miljøet."
+
+msgid "Repackaging without the use of a %s function is deprecated."
+msgstr "Å pakke på nytt uten bruk av %s funksjonen er utdatert."
+
+msgid "File permissions may not be preserved."
+msgstr "Det er ikke sikkert at filerettighetene forblir de samme."
+
+msgid "Making package: %s"
+msgstr "Lager pakke: %s"
+
+msgid "Using a %s without a %s function is deprecated."
+msgstr "Bruk av %s uten en %s funksjon er ikke lengre støttet."
+
+msgid "A source package has already been built. (use %s to overwrite)"
+msgstr "En kildepakke har allerede blitt bygget (bruk %s for å erstatte)"
+
+msgid "Source package created: %s"
+msgstr "Kildepakke laget: %s"
+
+msgid "Skipping dependency checks."
+msgstr "Hopper over kontroll av avhengigheter."
+
+msgid "Checking runtime dependencies..."
+msgstr "Kontrollerer avhengigheter som trengs under kjøring..."
+
+msgid "Checking buildtime dependencies..."
+msgstr "Kontrollerer avhengigheter som trengs under bygging..."
+
+msgid "Could not resolve all dependencies."
+msgstr "Kunne ikke finne alle avhengigheter."
+
+msgid "Using existing %s tree"
+msgstr "Bruker eksisterende %s mappe"
+
+msgid "The package directory is empty, there is nothing to repackage!"
+msgstr "Pakkemappen er tom, det er ingenting her som kan pakkes på nytt!"
+
+msgid "Sources are ready."
+msgstr "Kildene er klare."
+
+msgid "Removing existing %s directory..."
+msgstr "Fjerner eksisterende %s mappe..."
+
+msgid "Finished making: %s"
+msgstr "Bygget ferdig: %s"
+
+msgid "Usage: %s [--nocolor] [pacman_db_root]"
+msgstr "Bruk: %s [--nocolor] [pacman_db_root]"
+
+msgid ""
+"Copyright (c) 2010-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\nThis is free software; see the source for copying conditions.\\nThere is "
+"NO WARRANTY, to the extent permitted by law.\\n"
+msgstr ""
+"Opphavsrett (c) 2010-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\n\\nDette er fri programvare; se kildekoden for kopibetingelser.\\nDet gis "
+"INGEN GARANTI så langt det er tillatt innenfor loven.\\n"
+
+msgid "%s does not exist or is not a directory."
+msgstr "%s finnes ikke, eller er ikke en mappe."
+
+msgid "%s is not a pacman database directory."
+msgstr "%s er ikke en pacman databasemappe."
+
+msgid "You must have correct permissions to upgrade the database."
+msgstr "Du må ha tilgang for å kunne oppgradere databasen."
+
+msgid "Pacman lock file was found. Cannot run while pacman is running."
+msgstr "Pacman lås-fil ble funnet. Kan ikke kjøre mens pacman allerede kjører."
+
+msgid "Pre-3.5 database format detected - upgrading..."
+msgstr "Database fra før versjon 3.5 funnet - oppgraderer..."
+
+msgid "Done."
+msgstr "Ferdig."
+
+msgid "Usage: %s [options] operation [targets]"
+msgstr "Bruk: %s [valg] handling [mål]"
+
+msgid "Manage pacman's list of trusted keys"
+msgstr "Administrer pacmans liste over betrodde nøkler."
+
+msgid "Operations:"
+msgstr "Handlinger:"
+
+msgid "  -a, --add                 Add the specified keys (empty for stdin)"
+msgstr "  -a, --add                 Legg til oppgitte nøkler (tom for stdin)"
+
+msgid "  -d, --delete              Remove the specified keyids"
+msgstr "  -d, --delete              Fjerner de gitte nøkkel IDene"
+
+msgid "  -e, --export              Export the specified or all keyids"
+msgstr "  -e, --export              Eksporér de gitte (eller alle) nøkkel IDer"
+
+msgid ""
+"  -f, --finger              List fingerprint for specified or all keyids"
+msgstr ""
+"  -f, --finger              List fingeravtrykk for gitte (eller alle) nøkkel "
+"IDer"
+
+msgid "  -l, --list-keys           List the specified or all keys"
+msgstr "  -l, --list-keys           List de gitte (eller alle) nøkler"
+
+msgid "  -r, --recv-keys           Fetch the specified keyids"
+msgstr "  -r, --recv-keys           Hent de gitte nøkkel IDene"
+
+msgid "  -u, --updatedb            Update the trustdb of pacman"
+msgstr ""
+"  -u, --updatedb                 Oppdater pacmans liste over betrodde kilder"
+
+msgid ""
+"  -v, --verify              Verify the file(s) specified by the signature(s)"
+msgstr "  -v, --verify              Sjekk fil(ene) gitt i signaturen(e)"
+
+msgid ""
+"  --edit-key                Present a menu for key management task on keyids"
+msgstr ""
+"  --edit-key                Vis en meny for nøkkelhåndtering av nøkkel IDer"
+
+msgid "  --import                  Imports pubring.gpg from dir(s)"
+msgstr "  --import                  Importér pubring.gpg fra mappe(r)"
+
+msgid ""
+"  --import-trustdb          Imports ownertrust values from trustdb.gpg in "
+"dir(s)"
+msgstr ""
+"  --import-trustdb          Importér eiertro verdier fra trustdb.gpg i "
+"mappe(r)"
+
+msgid "  --init                    Ensure the keyring is properly initialized"
+msgstr ""
+"  --init                         Forsikre at nøkkelknippet er riktig "
+"igangsatt"
+
+msgid "  --list-sigs               List keys and their signatures"
+msgstr "  --list-sigs               List nøkler og deres signaturer"
+
+msgid "  --lsign-key               Locally sign the specified keyid"
+msgstr "  --lsign-key               Signér den gitte nøkkel IDen lokalt"
+
+msgid ""
+"  --populate                Reload the default keys from the (given) keyrings"
+"\\n                            in '%s'"
+msgstr ""
+"  --populate                Last inn standardnøkler på nytt fra (de "
+"angitte)\\n                            nøkkelringene i '%s'"
+
+msgid ""
+"  --refresh-keys            Update specified or all keys from a keyserver"
+msgstr ""
+"  --refresh-keys            Oppdatér de angitte, eller alle, nøklene fra en "
+"nøkkelserver"
+
+msgid ""
+"  --config <file>           Use an alternate config file (instead of"
+"\\n                            '%s')"
+msgstr ""
+"  --config <fil>                 Bruk en alternativ konfigurasjonsfil "
+"(istedenfor\\n                                 '%s')"
+
+msgid ""
+"  --gpgdir <dir>            Set an alternate directory for GnuPG (instead"
+"\\n                            of '%s')"
+msgstr ""
+"  --gpgdir <mappe>               Angi en alternativ mappe for GnuPG "
+"(istedenfor\\n                                 '%s')"
+
+msgid "  --keyserver <server-url>  Specify a keyserver to use if necessary"
+msgstr ""
+"  --keyserver <server-url>  Oppgi hvilken nøkkelserver som skal brukes om "
+"nødvendig"
+
+msgid "  -h, --help                Show this help message and exit"
+msgstr "  -h, --help                     Vis disse instruksene og avslutt"
+
+msgid "  -V, --version             Show program version"
+msgstr "  -V, --version                  Vis programversjon"
+
+msgid "Failed to lookup key by name:"
+msgstr "Kunne ikke slå opp nøkkel ved navn:"
+
+msgid "Key name is ambiguous:"
+msgstr "Nøkkelnavn er tvetydig:"
+
+msgid "The key identified by %s could not be found locally."
+msgstr "Fant ikke nøkkelen som identifiseres med %s, lokalt."
+
+msgid "You do not have sufficient permissions to read the %s keyring."
+msgstr "Du har ikke tilgang til å lese nøkkelringen %s..."
+
+msgid "Use '%s' to correct the keyring permissions."
+msgstr "Bruk '%s' for å fikse tillatelsene for nøkkelknippet."
+
+msgid "You do not have sufficient permissions to run this command."
+msgstr "Du har ikke tilgang til å kjøre denne kommandoen."
+
+msgid "There is no secret key available to sign with."
+msgstr "Det er ingen privat nøkkel tilgjengelig for å signere med."
+
+msgid "Use '%s' to generate a default secret key."
+msgstr "Bruk '%s' for å generere en standard privat nøkkel."
+
+msgid "No keyring files exist in %s."
+msgstr "Ingen nøkkelknippefiler finnes i %s."
+
+msgid "The keyring file %s does not exist."
+msgstr "Nøkkelknippefilen %s finnes ikke."
+
+msgid "Appending keys from %s.gpg..."
+msgstr "Legger til nøkler fra %s.gpg..."
+
+msgid "Locally signing trusted keys in keyring..."
+msgstr "Signerer betrodde nøkler i nøkkelringen, lokalt..."
+
+msgid "Importing owner trust values..."
+msgstr "Importerer listen med betrodde pakkeeiere..."
+
+msgid "Disabling revoked keys in keyring..."
+msgstr "Deaktiverer tilbaketrukne nøkler i nøkkelknippet..."
+
+msgid "Disabling key %s..."
+msgstr "Deaktiverer nøkkel %s..."
+
+msgid "A specified keyfile could not be added to the keyring."
+msgstr "En angitt nøkkelfil kunne ikke legges til nøkkelknippet."
+
+msgid "A specified key could not be removed from the keyring."
+msgstr "En angitt nøkkel kunne ikke fjernes fra nøkkelknippet."
+
+msgid "The key identified by %s could not be edited."
+msgstr "Nøkkelen som identifiseres av %s kunne ikke redigeres."
+
+msgid "A specified key could not be exported from the keyring."
+msgstr "En angitt nøkkel kunne ikke eksporteres fra nøkkelknippet."
+
+msgid "The fingerprint of a specified key could not be determined."
+msgstr "Fingeravtrykket til en angitt nøkkel kunne ikke bestemmes."
+
+msgid "%s could not be imported."
+msgstr "%s kunne ikke importeres."
+
+msgid "File %s does not exist and could not be imported."
+msgstr "Filen %s eksisterer ikke og kunne ikke importeres."
+
+msgid "A specified key could not be listed."
+msgstr "En angitt nøkkel kunne ikke listes opp."
+
+msgid "A specified signature could not be listed."
+msgstr "En angitt signatur kunne ikke listes opp."
+
+msgid "Locally signing key %s..."
+msgstr "Signerer nøkkelen %s, lokalt..."
+
+msgid "%s could not be locally signed."
+msgstr "%s kunne ikke signeres lokalt."
+
+msgid "Remote key not fetched correctly from keyserver."
+msgstr "Ekstern nøkkel kunne ikke hentes riktig fra nøkkeltjener."
+
+msgid "A specified local key could not be updated from a keyserver."
+msgstr "En angitt lokal nøkkel kunne ikke oppdateres med en nøkkeltjener."
+
+msgid "The signature identified by %s could not be verified."
+msgstr "Signaturen som er identifisert ved %s, kunne ikke verifiseres."
+
+msgid "Updating trust database..."
+msgstr "Oppdaterer databasen med betrodde kilder..."
+
+msgid "Trust database could not be updated."
+msgstr "Tillitsdatabase kunne ikke oppdateres."
+
+msgid "Cannot find the %s binary required for all %s operations."
+msgstr ""
+"Kunne ikke finne %s programmet som er nødvendig for alle %s operasjoner."
+
+msgid "%s needs to be run as root for this operation."
+msgstr "%s må kjøres som root for denne operasjonen."
+
+msgid "%s configuration file '%s' not found."
+msgstr "%s fant ikke konfigurasjonsfilen '%s'."
+
+msgid "no operation specified (use -h for help)"
+msgstr "ingen oppgave angitt (bruk -h for hjelp)"
+
+msgid "Multiple operations specified."
+msgstr "Flere operasjoner oppgitt."
+
+msgid "Please run %s with each operation separately."
+msgstr "Vennligst kjør %s med hver oppgave for seg."
+
+msgid "No targets specified"
+msgstr "Ingen mål angitt"
+
+msgid ""
+"pacman-optimize is a little hack that should improve the performance\\nof "
+"pacman when reading/writing to its filesystem-based database.\\n\\n"
+msgstr ""
+"pacman-optimize er et lite hack som bør forbedre ytelsen\\ntil pacman når "
+"den leser eller skriver til den filsystem-baserte databasen.\\n\\n"
+
+msgid ""
+"Because pacman uses many small files to keep track of packages,\\nthere is a "
+"tendency for these files to become fragmented over time.\\nThis script "
+"attempts to relocate these small files into one\\ncontinuous location on "
+"your hard drive. The result is that the hard\\ndrive should be able to read "
+"them faster, since the hard drive head\\ndoes not have to move around the "
+"disk as much.\\n"
+msgstr ""
+"Fordi pacman bruker mange små filer til å holde styr på pakkene,\\ner det en "
+"tendens til at disse filene blir liggende spredt på disken.\\nDette skriptet "
+"forsøker å omorganisere disse slik at de ligger\\n etter hverandre på "
+"harddisken. Resultatet er at de kan\\nleses inn raskere fordi harddisken "
+"ikke trenger å bruke tid på å finne ut hvor de egentlig ligger."
+
+msgid "Cannot find the %s binary required for verifying integrity."
+msgstr "Kunne ikke finne programmet %s som trengs til integritetssjekking."
+
+msgid "You must have correct permissions to optimize the database."
+msgstr "Du må ha tilgang for å kunne optimalisere databasen."
+
+msgid "Can not create temp directory for database building."
+msgstr "Kunne ikke opprette en midlertidig mappe for å bygge databasen i."
+
+msgid "MD5sum'ing the old database..."
+msgstr "Lager MD5-sum for den gamle databasen..."
+
+msgid "Tar'ing up %s..."
+msgstr "Pakker inn %s..."
+
+msgid "Tar'ing up %s failed."
+msgstr "Kunne ikke pakke inn %s."
+
+msgid "Making and MD5sum'ing the new database..."
+msgstr "Oppretter og lager MD5-sum for den nye databasen..."
+
+msgid "Untar'ing %s failed."
+msgstr "Kunne ikke pakke ut %s."
+
+msgid "Syncing database to disk..."
+msgstr "Synkroniserer database til disk ..."
+
+msgid "Checking integrity..."
+msgstr "Sjekker integritet ..."
+
+msgid "Integrity check FAILED, reverting to old database."
+msgstr "Integritetssjekken FEILET, gjenopretter gammel database."
+
+msgid "Rotating database into place..."
+msgstr "Roterer database på plass..."
+
+msgid "New database substitution failed. Check for %s, %s, and %s directories."
+msgstr "Ny databaseerstatning feilet. Se etter %s, %s og %s mapper."
+
+msgid "Finished. Your pacman database has been optimized."
+msgstr "Ferdig. Din pacman-database har nå blitt optimalisert."
+
+msgid "Usage: pkgdelta [options] <package1> <package2>\\n"
+msgstr "Bruk: pkgdelta [valg] <pakke1> <pakke2>\\n"
+
+msgid ""
+"\tpkgdelta will create a delta file between two packages.\\nThis delta file "
+"can then be added to a database using repo-add.\\n\\n"
+msgstr ""
+"\tpkgdelta oppretter en fil som inneholder forskjellene\\nmellom to pakker. "
+"Denne filen kan så legges til en database ved å bruke repo-add.\\n\\n"
+
+msgid "Example:  pkgdelta pacman-3.0.0.pkg.tar.gz pacman-3.0.1.pkg.tar.gz"
+msgstr "Eksempel:  pkgdelta pacman-3.0.0.pkg.tar.gz pacman-3.0.1.pkg.tar.gz"
+
+msgid "Options:\\n"
+msgstr "Alternativer:\\n"
+
+msgid "  -q, --quiet       minimize output\\n"
+msgstr "  -q, --quiet        minimer utskrift\\n"
+
+msgid "  --nocolor         remove color from output\\n"
+msgstr "  --nocolor         fjern farger fra utskrift\\n"
+
+msgid "  --min-pkg-size    minimum package size before deltas are generated\\n"
+msgstr ""
+"  --min-pkg-size    minste pakkestørrelse før endringer blir kalkulert\\n"
+
+msgid ""
+"  --max-delta-size  percent of new package above which the delta will be "
+"discarded\\n"
+msgstr ""
+"  --max-delta-size  forkast endringer når endringen er større en den angitte"
+"\\n\n"
+"                    prosentandelen av den opprinnelige pakken\\n"
+
+msgid ""
+"Copyright (c) 2009 Xavier Chantry <shiningxc@gmail.com>.\\n\\nThis is free "
+"software; see the source for copying conditions.\\nThere is NO WARRANTY, to "
+"the extent permitted by law.\\n"
+msgstr ""
+"Opphavsrett (c) 2009 Xavier Chantry <shiningxc@gmail.com>.\\n\\nDette er fri "
+"programvare; se kildekoden for kopibetingelser.\\nDet gis INGEN GARANTI så "
+"langt det er tillatt innenfor loven.\\n"
+
+msgid "Invalid package file '%s'."
+msgstr "Ugyldig pakkefil '%s'."
+
+msgid "Skipping delta creation for small package: %s - size %s"
+msgstr "Lager ikke forskjellsinformasjon for denne lille pakken: %s - size %s"
+
+msgid "The package names don't match : '%s' and '%s'"
+msgstr "Pakkenavnene stemmer ikke overens : '%s' og '%s'"
+
+msgid "The package architectures don't match : '%s' and '%s'"
+msgstr "Pakkearkitekturene stemmer ikke overens : '%s' og '%s'"
+
+msgid "Both packages have the same version : '%s'"
+msgstr "Begge pakkene har samme versjon : '%s'"
+
+msgid "Generating delta from version %s to version %s"
+msgstr "Finner forskjellene mellom versjon %s og %s"
+
+msgid "Delta could not be created."
+msgstr "Forskjellene kunne ikke avdekkes."
+
+msgid "Delta package larger than maximum size. Removing."
+msgstr "Forskjellspakken er større enn maksimal størrelse. Fjerner."
+
+msgid "Generated delta : '%s'"
+msgstr "Forskjeller : '%s'"
+
+msgid "File '%s' does not exist"
+msgstr "Filen '%s' finnes ikke"
+
+msgid "Cannot find the xdelta3 binary! Is xdelta3 installed?"
+msgstr "Kan ikke finne xdelta3 programmet! Er xdelta3 installert?"
+
+msgid "Usage: repo-add [options] <path-to-db> <package|delta> ...\\n"
+msgstr "Bruk: repo-add [valg] <sti-til-db> <pakke|endring> ...\\n"
+
+msgid ""
+"repo-add will update a package database by reading a package file."
+"\\nMultiple packages to add can be specified on the command line.\\n"
+msgstr ""
+"repo-add kan oppdatere en pakkedatabase ved å lese en pakkefil.\\nFlere "
+"pakker kan legges til ved å angi dem på kommandolinjen.\\n"
+
+msgid "  -d, --delta       generate and add delta for package update\\n"
+msgstr ""
+"  -d, --delta        generer og legg til endring for pakkeoppdatering\\n"
+
+msgid ""
+"  -n, --new         only add packages that are not already in the database\\n"
+msgstr ""
+"  -n, --new         legg kun til pakker som ikke allerede finnes i databasen"
+"\\n"
+
+msgid "  -f, --files       update database's file list\\n"
+msgstr "  -f, --files        oppdater databasens filliste\\n"
+
+msgid "Usage: repo-remove [options] <path-to-db> <packagename|delta> ...\\n"
+msgstr "Bruk: repo-remove [valg] <sti-til-db>.<pakkenavn|delta> ...\\n"
+
+msgid ""
+"repo-remove will update a package database by removing the package name"
+"\\nspecified on the command line from the given repo database. Multiple"
+"\\npackages to remove can be specified on the command line.\\n"
+msgstr ""
+"repo-remove kan oppdatere en pakkedatabase ved å fjerne pakkenavnet \\nsom "
+"angis på kommandolinjen, fra den gitte pakkedatabasen. Flere\\npakker kan "
+"fjernes ved å angi dem på kommandolinjen.\\n"
+
+msgid "Please move along, there is nothing to see here.\\n"
+msgstr "Kom deg avgårde, ingenting å se her.\\n"
+
+msgid "  --nocolor         turn off color in output\\n"
+msgstr "  --nocolor         skru av farger i utskrift\\n"
+
+msgid "  -s, --sign        sign database with GnuPG after update\\n"
+msgstr "  -s, --sign         signer database med GnuPG etter oppdatering\\n"
+
+msgid "  -k, --key <key>   use the specified key to sign the database\\n"
+msgstr ""
+"  -k, --key <nøkkel> bruk den angitte nøkkelen for å signere databasen\\n"
+
+msgid "  -v, --verify      verify database's signature before update\\n"
+msgstr "  -v, --verify       verifiser databasens signatur før oppdatering\\n"
+
+msgid ""
+"\\nSee %s(8) for more details and descriptions of the available options.\\n"
+msgstr ""
+"\\nSe %s(8) for en mer detaljert beskrivelse av de tilgjengelige valgene.\\n"
+
+msgid ""
+"Example:  repo-add /path/to/repo.db.tar.gz pacman-3.0.0-1-i686.pkg.tar.gz\\n"
+msgstr ""
+"Eksempel: repo-add /sti/til/repo.db.tar.gz pacman-3.0.0-1-i686.pkg.tar.gz\\n"
+
+msgid "Example:  repo-remove /path/to/repo.db.tar.gz kernel26\\n"
+msgstr "Eksempel: repo-remove /sti/til/repo.db.tar.gz kernel26\\n"
+
+msgid ""
+"Copyright (c) 2006-2013 Pacman Development Team <pacman-dev@archlinux.org>\\n"
+"\\nThis is free software; see the source for copying conditions.\\nThere is "
+"NO WARRANTY, to the extent permitted by law.\\n"
+msgstr ""
+"Opphavsrett (c) 2006-2013 Pacman Development Team <pacman-dev@archlinux.org>."
+"\\n\\nDette er fri programvare; se kildekoden for kopibetingelser.\\nDet gis "
+"INGEN GARANTI så langt det er tillatt innenfor loven.\\n"
+
+msgid "No database entry for package '%s'."
+msgstr "Ingen databaseoppføring for pakke '%s'."
+
+msgid "Adding 'deltas' entry : %s -> %s"
+msgstr "Legger til forskjellsoppføring : %s -> %s"
+
+msgid "Removing existing entry '%s'..."
+msgstr "Fjerner eksisterende oppføring '%s'..."
+
+msgid "Removing empty deltas file ..."
+msgstr "Sletter tom endringsfil ..."
+
+msgid "Cannot find the gpg binary! Is GnuPG installed?"
+msgstr "Kunne ikke finne gpg programmet! Er GnuPG installert?"
+
+msgid "Signing database..."
+msgstr "Signerer database..."
+
+msgid "Created signature file '%s'"
+msgstr "Opprettet signaturfil '%s'"
+
+msgid "Failed to sign package database."
+msgstr "Kunne ikke signere database."
+
+msgid "Verifying database signature..."
+msgstr "Verifiserer databasesignatur..."
+
+msgid "No existing signature found, skipping verification."
+msgstr "Kunne ikke finne eksisterende signatur, hopper over verifisering."
+
+msgid "Database signature file verified."
+msgstr "Verifiserte databasesiganturen."
+
+msgid "Database signature was NOT valid!"
+msgstr "Databasesignaturen er IKKE gyldig!"
+
+msgid "'%s' does not have a valid archive extension."
+msgstr "'%s' har ikke en gyldig filendelse for at arkiv."
+
+msgid "An entry for '%s' already existed"
+msgstr "En oppføring for '%s' finnes allerede"
+
+msgid "Invalid package signature file '%s'."
+msgstr "Ugyldig pakkesignaturfil '%s'."
+
+msgid "Adding package signature..."
+msgstr "Legger til pakkesignatur..."
+
+msgid "Computing checksums..."
+msgstr "Kalkulerer sjekksummer..."
+
+msgid "Creating '%s' db entry..."
+msgstr "Oppretter databaseoppføring '%s'..."
+
+msgid "Old package file not found: %s"
+msgstr "Kunne ikke finne gammel pakkefil: %s"
+
+msgid "Failed to acquire lockfile: %s."
+msgstr "Kunne ikke innhente låsefil: %s."
+
+msgid "Held by process %s"
+msgstr "Holdt tilbake av prosess %s"
+
+msgid "Repository file '%s' is not a proper pacman database."
+msgstr "Pakkebrønnfil '%s' er ikke en gyldig database for pacman."
+
+msgid "Extracting database to a temporary location..."
+msgstr "Pakker ut database til et midlertidig sted..."
+
+msgid "Repository file '%s' was not found."
+msgstr "Kunne ikke finne pakkebrønnfil '%s'."
+
+msgid "Repository file '%s' could not be created."
+msgstr "Kunne ikke opprette pakkebrønnfil '%s'."
+
+msgid "File '%s' not found."
+msgstr "Kunne ikke finne filen '%s'."
+
+msgid "Adding delta '%s'"
+msgstr "Legger til delta '%s'"
+
+msgid "'%s' is not a package file, skipping"
+msgstr "'%s' er ikke en pakkefil, hopper over den"
+
+msgid "Adding package '%s'"
+msgstr "Legger til pakke '%s'"
+
+msgid "Searching for delta '%s'..."
+msgstr "Søker etter delta '%s' ..."
+
+msgid "Delta matching '%s' not found."
+msgstr "Kunne ikke finne delta som samsvarer med '%s'."
+
+msgid "Searching for package '%s'..."
+msgstr "Søker etter pakke '%s' ..."
+
+msgid "Package matching '%s' not found."
+msgstr "Pakke som samsvarer med '%s' ble ikke funnet."
+
+msgid "Invalid command name '%s' specified."
+msgstr "Ugyldig kommandonavn '%s' ble spesifisert."
+
+msgid "Cannot create temp directory for database building."
+msgstr "Kunne ikke opprette midlertidig mappe for bygging av database."
+
+msgid "Creating updated database file '%s'"
+msgstr "Oppretter oppdatert databasefil '%s'"
+
+msgid "No packages remain, creating empty database."
+msgstr "Ingen pakker igjen, oppretter en tom database."
+
+msgid "No packages modified, nothing to do."
+msgstr "Ingen pakker ble endret, ferdig med jobben."
+
+msgid "option '%s' is ambiguous; possibilities:"
+msgstr "valg '%s' er tvetydig; mulige valg:"
+
+msgid "invalid option"
+msgstr "ugyldig valg"
+
+msgid "option requires an argument"
+msgstr "valg krever en parameter"
+
+msgid "option '%s' does not allow an argument"
+msgstr "valg '%s' kan ikke ta en parameter"
+
+msgid "option '%s' requires an argument"
+msgstr "valg '%s' krever en parameter"
