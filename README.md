@@ -55,3 +55,8 @@ pacman-key --init
 pacman -Sy archlinux-keyring
 pacman-key --populate archlinux
 pacman -Sy
+
+/root/git/github/aaa-arch-install-scripts/README.md
+
+
+STATUS: packaged running
