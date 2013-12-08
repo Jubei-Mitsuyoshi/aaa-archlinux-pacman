@@ -27,9 +27,7 @@ Build-Depends: debhelper (>= 9.0.0),
 				asciidoc,
 				tzdata
 Standards-Version: 3.9.4
-Homepage: https://www.archlinux.org/pacman/#_releases
-#Vcs-Git: git://git.debian.org/collab-maint/archlinux-pacman.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/archlinux-pacman.git;a=summary
+Homepage: https://www.archlinux.org/pacman/
 
 Package: archlinux-pacman
 Architecture: any
