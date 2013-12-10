@@ -3,4 +3,4 @@ archlinux-pacman (4.1.2-aaa) unstable; urgency=low
   * Initial release
   * no upstream code changes but added needed conf files
 
- -- Jubei Mitsuyoshi <Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>>  Thu, 21 Nov 2013 21:51:37 +0100
+ -- Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>  Thu, 21 Nov 2013 21:51:37 +0100
